@@ -44,13 +44,120 @@ Los resultados obtenidos para ripples y dunas como: escalas de tamaño, morfolog
 
 \maketitle
 
-\section{Introducción \label{sec:intro}}
+\section{Dinámica de sistemas acoplados \label{sec:p1}}
 
-La morfología y dinámica de las estructuras de arena, como por ejemplo, las dunas, ha sido objeto de estudio principalmente de la geografía y la geología. No obstante, en los últimos años, ha cobrado gran interés entre los físicos consecuencia de la aparición de modelos que permiten describir propiedades de dichas estructuras. Debido a la dificultad para investigar sobre la dinámica de las dunas u otras estructuras, mediante mediciones de campo, se han propuesto modelos \cite{nishimori_formation_1993} \cite{katsuki_cellular_2011} que, junto con simulaciones numéricas permiten obtener información sobre la morfología y la evolución de las dunas.
+\subsection{Modelo de Hodgkin y Huxley \label{sec:modelo}}
+El modelo de Hodgkin y Huxley consiste en un conjunto de cuatro ecuaciones diferenciales ordinarias no lineales
+\begin{align}
+    C \frac{d V}{d t} &= I_{ext} - g_{K}n^4(V-V_{K}) - g_{Na}m^3h(V-V_{Na})  - g_{Cl}(V-V_{Cl}), \\
+    \label{ec:corriente}
+    \frac{dn}{dt} &= \frac{n_{\infty}(V) - n}{\tau_n(V)}, \\
+    \frac{dm}{dt} &=\frac{m_{\infty}(V) - m}{\tau_m(V)}, \\
+    \frac{dh}{dt} &= \frac{h_{\infty}(V) - h}{\tau_h(V)}, \\
+\end{align}
+donde para $x=n,m,h$ 
+\begin{equation}
+    x_{\infty}(V) = \frac{a_x}{a_x+b_x}, \hspace{1cm} \tau_x = \frac{1}{a_x + b_x},
+\end{equation}
+con $\tau_x$ en milisegundos. Los valores de $a_x$ y $b_x$ están dados por
+\begin{align}
+    &a_n = \frac{0.01 (V+55)}{1 - \exp[ (-V-55) / 10 ]}, \hspace{0.3 cm} b_n = 0.125\exp[ (-V-65)/80], \\
+    &a_m = \frac{0.1 (V+40)}{1 - \exp[ (-V-40) / 10 ]}, \hspace{0.3 cm} b_m = 4 \exp[ (-V - 65)/18 ], \\
+    &a_h = 0.07 \exp[ (-V - 65)/20 ], \hspace{0.3 cm} b_h = \frac{1}{1 + \exp[ (-V-35)/10 ]}, \\
+\end{align} 
+con el potencial $V$ expresado en milivolts. Además los potenciales de inversión y las conductancias máximas están dados por: $V_{Na} = 50$ mV,  $V_{Na} = 50$ mV,  $V_{K} = -77$ mV,  $V_{Cl} = -54.4$ mV, $g_{Na} = 120$ mS$/$cm$^2$, $g_{K} = 36$ mS$/$cm$^2$, $g_{Cl} = 0.3$ mS$/$cm$^2$. Además, la capacitancia de la membrana es $C = 1~\mu\text{F}/\text{cm}^2$.
 
-La formación y evolución temporal de las estructuras de arena está determinada por la dirección e intensidad del viento y por la cantidad de arena disponible en el suelo \cite{bullard_wasson_2010}. A grandes rasgos, existen dos escalas de tamaño que dan lugar a estructuras de arenas significativamente diferentes. A escala pequeña, se forman los llamados ripples\footnote{En español: \textit{ondulita}, aunque es habitual llamarlos ripples} y a grandes escalas las dunas. 
+\subsection{Dinámica de dos neuronas}
 
-Dentro de las dunas, existen dos tipos muy característicos: las dunas transversales y las dunas barján (ver Fig. \ref{fig:ej}). Las primeras, se forman debido a un flujo de viento unidireccional, perpendiculares a la dirección del mismo y en presencia de una gran cantidad de arena. Por otra parte, las dunas barján se forman cuando el flujo de viento es unidireccional pero la cantidad de arena es limitada.
+Se simuló la dinámica de dos neuronas de Hodgkin y Huxley utilizando las ecuaciones y los parámetros descriptos en la sección \ref{sec:modelo} conectadas simétricamente con interacciones sinápticas exitatorias e inhibitorias. La corriente de interacción sináptica para cada neurona está dada por 
+\begin{equation}
+    I_{syn} = -g_{syn} s(t) (V-V_{syn}),
+    \label{ec:Isyn}
+\end{equation}
+donde
+\begin{equation}
+    \frac{ds}{dt} = \frac{s_{\infty}(V_{pre}) - s}{\tau},
+\end{equation}
+con $s_{\infty} = 0.5 (1 + \tanh(V/5))$, $\tau = 3$ ms y donde $V_{pre}$ refiere al potencial de la neurona presináptica, es decir para la neurona 1 es el potencial de la neurona 2 y viceversa. Para la interacción exitatoria se utilizó $V_{syn}= 0$ y para la inhibitoria $V_{syn} = -80$ mV. Se utilizó una corriente externa $I_{ext} = 10 \mu\text{A}/\text{cm}^2$ de manera que las neuronas oscilan periódicamente. Matemáticamente la interacción sináptica consiste en sumar la corriente $I_{syn}$ dada por la Ec. \ref{ec:Isyn} en el miembro derecho de la Ec. \ref{ec:corriente} para cada neurona. De esta manera, se tiene para cada neurona un sistema de 5 ecuaciones diferenciales acopladas con variables $n$, $m$, $h$, $s$, $V$ y variable independiente el tiempo $t$. Esto resulta en un sistema de 10 ecuaciones diferenciales que se resuelven todas al mismo tiempo con el metodo RK4 implementado en python. Se tomó como condición inicial para la neurona 1: $V(0) = V_K$, $n(0) = n(V_K)$, $m(0) = m(V_K)$, $h(0) = h(V_K)$ y $s(0) = s(V_K)$. Para la neurona 2: $V=0$ mV y $n=m=h=s=0$.
+
+La Fig. 
+
+
+
+
+
+
+
+\section{Sistema con dos poblaciones de neuronas \label{sec:p1}}
+
+Se tiene un sistema con dos poblaciones de neuronas descritas por un modelo de tasa de disparo con una relación f-I semilineal
+\begin{align}
+    \tau \frac{d h_e}{dt} &= -h_e + g_{ee}f_e - g_{ei}f_i + I_e \\
+    \tau \frac{d h_i}{dt} &= -h_i + g_{ie}f_e - g_{ii}f_i + I_i
+    \label{ec:sistema}
+\end{align}
+donde $f_a = S(h_a)$ ($a=e,i$) con $S(x) = x H(x) $ siendo $H$ la función de Heaviside y $e$ refiere a exitatorio e $i$ a inhibitorio. 
+
+Se buscaron las condiciones en la cual el sistema tiene solución no nula. Para esto se pide que 
+
+Dado que las actividades son $h_e = h_i >=0$ entonces $H(h_e) = H(h_i) = 1$. Se buscan los puntos fijos del sistema 
+\begin{align}
+    \left\{
+    \begin{aligned}
+        \tau \frac{d h_e}{dt} &= -h_e + g_{ee}h_e - g_{ei}h_i + I_e \\
+        \tau \frac{d h_i}{dt} &= -h_i + g_{ie}h_e - g_{ii}h_i + I_i 
+    \end{aligned}
+    \right.
+    \label{ec:sistema2}
+\end{align}
+el cual se puede escribir de forma matricial como 
+\begin{equation}
+    \tau \frac{d \vec{h}}{dt} = \vec{G} \vec{h} + \vec{I}
+    \label{ec:sistemamatrix}
+\end{equation}
+con 
+\[
+\vec{h} = \begin{pmatrix} h_e \\ h_i \end{pmatrix}, \hspace{0.3cm}
+\vec{G} = \begin{pmatrix} g_{ee} - 1 & -g_{ei} \\ g_{ie} & -1-g_{ii} \end{pmatrix}, \hspace{0.3cm}
+\vec{I} = \begin{pmatrix} I_e \\ I_i \end{pmatrix}
+\]
+
+En el punto fijo tenemos que $ \frac{d \vec{h}}{dt} $, es decir, estamos buscando las nulclinas para $h_e$ y $h_i$. Pidiendo esta condición el sistema \ref{ec:sistemamatrix} tendrá solución cuando $\text{det}(G) \neq 0$ y resolviendo el sistema de ecuaciones, los valores de las actividades en el punto fijo $h_e^*$ y $h_i^*$ resultan
+
+\begin{align}
+    \left\{
+    \begin{aligned}
+        h_e^* &= \frac{ (1+g_{ii}) I_e - g_{ei}I_i }{\text{det}(G)} \\
+        h_i^* &= \frac{ g_{ie} I_e - (g_{ee}-1)I_i }{\text{det}(G)}
+    \end{aligned}
+    \right.
+    \label{ec:puntofijo}
+\end{align}
+
+Ahora como $h_e,h_i > 0$, si $\text{det}(G) > 0$ tenemos las siguientes condiciones
+\begin{align}
+    \left\{
+    \begin{aligned}
+        I_i &< I_e \frac{1+g_{ii}}{g_{ei}}\\
+        I_i &< I_e \frac{g_{ie}}{g_{ee}-1}
+    \end{aligned}
+    \right.
+\end{align}
+
+Por otro lado, si $\text{det}(G) > 0$ tenemos las siguientes condiciones
+\begin{align}
+    \left\{
+    \begin{aligned}
+        I_i &> I_e \frac{1+g_{ii}}{g_{ei}}\\
+        I_i &> I_e \frac{g_{ie}}{g_{ee}-1}
+    \end{aligned}
+    \right.
+\end{align}
+
+La estabilidad del punto de equilibrio está dada por la parte real de los autovalores del jacobiano $\boldsymbol{J}$ del sistema \ref{ec:sistema} evaluado en $\vec{h}^*$. Solo en el caso que ambos autovalores tengan parte real negativa, el punto fijo es estable. Sean $\lambda_1$ y $\lambda_2$ los autovalores de $\boldsymbol{J}$ sabemos que $\text{det}(\boldsymbol{J}) = \lambda_1\lambda_2$ y $\text{Tr}(\boldsymbol{J}) = \lambda_1 + \lambda_2$
+
+
+
 
 \begin{figure}[H]
 \centering

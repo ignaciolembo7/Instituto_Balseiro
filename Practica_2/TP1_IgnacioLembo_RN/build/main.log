@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.8.7)  30 AUG 2023 11:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.8.7)  6 SEP 2023 23:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -585,8 +585,11 @@ Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
 \c@subfigure=\count345
 \c@subtable=\count346
 ) (c:\Users\Ignacio Lembo\Documents\GitHub\Redes-Neuronales\Practica_2\TP1_IgnacioLembo_RN\build\main.aux
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+
+
+LaTeX Warning: Label `sec:p1' multiply defined.
 
 
 LaTeX Warning: Label `fig:vvsh' multiply defined.
@@ -831,6 +834,25 @@ and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 47.
+
+Overfull \hbox (52.126pt too wide) detected at line 57
+[]
+ []
+
+
+Overfull \hbox (41.91777pt too wide) detected at line 67
+[]
+ []
+
+
+Underfull \vbox (badness 3942) has occurred while \output is active []
+
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 6.64998pt on input line 82.
+ [1{C:/Users/Ignacio Lembo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+
+
+]
 Package epstopdf Info: Source file: <Figuras/dunas.eps>
 (epstopdf)                    date: 2023-08-30 11:26:59
 (epstopdf)                    size: 1526388 bytes
@@ -838,166 +860,181 @@ Package epstopdf Info: Source file: <Figuras/dunas.eps>
 (epstopdf)                    date: 2023-08-30 11:36:20
 (epstopdf)                    size: 178686 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figuras/dunas-eps-converted-to.pdf Figuras/dunas.eps>
-(epstopdf)             \includegraphics on input line 58.
+(epstopdf)             \includegraphics on input line 165.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Figuras/dunas-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figuras/dunas-eps-converted-to.pdf, id=53, 321.2pt x 144.54pt>
+<Figuras/dunas-eps-converted-to.pdf, id=95, 321.2pt x 144.54pt>
 File: Figuras/dunas-eps-converted-to.pdf Graphic file (type pdf)
 <use Figuras/dunas-eps-converted-to.pdf>
-Package pdftex.def Info: Figuras/dunas-eps-converted-to.pdf  used on input line 58.
+Package pdftex.def Info: Figuras/dunas-eps-converted-to.pdf  used on input line 165.
 (pdftex.def)             Requested size: 260.14749pt x 117.07011pt.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 70.
-[1{C:/Users/Ignacio Lembo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
-
-
- <./Figuras/dunas-eps-converted-to.pdf>]
+[2 <./Figuras/dunas-eps-converted-to.pdf>]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 84.
+(Font)              scaled to size 9.49997pt on input line 191.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 84.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 191.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 9.49997pt on input line 84.
-<Figuras/ripple_L0=10.pdf, id=79, 462.52798pt x 346.89601pt>
+(Font)              scaled to size 9.49997pt on input line 191.
+
+
+LaTeX Warning: Reference `sec:intro' on page 3 undefined on input line 218.
+
+[3]
+<Figuras/ripple_L0=10.pdf, id=133, 462.52798pt x 346.89601pt>
 File: Figuras/ripple_L0=10.pdf Graphic file (type pdf)
 <use Figuras/ripple_L0=10.pdf>
-Package pdftex.def Info: Figuras/ripple_L0=10.pdf  used on input line 132.
+Package pdftex.def Info: Figuras/ripple_L0=10.pdf  used on input line 239.
 (pdftex.def)             Requested size: 260.14749pt x 195.11794pt.
-<Figuras/ripple_L0=30.pdf, id=80, 462.52798pt x 346.89601pt>
+<Figuras/ripple_L0=30.pdf, id=134, 462.52798pt x 346.89601pt>
 File: Figuras/ripple_L0=30.pdf Graphic file (type pdf)
 <use Figuras/ripple_L0=30.pdf>
-Package pdftex.def Info: Figuras/ripple_L0=30.pdf  used on input line 137.
+Package pdftex.def Info: Figuras/ripple_L0=30.pdf  used on input line 244.
 (pdftex.def)             Requested size: 260.14749pt x 195.11794pt.
- [2]
-<Figuras/fvsL0.pdf, id=99, 462.52798pt x 346.89601pt>
+<Figuras/fvsL0.pdf, id=137, 462.52798pt x 346.89601pt>
 File: Figuras/fvsL0.pdf Graphic file (type pdf)
 <use Figuras/fvsL0.pdf>
-Package pdftex.def Info: Figuras/fvsL0.pdf  used on input line 150.
+Package pdftex.def Info: Figuras/fvsL0.pdf  used on input line 257.
 (pdftex.def)             Requested size: 260.14749pt x 195.11794pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<Figuras/dunas_transversales.pdf, id=104, 462.52798pt x 346.89601pt>
+ [4 <./Figuras/ripple_L0=10.pdf> <./Figuras/ripple_L0=30.pdf> <./Figuras/fvsL0.pdf>]
+<Figuras/dunas_transversales.pdf, id=244, 462.52798pt x 346.89601pt>
 File: Figuras/dunas_transversales.pdf Graphic file (type pdf)
 <use Figuras/dunas_transversales.pdf>
-Package pdftex.def Info: Figuras/dunas_transversales.pdf  used on input line 165.
+Package pdftex.def Info: Figuras/dunas_transversales.pdf  used on input line 272.
 (pdftex.def)             Requested size: 260.14749pt x 195.11794pt.
+<Figuras/muchos_barchanes.pdf, id=247, 462.52798pt x 346.89601pt>
+File: Figuras/muchos_barchanes.pdf Graphic file (type pdf)
+<use Figuras/muchos_barchanes.pdf>
+Package pdftex.def Info: Figuras/muchos_barchanes.pdf  used on input line 287.
+(pdftex.def)             Requested size: 260.14749pt x 195.11794pt.
+<Figuras/A.pdf, id=248, 462.52798pt x 346.89601pt>
+File: Figuras/A.pdf Graphic file (type pdf)
+<use Figuras/A.pdf>
+Package pdftex.def Info: Figuras/A.pdf  used on input line 302.
+(pdftex.def)             Requested size: 179.62015pt x 134.71722pt.
+
+Overfull \hbox (16.33pt too wide) in paragraph at lines 302--304
+ [][]
+ []
+
+<Figuras/B.pdf, id=249, 462.52798pt x 346.89601pt>
+File: Figuras/B.pdf Graphic file (type pdf)
+<use Figuras/B.pdf>
+Package pdftex.def Info: Figuras/B.pdf  used on input line 307.
+(pdftex.def)             Requested size: 179.62015pt x 134.71722pt.
+
+Overfull \hbox (16.33pt too wide) in paragraph at lines 307--309
+ [][] 
+ []
+
+<Figuras/C.pdf, id=250, 462.52798pt x 346.89601pt>
+File: Figuras/C.pdf Graphic file (type pdf)
+<use Figuras/C.pdf>
+Package pdftex.def Info: Figuras/C.pdf  used on input line 312.
+(pdftex.def)             Requested size: 179.62015pt x 134.71722pt.
+
+Overfull \hbox (16.33pt too wide) in paragraph at lines 312--314
+[][] 
+ []
+
+<Figuras/D.pdf, id=251, 462.52798pt x 346.89601pt>
+File: Figuras/D.pdf Graphic file (type pdf)
+<use Figuras/D.pdf>
+Package pdftex.def Info: Figuras/D.pdf  used on input line 317.
+(pdftex.def)             Requested size: 179.62015pt x 134.71722pt.
+
+Overfull \hbox (16.33pt too wide) in paragraph at lines 317--319
+ [][]
+ []
+
+<Figuras/E.pdf, id=252, 462.52798pt x 346.89601pt>
+File: Figuras/E.pdf Graphic file (type pdf)
+<use Figuras/E.pdf>
+Package pdftex.def Info: Figuras/E.pdf  used on input line 322.
+(pdftex.def)             Requested size: 179.62015pt x 134.71722pt.
+
+Overfull \hbox (16.33pt too wide) in paragraph at lines 322--324
+ [][] 
+ []
+
+<Figuras/F.pdf, id=253, 462.52798pt x 346.89601pt>
+File: Figuras/F.pdf Graphic file (type pdf)
+<use Figuras/F.pdf>
+Package pdftex.def Info: Figuras/F.pdf  used on input line 327.
+(pdftex.def)             Requested size: 179.62015pt x 134.71722pt.
+
+Overfull \hbox (16.33pt too wide) in paragraph at lines 327--329
+[][] 
+ []
+
+
+Underfull \vbox (badness 3612) has occurred while \output is active []
+
+ [5 <./Figuras/dunas_transversales.pdf> <./Figuras/muchos_barchanes.pdf>]
+<Figuras/xvst.pdf, id=301, 462.52798pt x 346.89601pt>
+File: Figuras/xvst.pdf Graphic file (type pdf)
+<use Figuras/xvst.pdf>
+Package pdftex.def Info: Figuras/xvst.pdf  used on input line 358.
+(pdftex.def)             Requested size: 208.11877pt x 156.09117pt.
+<Figuras/hvst.pdf, id=302, 462.52798pt x 346.89601pt>
+File: Figuras/hvst.pdf Graphic file (type pdf)
+<use Figuras/hvst.pdf>
+Package pdftex.def Info: Figuras/hvst.pdf  used on input line 363.
+(pdftex.def)             Requested size: 208.11877pt x 156.09117pt.
+ [6 <./Figuras/xvst.pdf> <./Figuras/hvst.pdf>]
+<Figuras/vvsh.pdf, id=409, 462.52798pt x 346.89601pt>
+File: Figuras/vvsh.pdf Graphic file (type pdf)
+<use Figuras/vvsh.pdf>
+Package pdftex.def Info: Figuras/vvsh.pdf  used on input line 376.
+(pdftex.def)             Requested size: 208.11877pt x 156.09117pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <./Figuras/ripple_L0=10.pdf> <./Figuras/ripple_L0=30.pdf> <./Figuras/fvsL0.pdf>]
-<Figuras/muchos_barchanes.pdf, id=210, 462.52798pt x 346.89601pt>
-File: Figuras/muchos_barchanes.pdf Graphic file (type pdf)
-<use Figuras/muchos_barchanes.pdf>
-Package pdftex.def Info: Figuras/muchos_barchanes.pdf  used on input line 180.
-(pdftex.def)             Requested size: 260.14749pt x 195.11794pt.
-<Figuras/A.pdf, id=211, 462.52798pt x 346.89601pt>
-File: Figuras/A.pdf Graphic file (type pdf)
-<use Figuras/A.pdf>
-Package pdftex.def Info: Figuras/A.pdf  used on input line 195.
-(pdftex.def)             Requested size: 179.62015pt x 134.71722pt.
 
-Overfull \hbox (16.33pt too wide) in paragraph at lines 195--197
- [][]
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<Figuras/B.pdf, id=212, 462.52798pt x 346.89601pt>
-File: Figuras/B.pdf Graphic file (type pdf)
-<use Figuras/B.pdf>
-Package pdftex.def Info: Figuras/B.pdf  used on input line 200.
-(pdftex.def)             Requested size: 179.62015pt x 134.71722pt.
-
-Overfull \hbox (16.33pt too wide) in paragraph at lines 200--202
- [][] 
- []
-
-<Figuras/C.pdf, id=213, 462.52798pt x 346.89601pt>
-File: Figuras/C.pdf Graphic file (type pdf)
-<use Figuras/C.pdf>
-Package pdftex.def Info: Figuras/C.pdf  used on input line 205.
-(pdftex.def)             Requested size: 179.62015pt x 134.71722pt.
-
-Overfull \hbox (16.33pt too wide) in paragraph at lines 205--207
-[][] 
- []
-
-<Figuras/D.pdf, id=214, 462.52798pt x 346.89601pt>
-File: Figuras/D.pdf Graphic file (type pdf)
-<use Figuras/D.pdf>
-Package pdftex.def Info: Figuras/D.pdf  used on input line 210.
-(pdftex.def)             Requested size: 179.62015pt x 134.71722pt.
-
-Overfull \hbox (16.33pt too wide) in paragraph at lines 210--212
- [][]
- []
-
-<Figuras/E.pdf, id=215, 462.52798pt x 346.89601pt>
-File: Figuras/E.pdf Graphic file (type pdf)
-<use Figuras/E.pdf>
-Package pdftex.def Info: Figuras/E.pdf  used on input line 215.
-(pdftex.def)             Requested size: 179.62015pt x 134.71722pt.
-
-Overfull \hbox (16.33pt too wide) in paragraph at lines 215--217
- [][] 
- []
-
-<Figuras/F.pdf, id=216, 462.52798pt x 346.89601pt>
-File: Figuras/F.pdf Graphic file (type pdf)
-<use Figuras/F.pdf>
-Package pdftex.def Info: Figuras/F.pdf  used on input line 220.
-(pdftex.def)             Requested size: 179.62015pt x 134.71722pt.
-
-Overfull \hbox (16.33pt too wide) in paragraph at lines 220--222
-[][] 
- []
-
-[4 <./Figuras/dunas_transversales.pdf> <./Figuras/muchos_barchanes.pdf>] [5 <./Figuras/A.pdf> <./Figuras/B.pdf> <./Figuras/C.pdf> <./Figuras/D.pdf> <./Figuras/E.pdf> <./Figuras/F.pdf>]
-<Figuras/xvst.pdf, id=454, 462.52798pt x 346.89601pt>
-File: Figuras/xvst.pdf Graphic file (type pdf)
-<use Figuras/xvst.pdf>
-Package pdftex.def Info: Figuras/xvst.pdf  used on input line 251.
-(pdftex.def)             Requested size: 208.11877pt x 156.09117pt.
-<Figuras/hvst.pdf, id=455, 462.52798pt x 346.89601pt>
-File: Figuras/hvst.pdf Graphic file (type pdf)
-<use Figuras/hvst.pdf>
-Package pdftex.def Info: Figuras/hvst.pdf  used on input line 256.
-(pdftex.def)             Requested size: 208.11877pt x 156.09117pt.
-<Figuras/vvsh.pdf, id=459, 462.52798pt x 346.89601pt>
-File: Figuras/vvsh.pdf Graphic file (type pdf)
-<use Figuras/vvsh.pdf>
-Package pdftex.def Info: Figuras/vvsh.pdf  used on input line 269.
-(pdftex.def)             Requested size: 208.11877pt x 156.09117pt.
- [6 <./Figuras/xvst.pdf> <./Figuras/hvst.pdf> <./Figuras/vvsh.pdf>]
+ [7 <./Figuras/A.pdf> <./Figuras/B.pdf> <./Figuras/C.pdf> <./Figuras/D.pdf> <./Figuras/E.pdf> <./Figuras/F.pdf> <./Figuras/vvsh.pdf>]
 No file main.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[7] 
+[8] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (c:\Users\Ignacio Lembo\Documents\GitHub\Redes-Neuronales\Practica_2\TP1_IgnacioLembo_RN\build\main.aux
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
 )
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6F0E5D9AB0117139551925782CD3D91F;1620.
+(rerunfilecheck)             Checksum: 12966AB353A0462350CF2BCAE5FBA16A;2379.
  ) 
 Here is how much of TeX's memory you used:
- 30675 strings out of 476406
- 637509 string characters out of 2785756
- 1874787 words of memory out of 3000000
- 50204 multiletter control sequences out of 15000+600000
- 611247 words of font info for 382 fonts, out of 8000000 for 9000
+ 30755 strings out of 476406
+ 638601 string characters out of 2785756
+ 1885787 words of memory out of 3000000
+ 50240 multiletter control sequences out of 15000+600000
+ 616640 words of font info for 404 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,19n,91p,1152b,479s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "c:\Users\Ignacio Lembo\Documents\GitHub\Redes-Neuronales\Practica_2\TP1_IgnacioLembo_RN\build\main.pdf" (7 pages, 34425818 bytes).
+ 87i,19n,91p,1219b,504s stack positions out of 10000i,1000n,20000p,200000b,80000s
+
+pdfTeX warning (dest): name{equation.6.26} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.6.25} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.3.19} has been referenced but does not exist, replaced by a fixed one
+
+{C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on "c:\Users\Ignacio Lembo\Documents\GitHub\Redes-Neuronales\Practica_2\TP1_IgnacioLembo_RN\build\main.pdf" (8 pages, 34448548 bytes).
 PDF statistics:
- 689 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 108204 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 737 PDF objects out of 1000 (max. 8388607)
+ 66 named destinations out of 1000 (max. 500000)
+ 111812 words of extra memory for PDF output out of 128383 (max. 10000000)
 

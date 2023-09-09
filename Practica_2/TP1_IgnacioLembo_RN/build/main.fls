@@ -1202,20 +1202,6 @@ INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsf
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmr7t.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8t.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplri8t.tfm
-INPUT .\Figuras\dunas.eps
-INPUT .\Figuras\dunas.eps
-INPUT Figuras\dunas.eps
-INPUT .\Figuras\dunas.eps
-INPUT .\Figuras\dunas.eps
-INPUT .\Figuras\dunas-eps-converted-to.pdf
-INPUT .\Figuras\dunas-eps-converted-to.pdf
-INPUT .\Figuras\dunas.eps
-INPUT .\Figuras\dunas-eps-converted-to.pdf
-INPUT .\Figuras\dunas-eps-converted-to.pdf
-INPUT .\Figuras\dunas-eps-converted-to.pdf
-INPUT .\Figuras\dunas-eps-converted-to.pdf
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
@@ -1234,34 +1220,68 @@ INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helve
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplb8t.vf
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb8r.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr8t.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8r.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplb8t.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb8r.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr8t.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8r.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr8t.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8r.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplri8t.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplri8r.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr8t.vf
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8r.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7m.vf
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmri.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplri8r.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7t.vf
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmr.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7m.vf
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmri.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8r.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplri8r.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7y.vf
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmr.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7t.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr7t.vf
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr7t.vf
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplb8t.vf
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb8r.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7y.vf
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmr.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb7t.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb7t.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb7t.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmb7m.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmb7m.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmb7m.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmb7y.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmb7y.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmb7y.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmb7t.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmb7t.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmb7t.tfm
+INPUT .\Figuras\dunas.eps
+INPUT .\Figuras\dunas.eps
+INPUT Figuras\dunas.eps
+INPUT .\Figuras\dunas.eps
+INPUT .\Figuras\dunas.eps
+INPUT .\Figuras\dunas-eps-converted-to.pdf
+INPUT .\Figuras\dunas-eps-converted-to.pdf
+INPUT .\Figuras\dunas.eps
+INPUT .\Figuras\dunas-eps-converted-to.pdf
+INPUT .\Figuras\dunas-eps-converted-to.pdf
+INPUT .\Figuras\dunas-eps-converted-to.pdf
+INPUT .\Figuras\dunas-eps-converted-to.pdf
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7v.vf
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmr.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmb7m.vf
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmbi.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplbi8r.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvbo8t.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvbo8t.vf
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvbo8r.tfm
 INPUT .\Figuras\ripple_L0=10.pdf
 INPUT .\Figuras\ripple_L0=10.pdf
 INPUT Figuras\ripple_L0=10.pdf
@@ -1274,17 +1294,6 @@ INPUT Figuras\ripple_L0=30.pdf
 INPUT .\Figuras\ripple_L0=30.pdf
 INPUT .\Figuras\ripple_L0=30.pdf
 INPUT .\Figuras\ripple_L0=30.pdf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvbo8t.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvbo8r.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr7t.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7v.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmr.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7y.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmr.tfm
 INPUT .\Figuras\fvsL0.pdf
 INPUT .\Figuras\fvsL0.pdf
 INPUT Figuras\fvsL0.pdf
@@ -1339,9 +1348,7 @@ INPUT Figuras\F.pdf
 INPUT .\Figuras\F.pdf
 INPUT .\Figuras\F.pdf
 INPUT .\Figuras\F.pdf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7m.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmri.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8t.tfm
 INPUT .\Figuras\xvst.pdf
 INPUT .\Figuras\xvst.pdf
 INPUT Figuras\xvst.pdf
@@ -1354,15 +1361,22 @@ INPUT Figuras\hvst.pdf
 INPUT .\Figuras\hvst.pdf
 INPUT .\Figuras\hvst.pdf
 INPUT .\Figuras\hvst.pdf
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr8t.vf
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr8t.vf
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8r.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7m.vf
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmri.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplri8r.tfm
 INPUT .\Figuras\vvsh.pdf
 INPUT .\Figuras\vvsh.pdf
 INPUT Figuras\vvsh.pdf
 INPUT .\Figuras\vvsh.pdf
 INPUT .\Figuras\vvsh.pdf
 INPUT .\Figuras\vvsh.pdf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb8t.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7t.vf
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb8t.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplb8t.vf
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb8r.tfm
 INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Redes-Neuronales\Practica_2\TP1_IgnacioLembo_RN\build\main.aux
@@ -1391,6 +1405,8 @@ INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helve
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvro8a.pfb
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\palatino\uplb8a.pfb
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\palatino\uplb8a.pfb
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\palatino\uplbi8a.pfb
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\palatino\uplbi8a.pfb
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\palatino\uplr8a.pfb
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\palatino\uplr8a.pfb
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\palatino\uplri8a.pfb
