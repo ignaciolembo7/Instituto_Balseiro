@@ -211,6 +211,7 @@
 \newcommand{\dates}[1]{\def\@dates{#1}}
 \newcommand{\doi}[1]{\def\@doi{#1}}
 
+
 \def\xabstract{abstract}
 \long\def\abstract#1\end#2{\def\two{#2}\ifx\two\xabstract
 \long\gdef\theabstract{\ignorespaces#1}
@@ -221,6 +222,7 @@ COMMANDS WITHIN ABSTRACT^^J^^J}#1\end{#2}
 NOT USE {\tt\string\begin...\string\end} COMMANDS WITHIN
 THE ABSTRACT\vskip12pt}\let\go\relax\fi
 \go}
+
 
 % Define a new environment with abstract content and styling
 % (to enable switching between long and short articles)
@@ -248,13 +250,13 @@ THE ABSTRACT\vskip12pt}\let\go\relax\fi
 }
 
 % Format abstract in reduced width box for certain layouts
-\newcommand{\abscontentformatted}{
-\begin{adjustwidth}{24pt}{24pt}
-\rule{\linewidth}{.4pt}
-\vskip12pt%
-\abscontent
-\end{adjustwidth}
-}
+%\newcommand{\abscontentformatted}{
+%\begin{adjustwidth}{24pt}{24pt}
+%\rule{\linewidth}{.4pt}
+%\vskip12pt%
+%\abscontent
+%\end{adjustwidth}
+%}
 
 % Custom title page
 \renewcommand{\@maketitle}{%
@@ -323,12 +325,12 @@ THE ABSTRACT\vskip12pt}\let\go\relax\fi
   %% If shortarticle, add the abstract after \maketitle
   \ifthenelse{\boolean{shortarticle}}%
     {\ifthenelse{\boolean{singlecolumn}}%
-      {\apptocmd{\maketitle}{\abscontentformatted}
-        {\typeout{shortarticle: Abstract added.}}
-        {\ClassWarning{opticajnl}{shortarticle: Couldn't add abstract after title.}}}%
-      {\apptocmd{\maketitle}{\abscontent}%
-        {\typeout{shortarticle: Abstract added.}}
-        {\ClassWarning{opticajnl}{shortarticle: Couldn't add abstract after title.}}}%
+      %{\apptocmd{\maketitle}{\abscontentformatted}
+      %  {\typeout{shortarticle: Abstract added.}}
+      %  {\ClassWarning{opticajnl}{shortarticle: Couldn't add abstract after title.}}}%
+      %{\apptocmd{\maketitle}{\abscontent}%
+      %  {\typeout{shortarticle: Abstract added.}}
+      %  {\ClassWarning{opticajnl}{shortarticle: Couldn't add abstract after title.}}}%
   }{} % nothing to do if not shortarticle
   %
   %% Ignore \bibliographyfullrefs if not submitting to Optics Letters OR (v1.13) not Optica short article. .

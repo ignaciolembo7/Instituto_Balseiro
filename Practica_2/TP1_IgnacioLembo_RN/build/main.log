@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.8.7)  6 SEP 2023 23:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.8.7)  12 SEP 2023 12:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -584,57 +584,154 @@ Package: legacy-styles/pr 2022/06/16 v1.1 Photonics Research Journal color schem
 Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
 \c@subfigure=\count345
 \c@subtable=\count346
+) (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count347
+\lst@gtempboxa=\box62
+\lst@token=\toks45
+\lst@length=\count348
+\lst@currlwidth=\dimen261
+\lst@column=\count349
+\lst@pos=\count350
+\lst@lostspace=\dimen262
+\lst@width=\dimen263
+\lst@newlines=\count351
+\lst@lineno=\count352
+\lst@maxwidth=\dimen264
+ (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count353
+\lst@skipnumbers=\count354
+\lst@framebox=\box63
+) (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count355
+
+
+Package multicol Warning: May not work with the twocolumn option on input line 143.
+
+\mult@box=\box64
+\multicol@leftmargin=\dimen265
+\c@unbalance=\count356
+\c@collectmore=\count357
+\doublecol@number=\count358
+\multicoltolerance=\count359
+\multicolpretolerance=\count360
+\full@width=\dimen266
+\page@free=\dimen267
+\premulticols=\dimen268
+\postmulticols=\dimen269
+\multicolsep=\skip81
+\multicolbaselineskip=\skip82
+\partial@page=\box65
+\last@line=\box66
+\maxbalancingoverflow=\dimen270
+\mult@rightbox=\box67
+\mult@grightbox=\box68
+\mult@firstbox=\box69
+\mult@gfirstbox=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\c@minrows=\count361
+\c@columnbadness=\count362
+\c@finalcolumnbadness=\count363
+\last@try=\dimen271
+\multicolovershoot=\dimen272
+\multicolundershoot=\dimen273
+\mult@nat@firstbox=\box107
+\colbreak@box=\box108
+\mc@col@check@num=\count364
 ) (c:\Users\Ignacio Lembo\Documents\GitHub\Redes-Neuronales\Practica_2\TP1_IgnacioLembo_RN\build\main.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 
 
-LaTeX Warning: Label `sec:p1' multiply defined.
+LaTeX Warning: Label `python-code' multiply defined.
 
 
-LaTeX Warning: Label `fig:vvsh' multiply defined.
+LaTeX Warning: Label `python-code' multiply defined.
+
+
+LaTeX Warning: Label `python-code' multiply defined.
 
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
-Package hyperref Info: Link coloring ON on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Info: Redefining \. on input line 44.
+LaTeX Info: Redefining \% on input line 44.
+Package hyperref Info: Link coloring ON on input line 44.
  (c:\Users\Ignacio Lembo\Documents\GitHub\Redes-Neuronales\Practica_2\TP1_IgnacioLembo_RN\build\main.out) (c:\Users\Ignacio Lembo\Documents\GitHub\Redes-Neuronales\Practica_2\TP1_IgnacioLembo_RN\build\main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
  (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count347
-\scratchdimen=\dimen261
-\scratchbox=\box62
-\nofMPsegments=\count348
-\nofMParguments=\count349
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count350
-\MPscratchDim=\dimen262
-\MPnumerator=\count351
-\makeMPintoPDFobject=\count352
-\everyMPtoPDFconversion=\toks46
+\scratchcounter=\count365
+\scratchdimen=\dimen274
+\scratchbox=\box109
+\nofMPsegments=\count366
+\nofMParguments=\count367
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count368
+\MPscratchDim=\dimen275
+\MPnumerator=\count369
+\makeMPintoPDFobject=\count370
+\everyMPtoPDFconversion=\toks47
 ) (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -676,94 +773,105 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: Option `justification=RaggedRight' requires the `ragged2e' package on input line 43.
+Package caption Info: Option `justification=RaggedRight' requires the `ragged2e' package on input line 44.
 (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2022/11/13 v3.2 ragged2e Package
-\CenteringLeftskip=\skip81
-\RaggedLeftLeftskip=\skip82
-\RaggedRightLeftskip=\skip83
-\CenteringRightskip=\skip84
-\RaggedLeftRightskip=\skip85
-\RaggedRightRightskip=\skip86
-\CenteringParfillskip=\skip87
-\RaggedLeftParfillskip=\skip88
-\RaggedRightParfillskip=\skip89
-\JustifyingParfillskip=\skip90
-\CenteringParindent=\skip91
-\RaggedLeftParindent=\skip92
-\RaggedRightParindent=\skip93
-\JustifyingParindent=\skip94
+\CenteringLeftskip=\skip83
+\RaggedLeftLeftskip=\skip84
+\RaggedRightLeftskip=\skip85
+\CenteringRightskip=\skip86
+\RaggedLeftRightskip=\skip87
+\RaggedRightRightskip=\skip88
+\CenteringParfillskip=\skip89
+\RaggedLeftParfillskip=\skip90
+\RaggedRightParfillskip=\skip91
+\JustifyingParfillskip=\skip92
+\CenteringParindent=\skip93
+\RaggedLeftParindent=\skip94
+\RaggedRightParindent=\skip95
+\JustifyingParindent=\skip96
 )
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package newfloat Info: Trying Plan B...
 Package newfloat Info: `float' package detected.
 
-shortarticle: Abstract added.
-LaTeX Info: Redefining \microtypecontext on input line 43.
-Package microtype Info: Applying patch `item' on input line 43.
-Package microtype Info: Applying patch `toc' on input line 43.
-Package microtype Info: Applying patch `eqnum' on input line 43.
-Package microtype Info: Applying patch `footnote' on input line 43.
+c:/Users/Ignacio Lembo/Documents/GitHub/Redes-Neuronales/Practica_2/TP1_IgnacioLembo_RN/main.tex:44: Improper \prevdepth.
+\newpage ...everypar {}\fi \par \ifdim \prevdepth 
+                                                  >\z@ \vskip -\ifdim \prevd...
+l.44 \begin{document}
+                     
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+(c:\Users\Ignacio Lembo\Documents\GitHub\Redes-Neuronales\Practica_2\TP1_IgnacioLembo_RN\build\fullrefs.bbl
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 1.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 1.
+
+
+Package natbib Warning: Empty `thebibliography' environment on input line 4.
+
+)
+LaTeX Info: Redefining \microtypecontext on input line 44.
+Package microtype Info: Applying patch `item' on input line 44.
+Package microtype Info: Applying patch `toc' on input line 44.
+Package microtype Info: Applying patch `eqnum' on input line 44.
+Package microtype Info: Applying patch `footnote' on input line 44.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 43.
+LaTeX Info: Redefining \showhyphens on input line 44.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-(C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ppl.cfg
+ (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
+\c@lstlisting=\count371
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 45.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 19.94994pt on input line 45.
-LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 10.40245pt on input line 45.
-LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 11.39996pt on input line 45.
-LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 45.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 6.64998pt on input line 46.
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 46.
  (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Trying to load font information for OML+zplm on input line 45.
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 46.
  (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 45.
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 46.
  (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 45.
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 46.
  (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 45.
+(Font)              scaled to size 7.29405pt on input line 46.
  (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 45.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 45.
+(Font)              scaled to size 5.21004pt on input line 46.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 45.
+(Font)              scaled to size 7.29405pt on input line 46.
  (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 45.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 45.
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 45.
+(Font)              scaled to size 5.21004pt on input line 46.
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 46.
  (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
@@ -771,270 +879,171 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zplm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 8.54997pt on input line 45.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 45.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 45.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 45.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 45.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 7.59998pt on input line 45.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 45.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 45.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 45.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 45.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 45.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 45.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 45.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 5.69998pt on input line 45.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 45.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 45.
-
-c:/Users/Ignacio Lembo/Documents/GitHub/Redes-Neuronales/Practica_2/TP1_IgnacioLembo_RN/main.tex:45: Undefined control sequence.
-\@maketitle ...pt{\raggedright \datesfont \@dates 
-                                                  \par } \vskip -14pt\ifthen...
-l.45 \maketitle
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 45.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 45.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 45.
-c:/Users/Ignacio Lembo/Documents/GitHub/Redes-Neuronales/Practica_2/TP1_IgnacioLembo_RN/main.tex:45: Undefined control sequence.
-<argument> ...ze \@tempdima \@parboxrestore \@doi 
-                                                  \@@par 
-l.45 \maketitle
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 47.
-
-Overfull \hbox (52.126pt too wide) detected at line 57
-[]
- []
-
-
-Overfull \hbox (41.91777pt too wide) detected at line 67
-[]
- []
-
-
-Underfull \vbox (badness 3942) has occurred while \output is active []
-
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 82.
  [1{C:/Users/Ignacio Lembo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 
 ]
-Package epstopdf Info: Source file: <Figuras/dunas.eps>
-(epstopdf)                    date: 2023-08-30 11:26:59
-(epstopdf)                    size: 1526388 bytes
-(epstopdf)             Output file: <Figuras/dunas-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-08-30 11:36:20
-(epstopdf)                    size: 178686 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Figuras/dunas-eps-converted-to.pdf Figuras/dunas.eps>
-(epstopdf)             \includegraphics on input line 165.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./Figuras/dunas-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figuras/dunas-eps-converted-to.pdf, id=95, 321.2pt x 144.54pt>
-File: Figuras/dunas-eps-converted-to.pdf Graphic file (type pdf)
-<use Figuras/dunas-eps-converted-to.pdf>
-Package pdftex.def Info: Figuras/dunas-eps-converted-to.pdf  used on input line 165.
-(pdftex.def)             Requested size: 260.14749pt x 117.07011pt.
-[2 <./Figuras/dunas-eps-converted-to.pdf>]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 191.
-LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 191.
-LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 9.49997pt on input line 191.
+(Font)              scaled to size 10.40245pt on input line 46.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 19.94994pt on input line 46.
+LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
+(Font)              scaled to size 10.40245pt on input line 46.
+LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
+(Font)              scaled to size 11.39996pt on input line 46.
+LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
+(Font)              scaled to size 19.70294pt on input line 46.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 21.61124pt on input line 46.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 46.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 46.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 21.61124pt on input line 46.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 46.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 46.
+LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
+(Font)              scaled to size 13.67995pt on input line 46.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 19.70294pt on input line 46.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <20.74> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 46.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 19.70294pt on input line 46.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 46.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 7.59998pt on input line 46.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 46.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 46.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 46.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 46.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 46.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 5.69998pt on input line 46.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 46.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 11.39996pt on input line 46.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 46.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 13.67995pt on input line 46.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 46.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 10.40245pt on input line 46.
 
+c:/Users/Ignacio Lembo/Documents/GitHub/Redes-Neuronales/Practica_2/TP1_IgnacioLembo_RN/main.tex:46: Undefined control sequence.
+\@maketitle ...pt{\raggedright \datesfont \@dates 
+                                                  \par } \vskip -14pt\ifthen...
+l.46 \maketitle
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: Reference `sec:intro' on page 3 undefined on input line 218.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 57.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 57.
+[2
 
-[3]
-<Figuras/ripple_L0=10.pdf, id=133, 462.52798pt x 346.89601pt>
-File: Figuras/ripple_L0=10.pdf Graphic file (type pdf)
-<use Figuras/ripple_L0=10.pdf>
-Package pdftex.def Info: Figuras/ripple_L0=10.pdf  used on input line 239.
+]
+<Figuras/V_vs_t_0_0.pdf, id=59, 462.52798pt x 346.89601pt>
+File: Figuras/V_vs_t_0_0.pdf Graphic file (type pdf)
+<use Figuras/V_vs_t_0_0.pdf>
+Package pdftex.def Info: Figuras/V_vs_t_0_0.pdf  used on input line 104.
 (pdftex.def)             Requested size: 260.14749pt x 195.11794pt.
-<Figuras/ripple_L0=30.pdf, id=134, 462.52798pt x 346.89601pt>
-File: Figuras/ripple_L0=30.pdf Graphic file (type pdf)
-<use Figuras/ripple_L0=30.pdf>
-Package pdftex.def Info: Figuras/ripple_L0=30.pdf  used on input line 244.
+<Figuras/V_vs_t_1_0.pdf, id=62, 462.52798pt x 346.89601pt>
+File: Figuras/V_vs_t_1_0.pdf Graphic file (type pdf)
+<use Figuras/V_vs_t_1_0.pdf>
+Package pdftex.def Info: Figuras/V_vs_t_1_0.pdf  used on input line 115.
 (pdftex.def)             Requested size: 260.14749pt x 195.11794pt.
-<Figuras/fvsL0.pdf, id=137, 462.52798pt x 346.89601pt>
-File: Figuras/fvsL0.pdf Graphic file (type pdf)
-<use Figuras/fvsL0.pdf>
-Package pdftex.def Info: Figuras/fvsL0.pdf  used on input line 257.
+<Figuras/V_vs_t_1_-80.pdf, id=63, 462.52798pt x 346.89601pt>
+File: Figuras/V_vs_t_1_-80.pdf Graphic file (type pdf)
+<use Figuras/V_vs_t_1_-80.pdf>
+Package pdftex.def Info: Figuras/V_vs_t_1_-80.pdf  used on input line 123.
 (pdftex.def)             Requested size: 260.14749pt x 195.11794pt.
- [4 <./Figuras/ripple_L0=10.pdf> <./Figuras/ripple_L0=30.pdf> <./Figuras/fvsL0.pdf>]
-<Figuras/dunas_transversales.pdf, id=244, 462.52798pt x 346.89601pt>
-File: Figuras/dunas_transversales.pdf Graphic file (type pdf)
-<use Figuras/dunas_transversales.pdf>
-Package pdftex.def Info: Figuras/dunas_transversales.pdf  used on input line 272.
-(pdftex.def)             Requested size: 260.14749pt x 195.11794pt.
-<Figuras/muchos_barchanes.pdf, id=247, 462.52798pt x 346.89601pt>
-File: Figuras/muchos_barchanes.pdf Graphic file (type pdf)
-<use Figuras/muchos_barchanes.pdf>
-Package pdftex.def Info: Figuras/muchos_barchanes.pdf  used on input line 287.
-(pdftex.def)             Requested size: 260.14749pt x 195.11794pt.
-<Figuras/A.pdf, id=248, 462.52798pt x 346.89601pt>
-File: Figuras/A.pdf Graphic file (type pdf)
-<use Figuras/A.pdf>
-Package pdftex.def Info: Figuras/A.pdf  used on input line 302.
-(pdftex.def)             Requested size: 179.62015pt x 134.71722pt.
+<Figuras/desfasaje_vs_gsyn.pdf, id=66, 578.16pt x 433.62pt>
+File: Figuras/desfasaje_vs_gsyn.pdf Graphic file (type pdf)
+<use Figuras/desfasaje_vs_gsyn.pdf>
+Package pdftex.def Info: Figuras/desfasaje_vs_gsyn.pdf  used on input line 136.
+(pdftex.def)             Requested size: 260.14749pt x 195.10735pt.
+<Figuras/frecuencia_vs_gsyn.pdf, id=67, 578.16pt x 433.62pt>
+File: Figuras/frecuencia_vs_gsyn.pdf Graphic file (type pdf)
+<use Figuras/frecuencia_vs_gsyn.pdf>
+Package pdftex.def Info: Figuras/frecuencia_vs_gsyn.pdf  used on input line 145.
+(pdftex.def)             Requested size: 260.14749pt x 195.10735pt.
+ [3 <./Figuras/V_vs_t_0_0.pdf> <./Figuras/V_vs_t_1_0.pdf> <./Figuras/V_vs_t_1_-80.pdf>] [4 <./Figuras/desfasaje_vs_gsyn.pdf> <./Figuras/frecuencia_vs_gsyn.pdf>] [5
 
-Overfull \hbox (16.33pt too wide) in paragraph at lines 302--304
- [][]
- []
-
-<Figuras/B.pdf, id=249, 462.52798pt x 346.89601pt>
-File: Figuras/B.pdf Graphic file (type pdf)
-<use Figuras/B.pdf>
-Package pdftex.def Info: Figuras/B.pdf  used on input line 307.
-(pdftex.def)             Requested size: 179.62015pt x 134.71722pt.
-
-Overfull \hbox (16.33pt too wide) in paragraph at lines 307--309
- [][] 
- []
-
-<Figuras/C.pdf, id=250, 462.52798pt x 346.89601pt>
-File: Figuras/C.pdf Graphic file (type pdf)
-<use Figuras/C.pdf>
-Package pdftex.def Info: Figuras/C.pdf  used on input line 312.
-(pdftex.def)             Requested size: 179.62015pt x 134.71722pt.
-
-Overfull \hbox (16.33pt too wide) in paragraph at lines 312--314
-[][] 
- []
-
-<Figuras/D.pdf, id=251, 462.52798pt x 346.89601pt>
-File: Figuras/D.pdf Graphic file (type pdf)
-<use Figuras/D.pdf>
-Package pdftex.def Info: Figuras/D.pdf  used on input line 317.
-(pdftex.def)             Requested size: 179.62015pt x 134.71722pt.
-
-Overfull \hbox (16.33pt too wide) in paragraph at lines 317--319
- [][]
- []
-
-<Figuras/E.pdf, id=252, 462.52798pt x 346.89601pt>
-File: Figuras/E.pdf Graphic file (type pdf)
-<use Figuras/E.pdf>
-Package pdftex.def Info: Figuras/E.pdf  used on input line 322.
-(pdftex.def)             Requested size: 179.62015pt x 134.71722pt.
-
-Overfull \hbox (16.33pt too wide) in paragraph at lines 322--324
- [][] 
- []
-
-<Figuras/F.pdf, id=253, 462.52798pt x 346.89601pt>
-File: Figuras/F.pdf Graphic file (type pdf)
-<use Figuras/F.pdf>
-Package pdftex.def Info: Figuras/F.pdf  used on input line 327.
-(pdftex.def)             Requested size: 179.62015pt x 134.71722pt.
-
-Overfull \hbox (16.33pt too wide) in paragraph at lines 327--329
-[][] 
- []
+] (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 264.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 270.
+ (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+) [6
 
 
-Underfull \vbox (badness 3612) has occurred while \output is active []
-
- [5 <./Figuras/dunas_transversales.pdf> <./Figuras/muchos_barchanes.pdf>]
-<Figuras/xvst.pdf, id=301, 462.52798pt x 346.89601pt>
-File: Figuras/xvst.pdf Graphic file (type pdf)
-<use Figuras/xvst.pdf>
-Package pdftex.def Info: Figuras/xvst.pdf  used on input line 358.
-(pdftex.def)             Requested size: 208.11877pt x 156.09117pt.
-<Figuras/hvst.pdf, id=302, 462.52798pt x 346.89601pt>
-File: Figuras/hvst.pdf Graphic file (type pdf)
-<use Figuras/hvst.pdf>
-Package pdftex.def Info: Figuras/hvst.pdf  used on input line 363.
-(pdftex.def)             Requested size: 208.11877pt x 156.09117pt.
- [6 <./Figuras/xvst.pdf> <./Figuras/hvst.pdf>]
-<Figuras/vvsh.pdf, id=409, 462.52798pt x 346.89601pt>
-File: Figuras/vvsh.pdf Graphic file (type pdf)
-<use Figuras/vvsh.pdf>
-Package pdftex.def Info: Figuras/vvsh.pdf  used on input line 376.
-(pdftex.def)             Requested size: 208.11877pt x 156.09117pt.
-
+] [7] [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [9]
+Overfull \hbox (14.15952pt too wide) in paragraph at lines 495--496
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7 <./Figuras/A.pdf> <./Figuras/B.pdf> <./Figuras/C.pdf> <./Figuras/D.pdf> <./Figuras/E.pdf> <./Figuras/F.pdf> <./Figuras/vvsh.pdf>]
-No file main.bbl.
+Overfull \hbox (14.15952pt too wide) in paragraph at lines 496--497
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
 
-Package natbib Warning: There were undefined citations.
 
-[8] 
+Overfull \hbox (7.58946pt too wide) in paragraph at lines 511--512
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (7.58946pt too wide) in paragraph at lines 512--513
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[10] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (c:\Users\Ignacio Lembo\Documents\GitHub\Redes-Neuronales\Practica_2\TP1_IgnacioLembo_RN\build\main.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 12966AB353A0462350CF2BCAE5FBA16A;2379.
+(rerunfilecheck)             Checksum: 6166DF3D43693A0FB2CE4E32859A56B3;961.
  ) 
 Here is how much of TeX's memory you used:
- 30755 strings out of 476406
- 638601 string characters out of 2785756
- 1885787 words of memory out of 3000000
- 50240 multiletter control sequences out of 15000+600000
- 616640 words of font info for 404 fonts, out of 8000000 for 9000
+ 32848 strings out of 476406
+ 667115 string characters out of 2785756
+ 1938787 words of memory out of 3000000
+ 52205 multiletter control sequences out of 15000+600000
+ 615434 words of font info for 335 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,19n,91p,1219b,504s stack positions out of 10000i,1000n,20000p,200000b,80000s
-
-pdfTeX warning (dest): name{equation.6.26} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{equation.6.25} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{equation.3.19} has been referenced but does not exist, replaced by a fixed one
-
-{C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "c:\Users\Ignacio Lembo\Documents\GitHub\Redes-Neuronales\Practica_2\TP1_IgnacioLembo_RN\build\main.pdf" (8 pages, 34448548 bytes).
+ 87i,20n,101p,1224b,2064s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on "c:\Users\Ignacio Lembo\Documents\GitHub\Redes-Neuronales\Practica_2\TP1_IgnacioLembo_RN\build\main.pdf" (10 pages, 328978 bytes).
 PDF statistics:
- 737 PDF objects out of 1000 (max. 8388607)
- 66 named destinations out of 1000 (max. 500000)
- 111812 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 726 PDF objects out of 1000 (max. 8388607)
+ 286 named destinations out of 1000 (max. 500000)
+ 118338 words of extra memory for PDF output out of 128383 (max. 10000000)
 
