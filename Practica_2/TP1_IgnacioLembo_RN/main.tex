@@ -35,7 +35,10 @@ Trabajo práctico 1: Dinámica de sistemas acoplados}
 
 \vspace{0.3cm}
 
-\Large{13 de septiembre de 2023.}}
+\large{13 de septiembre de 2023.}
+
+\vspace{0.5cm}
+}
 
 %\begin{abstract}
 %\textbf{hola}
@@ -64,7 +67,7 @@ El modelo de Hodgkin y Huxley consiste en un conjunto de cuatro ecuaciones difer
     \frac{dm}{dt} &=\frac{m_{\infty}(V) - m}{\tau_m(V)}, \\
     \frac{dh}{dt} &= \frac{h_{\infty}(V) - h}{\tau_h(V)}, 
 \end{align}
-donde para $x=n,m,h$ 
+donde $\tau_x$ y $x_{\infty}$ para $x=n,m,h$ están dados por 
 \begin{equation}
     x_{\infty}(V) = \frac{a_x}{a_x+b_x}, \hspace{1cm} \tau_x = \frac{1}{a_x + b_x},
 \end{equation}
@@ -77,22 +80,26 @@ con $\tau_x$ en milisegundos. Los valores de $a_x$ y $b_x$ están dados por
     &a_h = 0.07 \exp[ (-V - 65)/20 ], \\
     &b_h = \frac{1}{1 + \exp[ (-V-35)/10 ]},
 \end{align} 
-con el potencial $V$ expresado en milivolts. Además los potenciales de inversión y las conductancias máximas están dados por: $V_{Na} = 50$ mV,  $V_{Na} = 50$ mV,  $V_{K} = -77$ mV,  $V_{Cl} = -54.4$ mV, $g_{Na} = 120$ mS$/$cm$^2$, $g_{K} = 36$ mS$/$cm$^2$, $g_{Cl} = 0.3$ mS$/$cm$^2$. Además, la capacitancia de la membrana es $C = 1~\mu\text{F}/\text{cm}^2$.
+con el potencial $V$ expresado en milivolts. Además los potenciales de inversión y las conductancias máximas están dados por: $V_{Na} = 50$ mV,  $V_{K} = -77$ mV,  $V_{Cl} = -54.4$ mV, $g_{Na} = 120$ mS$/$cm$^2$, $g_{K} = 36$ mS$/$cm$^2$, $g_{Cl} = 0.3$ mS$/$cm$^2$. Además, la capacitancia de la membrana es $C = 1~\mu\text{F}/\text{cm}^2$.
 
 \subsection{Dinámica de dos neuronas}
 
 \vspace{0.3cm}
 
-Se simuló la dinámica de dos neuronas de Hodgkin y Huxley utilizando las ecuaciones y los parámetros descriptos en la sección \ref{sec:modelo} conectadas simétricamente con interacciones sinápticas exitatorias e inhibitorias. La corriente de interacción sináptica para cada neurona está dada por 
+Se simuló la dinámica de dos neuronas de Hodgkin y Huxley (neurona 1 y neurona 2) conectadas simétricamente con interacciones sinápticas exitatorias ó inhibitorias. Para cada neurona se utilizaron las ecuaciones y los parámetros descriptos en la sección \ref{sec:modelo}. La corriente de interacción sináptica para cada neurona está dada por 
 \begin{equation}
-    I_{syn} = -g_{syn} s(t) (V-V_{syn}),
+    I_{syn} = -g_{syn}~ s(t) (V-V_{syn}),
     \label{ec:Isyn}
 \end{equation}
 donde
 \begin{equation}
     \frac{ds}{dt} = \frac{s_{\infty}(V_{pre}) - s}{\tau},
 \end{equation}
-con $s_{\infty} = 0.5 (1 + \tanh(V/5))$, $\tau = 3$ ms y donde $V_{pre}$ refiere al potencial de la neurona presináptica, es decir para la neurona 1 es el potencial de la neurona 2 y viceversa. Para la interacción exitatoria se utilizó $V_{syn}= 0$ y para la inhibitoria $V_{syn} = -80$ mV. Se utilizó una corriente externa $I_{ext} = 10 ~\mu\text{A}/\text{cm}^2$ de manera que las neuronas oscilan periódicamente. Matemáticamente la interacción sináptica consiste en sumar la corriente $I_{syn}$ dada por la Ec. (\ref{ec:Isyn}) en el miembro derecho de la Ec. (\ref{ec:corriente}) para cada neurona. De esta manera, se tiene para cada neurona un sistema de 5 ecuaciones diferenciales acopladas con variables $n$, $m$, $h$, $s$, $V$ y variable independiente el tiempo $t$. Esto resulta en un sistema de 10 ecuaciones diferenciales que se resuelven todas al mismo tiempo con el metodo RK4 implementado en python. Se tomó como condición inicial para la neurona 1: $V(0) = V_K$, $n(0) = n(V_K)$, $m(0) = m(V_K)$, $h(0) = h(V_K)$ y $s(0) = s(V_K)$. Para la neurona 2: $V=0$ mV y $n=m=h=s=0$.
+con $s_{\infty} = 0.5 ~(1 + \tanh(V/5))$, $\tau = 3$ ms y donde $V_{pre}$ refiere al potencial de la neurona presináptica, es decir, para la neurona 1 es el potencial de la neurona 2 y viceversa. Para la interacción exitatoria se utilizó $V_{syn}= 0$ y para la inhibitoria $V_{syn} = -80$ mV. Se fijó la corriente externa en $I_{ext} = 10 ~\mu\text{A}/\text{cm}^2$ de manera que las neuronas oscilen periódicamente. 
+
+Matemáticamente, la interacción sináptica consiste en sumar la corriente $I_{syn}$ dada por la Ec. (\ref{ec:Isyn}) en el miembro derecho de la Ec. (\ref{ec:corriente}) para cada neurona. De esta manera se tiene, para cada neurona, un sistema de 5 ecuaciones diferenciales acopladas con variables $n$, $m$, $h$, $s$, $V$ y variable independiente el tiempo $t$. Esto resulta en un sistema de 10 ecuaciones diferenciales que se resuelven todas al mismo tiempo con el metodo RK4 implementado en Python. 
+
+Se tomó como condición inicial para la neurona 1: $V(0) = V_K$, $n(0) = n(V_K)$, $m(0) = m(V_K)$, $h(0) = h(V_K)$ y $s(0) = s(V_K)$. Para la neurona 2: $V=0$ mV y $n=m=h=s=0$.
 
 \newpage
 
@@ -107,7 +114,7 @@ En la Fig. \ref{fig:V_vs_t_sinacople} se muestra el caso en que las dos neuronas
     \label{fig:V_vs_t_sinacople}
 \end{figure}
 
-Se graficó el potencial de las neuronas 1 y 2 en función del tiempo para un acople sinóptico $g_{syn} = 1~\text{mS}/\text{cm}^2$ en el caso de interacción sináptica exitatoria $V_{syn}=0 $ mV (Fig. \ref{fig:V_vs_t_conacople_ext}) e interacción sináptica inhibitoria $V_{syn}= -80$ mV (Fig. \ref{fig:V_vs_t_conacople_inh}). Se observa que luego de un periodo transitorio ambas neuronas se sincronizan. En el caso exitatorio se acoplan en fase y en el inhibitorio se contrafase, para el caso de $g_{syn} = 1 ~\text{mS}/\text{cm}^2$.
+Se graficó el potencial de las neuronas 1 y 2 en función del tiempo para un acople sinóptico $g_{syn} = 1~\text{mS}/\text{cm}^2$ en el caso de interacción sináptica exitatoria $V_{syn}=0 $ mV (Fig. \ref{fig:V_vs_t_conacople_ext}) e interacción sináptica inhibitoria $V_{syn}= -80$ mV (Fig. \ref{fig:V_vs_t_conacople_inh}). Se observa que luego de un periodo transitorio ambas neuronas se sincronizan. En el caso exitatorio se acoplan en fase y en el inhibitorio en contrafase.
 
 \begin{figure}[H]
 \centering
@@ -126,9 +133,11 @@ Se graficó el potencial de las neuronas 1 y 2 en función del tiempo para un ac
     \label{fig:V_vs_t_conacople_inh}
 \end{figure}
 
-No obstante, se estudió el comportamiento de las neuronas para $g_{syn}$ entre $0$ y $1 ~ \text{mS}/\text{cm}^2$ para una intereacción exitatoria e inhibitoria. Para esto, se simuló el potencial de cada neurona durante $1500$ ms donde empiricamente se vio que el sistema llegaba a un estado estacionario y se tomó para el cálculo del desfasaje los últimos diez picos de voltaje de cada neurona. El resultado se muestra en la Fig. \ref{fig:desfasaje} y se obtuvo que para todo valor de $g_{syn}$ en el caso exitatorio el desfasaje es nulo (neuronas se sincronizan en fase) y para el caso inhibitorio el desfasaje es $\pi$ (neuronas se sincronizan en contrafase).
+Se estudió el desfasaje y la tasa de disparo de las neuronas en función de $g_{syn}$ para interacciones exitatorias ó inhibitorias. Para esto, se tomó $g_{syn}$ entre $0$ y $1 ~ \text{mS}/\text{cm}^2$ y se simuló el potencial de cada neurona durante $1500$ ms donde empíricamente se vio que el sistema llegaba a un estado estacionario. Para ambos estudios se tomaron los últimos diez picos de voltaje de cada neurona. 
 
-Además, en la simulación anterior, se calculó la tasa de disparo en función de $g_{syn}$. El resultado se muestra en la Fig. \ref{fig:frecuencia}. Se observa que tanto para la interacción exitatoria como inhibitoria la tasa de disparo decae de forma aproximadamente lineal con $g_{syn}$, y con mayor pendiente en la interacción inhibitoria.
+El resultado del desfasaje se muestra en la Fig. \ref{fig:desfasaje} donde obtuvo que para todo valor de $g_{syn}>0$ en el caso exitatorio el desfasaje es nulo (neuronas se sincronizan en fase) y para el caso inhibitorio el desfasaje es $\pi$ (neuronas se sincronizan en contrafase). Cuando $g_{syn} = 0$, no hay acople, las neuronas no se sincronizan y el desfasaje queda determinado por las condiciones iniciales de cada neurona.
+
+En la Fig. \ref{fig:frecuencia} se muestran las curvas de la tasa de disparo en función de $g_{syn}$. Se observa que tanto para la interacción exitatoria como inhibitoria la tasa de disparo decae con $g_{syn}$, y con mayor pendiente (negativa) en la interacción exitatoria. Se destaca que aumentar el acople disminuye la tasa de disparo en cualquiera de las dos interacciones pero esta disminución es aún mayor cuando la interacción es exitatoria.
 
 \begin{figure}[ht]
     \centering
@@ -164,7 +173,7 @@ Se tiene un sistema con dos poblaciones de neuronas descritas por un modelo de t
 \right.
 \label{ec:sistema}
 \end{align}
-donde $f_a = S(h_a)$ ($a=e,i$) con $S(x) = x H(x) $ siendo $H$ la función de Heaviside. Dado que las actividades son $h_e, h_i \geq 0$ entonces $H(h_e) = H(h_i) = 1$. Se buscan los puntos fijos del sistema 
+donde $f_a = S(h_a)$ ($a=e,i$) con $S(x) = x H(x) $ siendo $H$ la función de Heaviside. Dado que las actividades son $h_e, h_i \geq 0$ entonces $H(h_e) = H(h_i) = 1$. Luego, se buscan los puntos fijos del sistema 
 \begin{align}
     \left\{
     \begin{aligned}
@@ -176,29 +185,29 @@ donde $f_a = S(h_a)$ ($a=e,i$) con $S(x) = x H(x) $ siendo $H$ la función de He
 \end{align}
 el cual se puede escribir de forma matricial como 
 \begin{equation}
-    \tau \frac{d \vec{h}}{dt} = \vec{G} \vec{h} + \vec{I}
+    \tau \frac{d \vec{h}}{dt} = \boldsymbol{G} \vec{h} + \vec{I}
     \label{ec:sistemamatrix}
 \end{equation}
 con 
 \[
 \vec{h} = \begin{pmatrix} h_e \\ h_i \end{pmatrix}, \hspace{0.3cm}
-\vec{G} = \begin{pmatrix} g_{ee} - 1 & -g_{ei} \\ g_{ie} & -1-g_{ii} \end{pmatrix}, \hspace{0.3cm}
+\boldsymbol{G}= \begin{pmatrix} g_{ee} - 1 & -g_{ei} \\ g_{ie} & -1-g_{ii} \end{pmatrix}, \hspace{0.3cm}
 \vec{I} = \begin{pmatrix} I_e \\ I_i \end{pmatrix}
 \]
 
-En el punto fijo tenemos que $ \frac{d \vec{h}}{dt} $, es decir, estamos buscando las nulclinas para $h_e$ y $h_i$. Pidiendo esta condición el sistema (\ref{ec:sistemamatrix}) tendrá solución cuando $\text{det}(G) \neq 0$ y resolviendo el sistema de ecuaciones, los valores de las actividades en el punto fijo $h_e^*$ y $h_i^*$ resultan
+En el punto fijo tenemos que $ \frac{d \vec{h}}{dt}=0 $, es decir, estamos buscando las nulclinas para $h_e$ y $h_i$. Pidiendo esta condición, el sistema (\ref{ec:sistemamatrix}) tendrá solución cuando $\text{det}(\boldsymbol{G}) \neq 0$ y resolviendo el sistema de ecuaciones, los valores de las actividades en el punto fijo $h_e^*$ y $h_i^*$ resultan
 
 \begin{align}
     \left\{
     \begin{aligned}
-        h_e^* &= \frac{ (1+g_{ii}) I_e - g_{ei}I_i }{\text{det}(G)} \\
-        h_i^* &= \frac{ g_{ie} I_e - (g_{ee}-1)I_i }{\text{det}(G)}
+        h_e^* &= \frac{ (1+g_{ii}) I_e - g_{ei}I_i }{\text{det}(\boldsymbol{G})} \\
+        h_i^* &= \frac{ g_{ie} I_e - (g_{ee}-1)I_i }{\text{det}(\boldsymbol{G})}
     \end{aligned}
     \right.
     \label{ec:puntofijo}
 \end{align}
 
-Ahora como $h_e,h_i > 0$, si $\text{det}(G) > 0$ tenemos las siguientes condiciones
+Ahora como $h_e,h_i > 0$, si $\text{det}(\boldsymbol{G}) > 0$ tenemos las siguientes condiciones
 \begin{align}
     \left\{
     \begin{aligned}
@@ -208,7 +217,7 @@ Ahora como $h_e,h_i > 0$, si $\text{det}(G) > 0$ tenemos las siguientes condicio
     \right.
 \end{align}
 
-Por otro lado, si $\text{det}(G) > 0$ tenemos las siguientes condiciones
+Por otro lado, si $\text{det}(\boldsymbol{G}) < 0$ tenemos las siguientes condiciones
 \begin{align}
     \left\{
     \begin{aligned}
@@ -218,31 +227,40 @@ Por otro lado, si $\text{det}(G) > 0$ tenemos las siguientes condiciones
     \right.
 \end{align}
 
-La estabilidad del punto de equilibrio está dada por la parte real de los autovalores del jacobiano $\boldsymbol{J}$ del sistema (\ref{ec:sistema}) evaluado en $\vec{h}^*$. Solo en el caso que ambos autovalores tengan parte real negativa, el punto fijo es estable. Sean $\lambda_1$ y $\lambda_2$ los autovalores de $\boldsymbol{J}$ sabemos que $\text{det}(\boldsymbol{J}) = \lambda_1\lambda_2$ y $\text{Tr}(\boldsymbol{J}) = \lambda_1 + \lambda_2$. Si $\lambda_1$ y $\lambda_2$ son complejos deben ser un par complejo conjugado Luego, 
-\begin{equation}
-    \text{det}(\boldsymbol{J}) = \text{Re}(\lambda_1)^2 + \text{Re}(\lambda_2)^2 
-\end{equation}
-\begin{equation}
-    \text{Tr}(\boldsymbol{J}) = \text{Re}(\lambda_1) + \text{Re}(\lambda_2) 
-\end{equation}
-entonces si $\lambda_1, \lambda_2 < 0$, la condición de estabilidad resulta $ \text{det}(\boldsymbol{J}) > 0$ y $\text{Tr}(\boldsymbol{J}) < 0$. Si $\lambda_1$ y $\lambda_2$ son reales se obtiene lo mismo. 
-
-El jacobiano asociado al sistema (\ref{ec:sistema}) evaluado en $\vec{h}^*$ es 
+La estabilidad del punto de equilibrio está dada por la parte real de los autovalores del jacobiano $\boldsymbol{J}$ del sistema (\ref{ec:sistema}) evaluado en $\vec{h}^*$. Solo en el caso que ambos autovalores tengan parte real negativa, el punto fijo es estable. El jacobiano asociado al sistema (\ref{ec:sistema}) evaluado en $\vec{h}^*$ es 
 \[
-J|_{\vec{h}^*} = \frac{1}{\tau}\begin{pmatrix} g_{ee} - 1 & -g_{ei} \\ g_{ie} & -1-g_{ii} \end{pmatrix},
+\boldsymbol{J}|_{\vec{h}^*} = \frac{1}{\tau}\begin{pmatrix} g_{ee} - 1 & -g_{ei} \\ g_{ie} & -1-g_{ii} \end{pmatrix},
 \]
-y luego la condición de estabilidad está dada por
+cuyos autovalores son
+\begin{equation}
+    \lambda_{1,2} = \frac{1}{2\tau} \biggr( \text{Tr}(J) \pm \sqrt{ (\text{Tr}(J))^2 - 4~\text{det}(J) } \biggr).
+    \label{ec:autovalores}
+\end{equation}
+En este caso $\boldsymbol{J}$ coincide con $\boldsymbol{G}$ porque el sistema es lineal en $h_e, h_i$.
+
+Se analiza la Ec. (\ref{ec:autovalores}) por casos. Si $\text{det}(\boldsymbol{J}) > 0$ el valor dentro de la raíz es siempre menor a $\text{Tr}(\boldsymbol{J})$. Luego, esto implica que, si los autovalores son reales, es decir, 
+\begin{equation}
+    \text{Tr}(\boldsymbol{J})^2 > 4~\text{det}(\boldsymbol{J}), 
+\end{equation}
+si $\text{Tr}(\boldsymbol{J}) > 0$ entonces $ \lambda_{1,2} > 0 $ y si $\text{Tr}(\boldsymbol{J}) < 0$ entonces $ \lambda_{1,2} < 0 $. Si los autovalores son complejos el signo de la traza directamente es el signo de la parte real del autovalor. Por lo tanto, para que la solución sea estable cuando $\text{det}(\boldsymbol{J}) > 0$,  $\text{Tr}(\boldsymbol{J}) < 0$. 
+
+Por otro lado, cuando $\text{det}(\boldsymbol{J}) < 0$ los autovalores serán reales y uno será positivo y otro negativo, lo que implica que la solución no puede ser estable.
+
+Entonces, se mostró que $\text{Tr}(\boldsymbol{J}) < 0$ y $\text{det}(\boldsymbol{J}) > 0$ implica estabilidad. La condición para este problema entonces está dada por
 \begin{align}
     \left\{
     \begin{aligned}
-        \text{det}(\boldsymbol{J}) & = g_{ee} - g_{ii} -2 > 0, \\
-        \text{Tr}(\boldsymbol{J}) &= (g_ee-1)(-1-g_{ii}) +g_{ei}g_{ie} < 0.
+        \text{Tr}(\boldsymbol{J}) & = g_{ee} - g_{ii} -2 < 0, \\
+        \text{det}(\boldsymbol{J}) &= (g_{ee} -1)(-1-g_{ii}) +g_{ei}g_{ie} > 0.
     \end{aligned}
     \right.
 \end{align}
 Además, si los autovalores son reales y negativos, el comportamiento de la solución es exponencial decreciente hacia el equilibrio, mientras que si son complejos el comportamiento cerca del equilibrio será oscilatorio modulado por una exponencial decreciente.
 
 Se destaca que la estabilidad del punto solo depende de las constantes de interacción sináptica mientras que los valores de $\vec{h}^*$ dependen de estas constantes y de las corrientes $I_e$ e $I_i$.
+
+%Sean $\lambda_1$ y $\lambda_2$ los autovalores de $\boldsymbol{J}$ sabemos que $\text{det}(\boldsymbol{J}) = \lambda_1\lambda_2$ y $\text{Tr}(\boldsymbol{J}) = \lambda_1 + \lambda_2$. Si $\lambda_1$ y $\lambda_2$ son complejos deben ser un par complejo conjugado.
+
 
 % Bibliography
 %\renewcommand*{\bibfont}{\normalsize}

@@ -1,12 +1,12 @@
 # Fdb version 4
-["bibtex build/fullrefs"] 1694533497 "build/fullrefs.aux" "build/fullrefs.bbl" "build/fullrefs" 1694533534 2
+["bibtex build/fullrefs"] 1694533497 "build/fullrefs.aux" "build/fullrefs.bbl" "build/fullrefs" 1694652120 2
   "./opticajnl.bst" 1693405617 27799 16e93c66d939458e8a057b275ba7f7e0 ""
-  "build/fullrefs.aux" 1694533533 95 61d4a311559f0eef1fa61d59f4f81fb7 "pdflatex"
+  "build/fullrefs.aux" 1694652119 95 61d4a311559f0eef1fa61d59f4f81fb7 "pdflatex"
   (generated)
   "build/fullrefs.bbl"
   "build/fullrefs.blg"
   (rewritten before read)
-["pdflatex"] 1694533531 "c:/Users/Ignacio Lembo/Documents/GitHub/Redes-Neuronales/Practica_2/TP1_IgnacioLembo_RN/main.tex" "build/main.pdf" "main" 1694533534 2
+["pdflatex"] 1694652117 "c:/Users/Ignacio Lembo/Documents/GitHub/Redes-Neuronales/Practica_2/TP1_IgnacioLembo_RN/main.tex" "build/main.pdf" "main" 1694652120 2
   "C:/Users/Ignacio Lembo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1693509053 363868 2a1d234a8d75cf8097d2c5771b188d98 ""
   "C:/Users/Ignacio Lembo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1691447391 23172417 cd8cf84e5031279826843bdd687bb378 ""
   "C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -196,16 +196,16 @@
   "Figuras/V_vs_t_1_0.pdf" 1694532426 25032 4de2ab1f3d2cc28ea85a60d929ae8054 ""
   "Figuras/desfasaje_vs_gsyn.pdf" 1694468780 19786 ca4dc71dea1d68340160385872423486 ""
   "Figuras/frecuencia_vs_gsyn.pdf" 1694468779 19632 b9b815ad76703855a1deebaefef3b989 ""
-  "build/fullrefs.aux" 1694533533 95 61d4a311559f0eef1fa61d59f4f81fb7 "pdflatex"
-  "build/fullrefs.bbl" 1694533497 86 279e1be0f89e97053c2d51ae1a839f84 "bibtex build/fullrefs"
-  "build/main.aux" 1694533533 6222 f6a37871e474a414750f39a81ea49bd8 "pdflatex"
-  "build/main.out" 1694533533 961 6166df3d43693a0fb2ce4e32859a56b3 "pdflatex"
-  "c:/Users/Ignacio Lembo/Documents/GitHub/Redes-Neuronales/Practica_2/TP1_IgnacioLembo_RN/main.tex" 1694533531 21142 d68592f0c375587499073acfe26948b3 ""
+  "build/fullrefs.aux" 1694652119 95 61d4a311559f0eef1fa61d59f4f81fb7 "pdflatex"
+  "build/fullrefs.bbl" 0 -1 0 "bibtex build/fullrefs"
+  "build/main.aux" 1694652119 6302 946a84bb319c3688ec1d4b0810a04fc4 "pdflatex"
+  "build/main.out" 1694652119 961 6166df3d43693a0fb2ce4e32859a56b3 "pdflatex"
+  "c:/Users/Ignacio Lembo/Documents/GitHub/Redes-Neuronales/Practica_2/TP1_IgnacioLembo_RN/main.tex" 1694652116 22442 982baeb3c44d16216785f2533c9f0abd ""
   "jabbrv-ltwa-all.ldf" 1693405617 68876 ed126cdbca28ab86c2c0668453444e21 ""
   "jabbrv-ltwa-en.ldf" 1693405617 458692 02d8266b24704fe4f5f2f6e7c1b87e55 ""
   "jabbrv.sty" 1693405617 19083 8ad38f742f44e820c6ecf9365b058cb9 ""
   "legacy-styles/pr.sty" 1694530316 562 f9cb251bcd3e0f415452451b92bd3326 ""
-  "main.tex" 1694533531 21142 d68592f0c375587499073acfe26948b3 ""
+  "main.tex" 1694652116 22442 982baeb3c44d16216785f2533c9f0abd ""
   "opticajnl.cls" 1694492676 12385 8640914dae2d135aa91c10fbcb935c32 ""
   (generated)
   "build/fullrefs.aux"
