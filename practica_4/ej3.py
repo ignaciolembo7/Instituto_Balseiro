@@ -39,33 +39,27 @@ for ntrain in ntrains:
     x_train=np.zeros(ntrain, dtype=np.float32)
     y_train=np.zeros(ntrain, dtype=np.float32)
     x_train, y_train = logistic_map(ntrain)
-
+        
     x_test = np.zeros(ntest, dtype=np.float32)
     y_test = np.zeros(ntest, dtype=np.float32)
     x_test, y_test = logistic_map(ntest)
 
-    # accuracy compatible with tensorflow v1
-    from tensorflow.python.keras import backend as K
-    def v1_accuracy(y_true, y_pred):
-        return K.mean(K.equal(y_true, K.round(y_pred)), axis=-1)
-    
     # Model 
     
     opti=tf.keras.optimizers.legacy.Adam(learning_rate=learning_rate, decay=0.0)
     model = tf.keras.Model(inputs=inputs, outputs=output)
-    model.compile(optimizer=opti,
-                loss='MSE',metrics=[v1_accuracy])
+    model.compile(optimizer=opti,loss='MSE')
     print("Entrenamiento con " + str(ntrain) + " ejemplos.")
     history=model.fit(x=x_train, y=y_train,
                     epochs=epochs,
-                    batch_size=4,
+                    #batch_size=4,
                     shuffle=False,
                     validation_data=(x_test, y_test), 
-                    verbose=False)
+                    verbose=True)
     
     prediction = model.predict(x_test, verbose=True)
     
-    tf.keras.utils.plot_model(model, to_file='../Redes-Neuronales/Practica_4/resultados/logmap.png', show_shapes=False, show_layer_names=True, rankdir='TB')
+    tf.keras.utils.plot_model(model, to_file='../Redes-Neuronales/Practica_4/resultados/ej3/logmap.png', show_shapes=False, show_layer_names=True, rankdir='TB')
     print(model.summary())
 
     #####################################################################
@@ -89,7 +83,7 @@ for ntrain in ntrains:
     # "Loss"
     ax1.semilogy(np.sqrt(history.history['loss']),'-', color = colors[c],  label = "Entrenamiento - " + str(ntrain) + " ejemplos")
     ax1.semilogy(np.sqrt(history.history['val_loss']), '--', color = colors[c], label = "Validación - " + str(ntrain) + " ejemplos")
-    ax1.semilogy(history.history['v1_accuracy'], '-.', color = colors[c], label = "v1_accuracy - " + str(ntrain) + " ejemplos")
+    #ax1.semilogy(history.history['v1_accuracy'], '-.', color = colors[c], label = "v1_accuracy - " + str(ntrain) + " ejemplos")
     #ax1.set_title('model loss')
     ax1.set_xlabel(r"Época", fontsize=18)
     ax1.set_ylabel(r"MSE", fontsize=18)

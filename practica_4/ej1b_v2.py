@@ -24,9 +24,9 @@ y_train = np.array([[-1], [1], [1], [-1]])  # Salidas
 
 #Arquitectura de la red
 input_size = 2
-hidden_size = 2
+hidden_size = 1
 output_size = 1
-learning_rate = 0.1
+learning_rate = 0.01
 num_epochs = 10000
 epochs = [i for i in range(0, num_epochs)]
 num_exps = 10
@@ -42,7 +42,7 @@ for n in range(num_exps):
 
     # Pesos iniciales aleatorios
     w = np.random.uniform(size=(hidden_size, input_size)) #filas #columnas
-    W = np.random.uniform(size=(output_size, hidden_size))
+    W = np.random.uniform(size=(output_size, hidden_size + input_size))
     b1 = np.random.uniform(size=(1,hidden_size)).reshape(-1, 1) 
     b2 = np.random.uniform(size=(1,output_size)).reshape(-1, 1) 
 
@@ -57,7 +57,8 @@ for n in range(num_exps):
             # Forward propagation
             h1 = np.dot(w, x) + b1 #input de la capa oculta
             V = act(h1) #output de la capa oculta
-            h2 = np.dot(W, V) + b2 #input de la capa de salida
+            concatenate = np.vstack((V, x)) 
+            h2 = np.dot(W,concatenate) + b2 #input de la capa de salida
             O = act(h2) #output de la capa de salida
 
             # Cálculo de la pérdida
@@ -71,10 +72,10 @@ for n in range(num_exps):
                 
             # Backpropagation
             delta2 = dact(h2)*(y-O)
-            delta1 = dact(h1)*np.dot(W.T,delta2)
+            delta1 = dact(h1)*np.dot(W[:, :hidden_size].T,delta2)
 
             # Actualización de pesos
-            W += learning_rate*np.dot(delta2, V.T) 
+            W += learning_rate*np.dot(delta2, concatenate.T) 
             b2 += learning_rate*delta2*(1) 
             w += learning_rate*np.dot(delta1, x.T) 
             b1 += learning_rate*delta1*(1) 
@@ -98,8 +99,8 @@ for n in range(num_exps):
     ax1.tick_params(axis='y', labelsize=18, color='black')
     #ax1.set_xlim(0, 10000)
     ax1.grid(True, linewidth=0.5, linestyle='-', alpha=0.9)
-    fig1.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej1a/mse_1a.pdf")
-    fig1.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej1a/mse_1a.png", dpi=600)
+    fig1.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej1b/mse_1b.pdf")
+    fig1.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej1b/mse_1b.png", dpi=600)
 
     ax2.plot(epochs, accs, "-")
     ax2.set_xlabel(r"Época", fontsize=18)
@@ -109,5 +110,5 @@ for n in range(num_exps):
     ax2.tick_params(axis='y', labelsize=18, color='black')
     #ax2.set_xlim(0, 10000)
     ax2.grid(True, linewidth=0.5, linestyle='-', alpha=0.9)
-    fig2.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej1a/acc_1a.pdf")
-    fig2.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej1a/acc_1a.png", dpi=600)
+    fig2.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej1b/acc_1b.pdf")
+    fig2.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej1b/acc_1b.png", dpi=600)
