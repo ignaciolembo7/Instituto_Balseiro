@@ -48,7 +48,7 @@ for ntrain in ntrains:
     
     opti=tf.keras.optimizers.legacy.Adam(learning_rate=learning_rate, decay=0.0)
     model = tf.keras.Model(inputs=inputs, outputs=output)
-    model.compile(optimizer=opti,loss='MSE')
+    model.compile(optimizer=opti, loss='MSE')
     print("Entrenamiento con " + str(ntrain) + " ejemplos.")
     history=model.fit(x=x_train, y=y_train,
                     epochs=epochs,
@@ -86,15 +86,15 @@ for ntrain in ntrains:
     #ax1.semilogy(history.history['v1_accuracy'], '-.', color = colors[c], label = "v1_accuracy - " + str(ntrain) + " ejemplos")
     #ax1.set_title('model loss')
     ax1.set_xlabel(r"Época", fontsize=18)
-    ax1.set_ylabel(r"MSE", fontsize=18)
+    ax1.set_ylabel(r"Error cuadrático medio", fontsize=18)
     ax1.legend(fontsize=12, framealpha=1)
     ax1.tick_params(direction='in', top=True, right=True, left=True, bottom=True)
     ax1.tick_params(axis='x',rotation=0, labelsize=18, color='black')
     ax1.tick_params(axis='y', labelsize=18, color='black')
     #ax1.set_xlim(-100, epochs)
     ax1.grid(True, linewidth=0.5, linestyle='-', alpha=0.9)
-    fig1.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej3/ej3_loss.pdf")
-    fig1.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej3/ej3_loss.png", dpi=600)
+    fig1.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej3/mse_ej3.pdf")
+    fig1.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej3/mse_ej3.png", dpi=600)
 
     #Ploteo del mapeo logistico
     fig2, ax2 = plt.subplots(figsize=(8,6)) 
@@ -108,10 +108,14 @@ for ntrain in ntrains:
     ax2.tick_params(axis='x',rotation=0, labelsize=18, color='black')
     ax2.tick_params(axis='y', labelsize=18, color='black')
     #ax2.set_xlim(0, 1)
+    if(ntrain == 5):
+        ax2.text(0.05, 0.95, r'A' , transform=ax2.transAxes, fontsize=24, verticalalignment='top', fontweight='bold', color="black")
+    if(ntrain == 10):
+        ax2.text(0.05, 0.95, r'B' , transform=ax2.transAxes, fontsize=24, verticalalignment='top', fontweight='bold', color="black")
+    if(ntrain == 100):
+        ax2.text(0.05, 0.95, r'C' , transform=ax2.transAxes, fontsize=24, verticalalignment='top', fontweight='bold', color="black")
     ax2.grid(True, linewidth=0.5, linestyle='-', alpha=0.9)
-    fig2.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej3/ej3_logmap_" + str(ntrain) + "_tests.pdf")
-    fig2.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej3/ej3_logmap_" + str(ntrain) + "_tests.png", dpi=600)
+    fig2.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej3/logmap_" + str(ntrain) + "_tests_ej3.pdf")
+    fig2.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej3/logmap_" + str(ntrain) + "_tests_ej3.png", dpi=600)
 
     c += 1
-
-    #plt.show()

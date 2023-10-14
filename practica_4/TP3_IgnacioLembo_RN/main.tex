@@ -25,19 +25,18 @@
 \renewcommand\lstlistingname{Código}
 \renewcommand\lstlistlistingname{Códigos}
 \title{
-
-\vspace{0.5cm} 
+\vspace{0.1cm} 
 
 Trabajo práctico 3: Aprendizaje supervisado en redes multicapa}
 
 \author[1]{\huge{Ignacio Lembo Ferrari}}
 \affil[1]{\large{ignaciolembo@ib.edu.ar} 
 
-\vspace{0.3cm}
+\vspace{0.1cm}
 
-\large{14 de octubre de 2023.}
+{\datesfont 14 de octubre de 2023.}
 
-\vspace{0.5cm}
+\vspace{0.1cm}
 }
 
 %\begin{abstract}
@@ -48,113 +47,161 @@ Trabajo práctico 3: Aprendizaje supervisado en redes multicapa}
 
 \maketitle
 
-En este trabajo se estudiaron los datos experimentales medidos con electrodos intracelulares por Ariel Rokem en un receptor acústico de un saltamontes. El experimento realizado consistió en someter al animal a un estímulo acústico mientras se medía la actividad neuronal en ventanas de $0.1$ ms durante un tiempo total de $1000$ ms. Se realizaron 128 realizaciones del experimento.
+El algoritmo de aprendizaje supervisado llamado retropropagación (\textit{backpropagation}) es clave en el desarrollo de las redes neuronales. Dicho algoritmo, que tiene como base el algoritmo \textit{gradient-descent}, da una prescripción para actualizar los pesos $w_{ij}$ en cualquier red \textit{feed-forward} con el objetivo de aprender un conjunto de pares entrada-salida. 
 
-Para el análisis de los datos y la obtención de los gráficos se desarrolló un programa en Python (ver apéndice \ref{codigo})
+Se puede mostrar que utilizando retropropagación se pueden entrenar redes neuronales multicapa para que \textit{aprendan} alguna función. En particular, una red neuronal con una capa oculta se puede utilizar para representar cualquier función Booleana, como por ejemplo el XOR. En este trabajo, en las secciones \ref{sec:ej1} y \ref{sec:ej2}, se implementó en Python una red neuronal con una capa oculta y se utilizó el algoritmo de \textit{backpropagation} desarrollado en el libro de Hertz, Krough y Palmer para resolver la lógica del XOR y el problema de paridad. Además, en la sección \ref{sec:ej3} se utilizó el paquete de Python llamado \texttt{tensorflow} para entrenar una red que aprenda el mapeo logístico.
 
-\section{Distribución de intervalos ISI de la neurona \label{sec:ISI}}
+Para las secciones \ref{sec:ej1} y \ref{sec:ej2} se define el error cuadrático medio (\textit{root mean square error} o MSE) como
+\begin{equation}
+    E[\boldsymbol{w}] = \frac{1}{2} \sum_{\mu,i} \left[ \zeta_i^{\mu} - O_i^{\mu} \right]^2,
+\end{equation}
+donde $\mu$ es el índice de los pares entrada-salida, $i$ es el índice de las neuronas de la capa de salida, $O_j^{\mu}$ es la salida de la red para el par entrada-salida $\mu$ y $\zeta_j^{\mu}$ es la salida deseada para el par entrada-salida $\mu$. Además, la precisión de la red se define como la fracción de pares entrada-salida que la red clasifica correctamente. Se considera correcto si la salida de la red tiene un error realitivo menor o igual al $10\%$ respecto a la salida deseada. Además, en ambas secciones se utilizó como función de activación de las neuronas de la capa oculta y de salida la función $\tanh(x)$. 
+
+
+\section{Aprendizaje lógica XOR \label{sec:ej1}}
 
 \vspace{0.3cm}
 
-En primer lugar, se muestra en la Fig. \ref{fig:señal} la envolvente de la onda sonora que se le presentaba al saltamontes en cada realización del experimento. En la Fig. \ref{fig:realizaciones} se muestra un diagrama con las 128 realizaciones del experimento en función del tiempo, indicando con un punto si se produjo un spike en un dado tiempo para una dada realización. Se observan franjas donde la cantidad de spikes disminuye y franjas donde aumenta.
+La regla XOR tiene dos entradas ($+1$ o $-1$) y la salida es $-1$ si ambos son diferentes y $1$ si son iguales. Utilizando el algoritmo de retropropagación, se resolvió este problema para las dos arquitecturas mostradas en la Fig. \ref{fig:esq_1}. Las arquitecturas de la Figs. \ref{fig:esq_1}A y \ref{fig:esq_1}B se dominarán 2-2-1 y 2-1-1 respectivamente, en base a la cantidad de neuronas de cada capa. 
 
 \begin{figure}[ht]
     \centering
-         \begin{subfigure}[b]{\linewidth}
-            \includegraphics[width=\textwidth]{Figuras/estimulo_vs_t.pdf}
+         \begin{subfigure}[b]{0.75\linewidth}
+            \includegraphics[width=\textwidth]{Figuras/esquema1.png}
          \end{subfigure}
-    \caption{Envolvente del estímulo utilizado en el saltamontes en función del tiempo} 
-    \label{fig:señal}
-\end{figure}
-\begin{figure}[ht]
-    \centering
-         \begin{subfigure}[b]{\linewidth}
-            \includegraphics[width=\textwidth]{Figuras/reailzaciones_vs_t.pdf}
-         \end{subfigure}
-    \caption{Diagrama de spikes para cada realización. Cada fila representa uno de los 128 experimentos y cada punto un spike. El tiempo total de cada experimento fue de $1000$ ms, con ventanas de $0.1$ ms.} 
-    \label{fig:realizaciones}
+    \caption{Arquitecturas implementadas para resolver la lógica del XOR. (A) Arquitectura $2-2-1$. (B) Arquitectura $2-1-1$.} 
+    \label{fig:esq_1}
 \end{figure}
 
-Se realizó un histograma de la distribución de los intervalos de tiempo
-entre disparos (inter-spike interval, ISI) para todos las realizaciones del experimento. El resultado se muestra en la Fig. \ref{fig:histISI}. Se observa que luego de un spike la neurona no vuelve a disparar durante un tiempo del orden de $5$ ms aproximadamente.
+Se utilizaron las cuatro posibles entradas del XOR para el entrenamiento de la red, se utilizó una tasa de aprendizaje de $\eta = 0.05$ y se entrenó la red durante $10000$ épocas. Se repitió el entrenamiento 10 veces para valores iniciales distintos de los pesos. Además se agregó un umbral o \textit{bias} a cada neurona de la capa oculta y de salida. Este umbral se representó como una neurona de salida $+1$ y conectada con pesos a todas las neuronas con \textit{bias}. En la Fig. \ref{fig:1} se muestran el MSE y la presición obtenidos en función de la épocas para ambas arquitecturas. 
+
+\begin{figure}[h]
+    \centering
+         \begin{subfigure}[b]{0.49\linewidth}
+            \centering
+            \includegraphics[width=1.1\textwidth]{Figuras/mse_ej1a.pdf}
+         \end{subfigure}
+         \begin{subfigure}[b]{0.49\linewidth}
+            \centering
+            \includegraphics[width=1.1\textwidth]{Figuras/mse_ej1b.pdf}
+         \end{subfigure}
+         \begin{subfigure}[b]{0.49\linewidth}
+            \centering
+            \includegraphics[width=1.1\textwidth]{Figuras/acc_ej1a.pdf}
+         \end{subfigure}
+         \begin{subfigure}[b]{0.49\linewidth}
+            \centering
+            \includegraphics[width=1.1\textwidth]{Figuras/acc_ej1b.pdf}
+         \end{subfigure}
+    \caption{(A) Error cuadratico medio arquitectura 2-2-1, (B) precisión arquitectura 2-2-1, (C) error cuadratico medio arquitectura 2-1-1 y (D) precisión arquitectura 2-1-1 en función de la época en escala logarítmica para 10 experimentos con distintos pesos iniciales.} 
+    \label{fig:1}
+\end{figure}
+
+Se definió el tiempo de convergencia para un experimento como la época a partir de la cual el MSE es menor a $0.1$ y este converge a aproximadamente 0 en las 10000 épocas. Es decir para los experimentos que no convergían no se calculó un tiempo de convergencia. Luego, para los experimentos que si convergían se calculo el tiempo de convergencia promedio obteniendo para la arquitectura 2-2-1 un tiempo de convergencia de $122.7$ épocas y para la arquitectura 2-1-1 un tiempo de convergencia de $533.33$ épocas. Además se destaca que para la primer arquitectura convergieron\footnote{El término converger se utiliza cuando el MSE, luego del entrenamiento, es aproximadamente 0} 9 de 10 experimentos y para la segunda 6 de 10.
+
+Se promediaron las curvas de presición y MSE para los 10 experimentos realizados con condiciones iniciales aleatorias para cada arquitectura con el objetivo de comparar la evolución dichos parámetros en función de las épocas. Los resultados se muestran en la Fig. \ref{fig:1prom}. 
+
+\begin{figure}[h]
+    \centering
+         \begin{subfigure}[b]{0.49\linewidth}
+            \centering
+            \includegraphics[width=1.1\textwidth]{Figuras/mseprom_ej1.pdf}
+         \end{subfigure}
+         \begin{subfigure}[b]{0.49\linewidth}
+            \centering
+            \includegraphics[width=1.1\textwidth]{Figuras/accprom_ej1.pdf}
+         \end{subfigure}
+    \caption{Arquitectura $2-1-1$. Error cuadratico medio (A) y precisión (B) en función de la época en escala logarítmica para 10 experimentos con distintos pesos iniciales.} 
+    \label{fig:1prom}
+\end{figure}
+
+Se observa que, luego de 10000 épocas, con la arquitectura 2-2-1 se obtiene una mayor precisión y menor MSE promedio. En resumen en base a estos resultados la arquitectura 2-2-1 parece ser la más adecuada para resolver el problema del XOR. No obstante, para ambas arquitecturas el resultado obtenido depende fuertemente de los valores iniciales ya que, por ejemplo, no siempre se obtuvo que la 2-2-1 resuelve 9 de cad 10 casos. También el valor de la tasa de aprendizaje $\eta$ y el número de épocas son parámetros que pueden afectar el aprendizaje de la red.
+
+
+%\newpage
+\section{Aprendizaje del problema de paridad \label{sec:ej2}}
+
+\vspace{0.3cm}
+
+El problema de paridad es una generalización del XOR para una capa de entrada con $N$ neuronas. La salida es $+1$ si el producto de las entradas es $+1$ y $-1$ si el producto de las entradas es $-1$. Mediante el algoritmo de retropropagación se resolvió el problema de paridad utilizando una capa oculpa densa con $N'$ neuronas como se muestra en el esquema de la Fig. \ref{fig:esq_2}. 
+
 \begin{figure}[H]
     \centering
-         \begin{subfigure}[H]{\linewidth}
-            \includegraphics[width=\textwidth]{Figuras/histograma_ISI.pdf}
+         \begin{subfigure}[b]{0.75\linewidth}
+            \centering
+            \includegraphics[width=0.5\textwidth]{Figuras/esquema2.png}
          \end{subfigure}
-    \caption{Histograma de los intervalos de tiempo entre disparos (ISI).} 
-    \label{fig:histISI}
+    \caption{Arquitectura de la red neuronal para el problema de paridad.} 
+    \label{fig:esq_2}
 \end{figure}
-\newpage
-Se calculó el valor medio de la distribución de valores de tiempo entre disparos $\langle \tau \rangle = 8.57$ ms y el desvío estándar $\sigma_\tau = 5.63$ ms. Se define el coeficiente de variabilidad CV como $CV = \frac{\sigma_\tau}{\langle \tau \rangle}$, en este caso se obtiene
-\begin{equation}
-    \text{CV} = 0.66.
-\end{equation}
-Se sabe que el valor de CV para un proceso de Poisson homogéneo es 1. En este caso, se obtiene un valor que difiere del mismo por lo que se puede concluir que la neurona no sigue un proceso de Poisson.
+\begin{figure}[ht]
+    \centering
+         \begin{subfigure}[b]{\linewidth}
+            \centering
+            \includegraphics[width=\textwidth]{Figuras/mse_ej2.pdf}
+         \end{subfigure}
+         \begin{subfigure}[b]{\linewidth}
+            \centering
+            \includegraphics[width=\textwidth]{Figuras/acc_ej2.pdf}
+         \end{subfigure}
+    \caption{Error cuadratico medio (A) y precisión (B) en función de la época en escala logarítmica para cada número $N' = 1,3,5,7,9,11$ de neuronas en la capa oculta.} 
+    \label{fig:2}
+\end{figure}
 
+Se realizaron entrenamientos con $N' = 1,3,5,7,9,11$ para estudiar el efecto del aumento de neuronas de la capa oculta en la respuesta de la red. Para el entrenamiento de la red se utilizaron todas las entradas posibles para $N=5$, es decir $2^{N} = 32$ combinaciones de $1$ y $-1$ sin importar el orden. Se utilizó una tasa de aprendizaje de $0.001$ y se entrenó la red durante $10000$ épocas. La evolución de del MSE y de la presición se muestran en las Figs. \ref{fig:2}A y \ref{fig:2}B respectivamente. Se observa como para $N'>N$ la red aprende el problema de paridad con una precisión de aproximadamente el $100\%$ y un MSE de aproximadamente $0$. En cambio, para $N' < N$ la red no aprende el problema de paridad ya que vemos que al disminuir $N'$ la precisión disminuye y el MSE aumenta.
 
-\section{Distribución del número de spikes}
+\section{Aprendizaje del mapeo logístico\label{sec:ej3}}
 
 \vspace{0.3cm}
 
-Se realizó el histograma de la cantidad de spikes por realización, el resultado se muestra en la Fig. \ref{fig:histN}. Se calculó el valor medio de la cantidad de spikes por realización $\langle N \rangle = 117.01$ y el desvío estándar $\sigma_N = 13.53$.
-
-Se define el factor de Fano $F$ como $F = \frac{\sigma_N^2}{\langle N \rangle}$, en este caso se obtiene
+Por último, utilizando el algoritmo de retropropagación se entreno una red con el objetivo de aprender el mapeo logístico dado por 
 \begin{equation}
-    F = 1.57.
+    x_{n+1} = 4 x_n (1- x_n)
 \end{equation}
 
-En un proceso de Poisson homogéneo el factor de Fano es 1. Como es de esperar por lo obtenido en la sección \ref{sec:ISI}, el factor de Fano difiere de 1 por lo que el experimento no coincide con un proceso de Poisson homogeneo. Además, en un proceso \textit{renewal} se cumple que $F = CV^2$. No obstante, no se verifica en este experimento ya que $CV^2 = 0.44 \neq F$.
+La arquitectura de la red consistió en una capa oculta densa compuesta de 5 neuronas y una conexión de la neurona de entrada a la de salida como se muestra en la Fig. \ref{fig:esq_3}. En este caso se utilizó como función de activación de las neuronas de la capa oculta la sigmoidea $g(x) = 1/(1 + \exp{(-x)})$ y la función linel para la neurona de salida. Las neuronas incluyen \textit{bias}.
 
 \begin{figure}[ht]
     \centering
-         \begin{subfigure}[b]{\linewidth}
-            \includegraphics[width=\textwidth]{Figuras/histograma_spikes.pdf}
+         \begin{subfigure}[b]{0.75\linewidth}
+            \centering
+            \includegraphics[width=0.5\textwidth]{Figuras/esquema3.png}
          \end{subfigure}
-    \caption{Histograma del número de spikes $N$ por realización.} 
-    \label{fig:histN}
+    \caption{Arquitectura de la red neuronal para el aprendizaje del mapeo logístico.} 
+    \label{fig:esq_3}
 \end{figure}
 
-\section{Tasa de disparo en función del tiempo}
-
-Se calculó la tasa de disparo o respuesta en función del tiempo $r(t)$. Para esto se tomaron ventanas de $20$ ms y se aplicó un suavizado por media móvil. Se realizó lo mismo para cada realización del experimento y se promedió la tasa de disparo, en cada ventana, para todas las realizaciones, obteniendo como resultado la tasa de disparo en función del tiempo. En la Fig. \ref{fig:tasadedisparo} se muestra el resultado obtenido.
-
+Se generaron dos bases de datos: Una con $N$ pares de datos $(x_n, x_{n+1})$ para entrenar la red neuronal y otra de $100$ pares para validación de la red. Se implementaron 3 casos para $N=5,10,100$ con el objetivo de estudiar los resultados obtenidos en función de la cantidad de datos de entrenamiento de la red. Se utilizó una tasa de aprendizaje de $0.01$ y se entrenó la red durante $3000$ épocas. La Fig. \ref{fig:mse_3} muestra la evolución del MSE y el error de validación para cada conjunto de ejemplos presentados. 
+ 
 \begin{figure}[ht]
     \centering
          \begin{subfigure}[b]{\linewidth}
-            \includegraphics[width=\textwidth]{Figuras/tasa_disparo.pdf}
+            \includegraphics[width=\textwidth]{Figuras/mse_ej3.pdf}
          \end{subfigure}
-    \caption{Tasa de disparo en función del tiempo calculada en ventanas de $20$ ms utilizando un suavizado por media móvil.} 
-    \label{fig:tasadedisparo}
+    \caption{Error cuadrático medio del conjunto de entrenamiento y del conjunto de validación en función de la época para $N=5,10,100$ ejemplos del conjunto de entrenamiento.} 
+    \label{fig:mse_3}
 \end{figure}
-
-\section{Filtro asociado a la neurona}
 
 \begin{figure*}[ht]
     \centering
-            \begin{subfigure}[b]{\linewidth}
-            \includegraphics[width=\textwidth]{Figuras/filtro_lineal.pdf}
-            \end{subfigure}
-    \caption{Filtro lineal $D(\tau)$ que da la mejor la mejor predicción lineal de la respuesta dependiente del tiempo $r(t)$.} 
-    \label{fig:filtrolineal}
+         \begin{subfigure}[b]{0.3\linewidth}
+            \centering
+            \includegraphics[width=\textwidth]{Figuras/logmap_5_tests_ej3.pdf}
+         \end{subfigure}
+         \begin{subfigure}[b]{0.3\linewidth}
+            \centering
+            \includegraphics[width=\textwidth]{Figuras/logmap_10_tests_ej3.pdf}
+         \end{subfigure}
+         \begin{subfigure}[b]{0.3\linewidth}
+            \centering
+            \includegraphics[width=\textwidth]{Figuras/logmap_100_tests_ej3.pdf}
+         \end{subfigure}
+    \caption{Resultados obtenidos para el aprendizaje del mapeo logístico para $N=5,10,100$ ejemplos del conjunto de entrenamiento. Se muestra el conjunto de validación ($N$ ejemplos), el conjunto de entrenamiento y la predicción de la red (100 datos).} 
+    \label{fig:logmap_3}
 \end{figure*}
+En primer lugar, para todos los casos notamos que el error de validación es siempre mayor al del de entrenamiento. Para $N = 5,10$ podemos ver que a partir de una dada época, las curvas del MSE del conjunto de entrenamiento y del conjunto de validación se separan y el MSE del entrenamiento sigue disminuyendo mientras el MSE del conjunto de validación no. Esto indica que la red encuentra un conjunto de pesos que le permite resolver los casos de entrenamiento adecuadamente pero esto no resuelve el problema del mapeo logístico de forma general. Para $N=100$ las curvas no se despegan en todo el entrenamiento y el error de entrenamiento y de validación luego del entrenamiento son un orden de magnitud menor en comparación a los casos $N = 5,10$. La Fig. \ref{fig:logmap_3} muestra la comparación entre la predicción de la red para el mapeo logístico y el conjunto de validación, para $N=5,10,100$ ejemplos del conjunto de entrenamiento. Se observa que para $N=5$ la predicción de la red no es del todo adecuada, especialmente lejos de los valores de entrenamiento ya que cerca de los mismos la predicción si buena. Para $N=10$ la predicción de la red es mejor que para $N=5$ pero al igual que antes se aleja en zonas sin valores de entrenamiento. Para $N=100$ la predicción de la red es muy buena y se superpone con el conjunto de validación. 
 
-Se calculó el filtro lineal asociado a la neurona $D(\tau)$ que da la mejor predicción lineal de la respuesta dependiente del tiempo $r(t)$. En la aproximación lineal, la respuesta se modela como una integral de solapamiento entre el filtro y el estímulo
-\begin{equation}
-r(t) = r_0 + \int_0^\infty \text{d}\tau ~ D(\tau) s (t-\tau).
-\label{ec:solapamiento}
-\end{equation}
-Despreciando el tiempo de correlación del estímulo, es decir, considerando a dicho estímulo como ruido blanco gaussiano, se puede mostrar que el filtro lineal se calcula como 
-\begin{equation}
-    D(\tau) = \frac{1}{\sigma_s^2} ~ C(\tau),
-\end{equation}
-donde $\sigma_s$ es el desvío estándar del estímulo y $C(\tau)$ es el \textit{spike-triggered average} (STA). El STA se define como
-\begin{equation}
-    C(\tau) = \frac{1}{N}\sum_{\textit{spike}}^{N} s(t_{spike} - \tau),
-\end{equation}
-donde $t_{spike}$ es el tiempo que ocurre un spike y $N$ es la cantidad de spikes en una realización. Es decir, es el valor medio del estímulo en un tiempo $\tau$ antes que se dispare el spike. Se calculó $D(\tau)$ para cada realización y luego se promedió $D(\tau)$ entre todas las realizaciones. Este resultado se observa en la Fig. \ref{fig:filtrolineal}. Se obtuvo que el máximo valor de filtro está en aproximadamente $\tau \approx 5$ ms y a valores grandes de $\tau$ se observa que el filtro es ruidoso y oscila en un entorno de 0. 
 
-Se puede ver de la curva obtenida que los valores de $\tau$ cercanos a $5$ ms son los que producen mayores valores de filtro y por lo tanto más aportan a la respuesta obtenida. De esta manera dichos valores de tiempo $\tau$ son los que más contribuyen a la integral de solapamiento (Ec. \ref{ec:solapamiento}) que modela la respuesta.
 
 % Bibliography
 %\renewcommand*{\bibfont}{\normalsize}
@@ -167,208 +214,594 @@ Se puede ver de la curva obtenida que los valores de $\tau$ cercanos a $5$ ms so
 
 \centerline{\rule{0.95\linewidth}{0.6pt}}
 
-\clearpage 
+\clearpage
 
 \begin{onecolumn} % Activa una sola columna para el apéndice
 \appendix
 \section{Apéndice \label{codigo}}
 
-\begin{lstlisting}[language=Python, caption={Implementación del método Runge-Kutta 4.}, label=python-code]
+\begin{lstlisting}[language=Python, caption={Ejercicio 1 - Arquitectura 2-2-1}, label=ej1]
 
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.stats import poisson
-from scipy.optimize import curve_fit
 
 #Ploteo 
 import seaborn as sns
 #sns.axes_style("whitegrid")
 sns.set_style("ticks")
 
-#Carga de datos
-stimulus = np.loadtxt(r"../Redes-Neuronales/Practica_3/stimulus.dat")
-tiempo = stimulus[:, 0]
-estimulo = stimulus[:, 1]
-spikes = np.loadtxt(r"../Redes-Neuronales/Practica_3/spikes.dat")
-num_experimentos, num_pasos = spikes.shape
+# Funcion de activacion
+def act(x):
+    return np.tanh(x)
+def dact(x):
+    return 1 - np.tanh(x) ** 2
+# Funcion de coste (error cuadratico medio)
+def mse_loss(y, O):
+    E = (y - O) ** 2
+    return 0.5*np.sum(E)
 
-# Ploteo para la figura 1
-fig1, ax1 = plt.subplots(figsize=(12,6))
-ax1.plot(tiempo, estimulo, "-")
-ax1.set_xlabel("Tiempo $t$ (ms)", fontsize=15)
-ax1.set_ylabel("Estimulo (dB)", fontsize=15)
-ax1.tick_params(direction='in', top=True, right=True, left=True, bottom=True)
-ax1.tick_params(axis='x',rotation=0, labelsize=18, color='black')
-ax1.tick_params(axis='y', labelsize=18, color='black')
-ax1.set_xlim(0, 1000)
-ax1.grid(True, linewidth=0.5, linestyle='-', alpha=0.9)
-# Guardar figura 1
-fig1.savefig(f"../Redes-Neuronales/Practica_3/resultados/estimulo_vs_t.pdf")
-fig1.savefig(f"../Redes-Neuronales/Practica_3/resultados/estimulo_vs_t.png",
-dpi=600)
+# Datos de entrada y salida para XOR
+x_train = np.array([[-1, -1], [-1, 1], [1, -1], [1, 1]])  # Entradas
+y_train = np.array([[-1], [1], [1], [-1]])  # Salidas
 
-x, y = np.meshgrid(np.arange(num_pasos)*0.1, np.arange(num_experimentos))
-# Crear una mascara para valores iguales a 1
-mascara = spikes == 1
+#Arquitectura de la red
+input_size = 2
+hidden_size = 2
+output_size = 1
+learning_rate = 0.05
+num_epochs = 10000
+epochs = [i for i in range(0, num_epochs)]
+num_exps = 10
+num_test = len(x_train)
 
-# Ploteo para la figura 2
-fig2, ax2 = plt.subplots(figsize=(12,6)) 
-ax2.scatter(x[mascara], y[mascara], marker='|', s=50)
-ax2.set_xlabel("Tiempo $t$ (ms)", fontsize=15)
-ax2.set_ylabel("Realizacion", fontsize=15)
-ax2.tick_params(direction='in', top=True, right=True, left=True, bottom=True)
-ax2.tick_params(axis='x',rotation=0, labelsize=18, color='black')
-ax2.tick_params(axis='y', labelsize=18, color='black')
-ax2.set_xlim(0, 1000)
-ax2.set_ylim(0, num_experimentos)
-ax2.grid(True, linewidth=0.5, linestyle='-', alpha=0.9)
-# Guardar figura 2
-fig2.savefig(f"../Redes-Neuronales/Practica_3/resultados/reailzaciones_vs_t.pdf")
-fig2.savefig(f"../Redes-Neuronales/Practica_3/resultados/realizaciones_vs_t.
-png", dpi=600)
-
-#Ejercicio 1
-
-diffs = []
-
-for i in range(num_experimentos):
-    diff = np.diff(np.where(spikes[i, :] == 1)[0]) * 0.1
-    diffs.extend(diff)
-
-# Ploteo para la figura 3
+fig1, ax1 = plt.subplots(figsize=(8,6)) 
+fig2, ax2 = plt.subplots(figsize=(8,6)) 
 fig3, ax3 = plt.subplots(figsize=(8,6)) 
-ax3.hist(diffs, bins=75, density=True, edgecolor='black')
-ax3.set_xlabel("ISI (ms)", fontsize=15)
-ax3.set_ylabel(r"P(ISI)", fontsize=15)
-ax3.tick_params(direction='in', top=True, right=True, left=True, bottom=True)
-ax3.tick_params(axis='x',rotation=0, labelsize=18, color='black')
-ax3.tick_params(axis='y', labelsize=18, color='black')
-ax3.grid(True, linewidth=0.5, linestyle='-', alpha=0.9, zorder=0)
-ax3.set_zorder(1)
-# Guardar figura 3
-fig3.savefig(f"../Redes-Neuronales/Practica_3/resultados/histograma_ISI.pdf")
-fig3.savefig(f"../Redes-Neuronales/Practica_3/resultados/histograma_ISI.png",
-dpi=600)
-
-mean = np.mean(diffs)
-print(f'Promedio: {mean:.2f} ms')
-std_deviation = np.std(diffs)
-print(f'Desviacion estandar: {std_deviation:.2f} ms')
-CV = std_deviation/mean 
-print(f'CV: {CV:.2f}')
-
-#Ejercicio 2
-
-spikes_exp = np.zeros(num_experimentos)
-for i in range(num_experimentos):
-    spikes_exp[i] = np.sum(spikes[i, :] == 1)
-
 fig4, ax4 = plt.subplots(figsize=(8,6)) 
-ax4.hist(spikes_exp, bins=12, density=True, edgecolor='black', alpha=0.7)
-ax4.set_xlabel("Numero de spikes por realizacion $N$", fontsize=15)
-ax4.set_ylabel(r"P($N$)", fontsize=15)
-ax4.tick_params(direction='in', top=True, right=True, left=True, bottom=True)
-ax4.tick_params(axis='x',rotation=0, labelsize=18, color='black')
-ax4.tick_params(axis='y', labelsize=18, color='black')
-ax4.grid(True, linewidth=0.5, linestyle='-', alpha=0.9, zorder = 0)
-ax4.set_zorder(1)
-# Guardar figura 4
-fig4.savefig(f"../Redes-Neuronales/Practica_3/resultados/histograma_spikes.pdf")
-fig4.savefig(f"../Redes-Neuronales/Practica_3/resultados/histograma_spikes.png",
-dpi=600)
 
-# Calcular el promedio y la desviacion estandar de la cantidad de spikes 
-por experimento
-promedio_spikes = np.mean(spikes_exp)
-desviacion_estandar_spikes = np.std(spikes_exp)
-print(f'Promedio de spikes por experimento: {promedio_spikes:.2f}')
-print(f'Desviacion Estandar de spikes por experimento:
-{desviacion_estandar_spikes:.2f}')
-F = (desviacion_estandar_spikes**2)/promedio_spikes
-print(f'Factor de Fano: {F:.2f}')
+loss_prom = np.zeros(num_epochs)
+accs_prom = np.zeros(num_epochs)
+epochs_prom = []
+epoch_aux = 0
 
-#Ejercicio 3
-w = 200
-tasa_de_disparo = np.zeros(len(tiempo))
+for n in range(num_exps):
+    print("Experimento numero: ", n)
+    loss = np.zeros(num_epochs)
+    accs = np.zeros(num_epochs)
 
-for t in range(len(tiempo)-w):
-    inicio = t  
-    fin = inicio + w
-    tasas_de_disparo_en_ventana = np.zeros(num_experimentos)
+    # Pesos iniciales aleatorios
+    w = np.random.uniform(-1,1,size=(hidden_size, input_size))   #filas #columnas
+    W = np.random.uniform(-1,1,size=(output_size, hidden_size)) 
+    b1 = np.random.uniform(-1,1,size=(1,hidden_size)).reshape(-1, 1)
+    b2 = np.random.uniform(-1,1,size=(1,output_size)).reshape(-1, 1) 
 
-    for i in range(num_experimentos):
-        tasas_de_disparo_en_ventana[i] = (np.sum(spikes[i, inicio:fin] == 1)/w)
-        *10000
+    for epoch in epochs:
+        #print("epoch",epoch)
+        acc = 0  
+        for u in range(num_test):
+
+            x = x_train[u].reshape(-1, 1)
+            y = y_train[u].reshape(-1, 1)
+
+            # Forward propagation
+            h1 = np.dot(w, x) + b1 #input de la capa oculta
+            V = act(h1) #output de la capa oculta
+            h2 = np.dot(W, V) + b2 #input de la capa de salida
+            O = act(h2) #output de la capa de salida
+
+            # Calculo de la perdida
+            loss[epoch] += mse_loss(y, O)
+            loss_prom[epoch] += mse_loss(y, O)
+
+            #Calculo de la precision 
     
-    tasa_de_disparo[t] = np.mean(tasas_de_disparo_en_ventana)
-            
-# Ploteo para la figura 5
-fig5, ax5 = plt.subplots(figsize=(8,6)) 
-ax5.plot(tiempo, tasa_de_disparo, "-")
-ax5.set_xlabel(r"Tiempo $t$ (ms)", fontsize=15)
-ax5.set_ylabel(r"Tasa de disparo $r(t)$ (Hz)", fontsize=15)
-ax5.tick_params(direction='in', top=True, right=True, left=True, bottom=True)
-ax5.tick_params(axis='x',rotation=0, labelsize=18, color='black')
-ax5.tick_params(axis='y', labelsize=18, color='black')
-ax5.set_xlim(0, 980)
-ax5.grid(True, linewidth=0.5, linestyle='-', alpha=0.9)
-# Guardar figura 5
-fig5.savefig(f"../Redes-Neuronales/Practica_3/resultados/tasa_disparo.pdf")
-fig5.savefig(f"../Redes-Neuronales/Practica_3/resultados/tasa_disparo.png",
-dpi=600)
+            if(abs(O - y) < 0.1*abs(y)):
+                acc += 1
 
-# Ploteo para la figura 6
-fig6, ax6 = plt.subplots(figsize=(8,6)) 
-ax6.hist(tasa_de_disparo, bins=30, density=True, edgecolor='black', alpha=0.7)
-ax6.set_xlabel("Tasa de disparo", fontsize=15)
-ax6.set_ylabel(r"P($r$)", fontsize=15)
-ax6.tick_params(direction='in', top=True, right=True, left=True, bottom=True)
-ax6.tick_params(axis='x',rotation=0, labelsize=18, color='black')
-ax6.tick_params(axis='y', labelsize=18, color='black')
-ax6.grid(True, linewidth=0.5, linestyle='-', alpha=0.9, zorder = 0)
-ax6.set_zorder(1)
-# Guardar figura 6
-fig6.savefig(f"../Redes-Neuronales/Practica_3/resultados/histograma_tasa_disparo.
-pdf")
-fig6.savefig(f"../Redes-Neuronales/Practica_3/resultados/histograma_tasa_disparo
-.png",dpi=600)
+            # Backpropagation
+            delta2 = dact(h2)*(y-O)
+            delta1 = dact(h1)*np.dot(W.T,delta2)
 
-tau_range = np.arange(0, 10002, 1) 
-C = np.zeros(len(tau_range))   
+            # Actualizacion de pesos
+            W += learning_rate*np.dot(delta2, V.T) 
+            b2 += learning_rate*delta2*(1) 
+            w += learning_rate*np.dot(delta1, x.T) 
+            b1 += learning_rate*delta1*(1) 
 
-for i in range(num_experimentos):
-    #print(i)
-    spikes_indices = np.where(spikes[i, :] == 1)[0]
-    for tau in tau_range:
-        C_exp = 0
-        for spike_index in spikes_indices:
-            t_i = spike_index
-            if t_i > tau:
-                s = stimulus[t_i - tau][1]
-                C_exp += s
-        C[tau] += C_exp/(len(spikes_indices))
+            #if (epoch == num_epochs-1):
+                #print("Output ", O)
+                #print("W ", W)
+                #print("w ", w)
+        
+        accs[epoch] += acc/num_test
+        accs_prom[epoch] += acc/num_test
 
-var = np.var(estimulo)
+        #if epoch % 500 == 0:
+        #    print(f'Epoch {epoch}: Loss = {loss[epoch]}')
 
-C = C/num_experimentos
-D = C/var
+    found_epoch = False
+    for epoch in range(num_epochs-1, -1, -1):
+        if (loss[epoch] > 0.1 and not found_epoch):
+            epoch_aux = epoch
+            found_epoch = True
+        if found_epoch:
+            break
+    if(loss[-1] < 0.1):
+        epochs_prom.append(epoch_aux)
 
-# Ploteo para la figura 7
-fig7, ax7 = plt.subplots(figsize=(12,6)) 
-ax7.plot(tau_range*0.1, D, "-")
-ax7.set_xlabel(r"$\tau$ (ms)", fontsize=15)
-ax7.set_ylabel(r"Filtro lineal $D(\tau)$ (Hz dB$^-1$ ms$^-1$)", fontsize=15)
-ax7.tick_params(direction='in', top=True, right=True, left=True, bottom=True)
-ax7.tick_params(axis='x',rotation=0, labelsize=18, color='black')
-ax7.tick_params(axis='y', labelsize=18, color='black')
-ax7.set_xlim(-25, 1000)
-ax7.grid(True, linewidth=0.5, linestyle='-', alpha=0.9)
-# Ploteo para la figura 7
-fig7.savefig(f"../Redes-Neuronales/Practica_3/resultados/filtro_lineal.pdf")
-fig7.savefig(f"../Redes-Neuronales/Practica_3/resultados/filtro_lineal.png", 
-dpi=600)
+    print("Entrenamiento " + str(n) + " completado.")
+
+    ax1.semilogx(epochs, loss, "-")
+    ax1.set_xlabel(r"Epoca", fontsize=18)
+    ax1.set_ylabel(r"Error cuadratico medio", fontsize=18)
+    ax1.tick_params(direction='in', top=True, right=True, left=True, bottom=True)
+    ax1.tick_params(axis='x', rotation=0, labelsize=18, color='black')
+    ax1.tick_params(axis='y', labelsize=18, color='black')
+    #ax1.set_xlim(0, 10000)
+    ax1.text(0.05, 0.95, r'A' , transform=ax1.transAxes, fontsize=24,
+     verticalalignment='top', fontweight='bold', color="black")
+    ax1.grid(True, linewidth=0.5, linestyle='-', alpha=0.9)
+    fig1.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej1a/mse_ej1a.pdf")
+    fig1.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej1a/mse_ej1a.png",
+     dpi=600)
+    ax2.semilogx(epochs, accs, "-")
+    ax2.set_xlabel(r"Epoca", fontsize=18)
+    ax2.set_ylabel(r"Precision", fontsize=18)
+    ax2.tick_params(direction='in', top=True, right=True, left=True, bottom=True)
+    ax2.tick_params(axis='x', rotation=0, labelsize=18, color='black')
+    ax2.tick_params(axis='y', labelsize=18, color='black')
+    #ax2.set_xlim(0, 10000)
+    ax2.text(0.05, 0.95, r'B' , transform=ax2.transAxes, fontsize=24, 
+    verticalalignment='top', fontweight='bold', color="black")
+    ax2.grid(True, linewidth=0.5, linestyle='-', alpha=0.9)
+    fig2.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej1a/acc_ej1a.pdf")
+    fig2.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej1a/acc_ej1a.png",
+     dpi=600)
+
+print(epochs_prom)
+print("Epoca de convergencia", np.mean(epochs_prom))
+
+loss_prom = loss_prom/num_exps
+accs_prom = accs_prom/num_exps
+
+if len(epochs) == len(loss_prom) == len(accs_prom):
+    # Combina los arrays en una sola matriz
+    data = np.column_stack((epochs, loss_prom, accs_prom))
+
+    # Especifica el nombre de archivo en el que deseas guardar los datos
+    file_name = "../Redes-Neuronales/Practica_4/resultados/ej1a/prom_ej1a.txt"
+
+    # Guarda los datos en el archivo de texto
+    np.savetxt(file_name, data, fmt="%d %.6f %.6f")
+\end{lstlisting}
+\begin{lstlisting}[language=Python, caption={Ejercicio 1 - Arquitectura 2-1-1}, label=ej1b]
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+#Ploteo 
+import seaborn as sns
+#sns.axes_style("whitegrid")
+sns.set_style("ticks")
+
+# Funcion de activacion
+def act(x):
+    return np.tanh(x)
+def dact(x):
+    return 1 - np.tanh(x) ** 2
+# Funcion de coste (error cuadratico medio)
+def mse_loss(y, O):
+    E = (y - O) ** 2
+    return 0.5*np.sum(E)
+
+# Datos de entrada y salida para XOR
+x_train = np.array([[-1, -1], [-1, 1], [1, -1], [1, 1]])  # Entradas
+y_train = np.array([[-1], [1], [1], [-1]])  # Salidas
+
+#Arquitectura de la red
+input_size = 2
+hidden_size = 1
+output_size = 1
+learning_rate = 0.05
+num_epochs = 10000
+epochs = [i for i in range(0, num_epochs)]
+num_exps = 10
+num_test = len(x_train)
+
+fig1, ax1 = plt.subplots(figsize=(8,6)) 
+fig2, ax2 = plt.subplots(figsize=(8,6)) 
+fig3, ax3 = plt.subplots(figsize=(8,6)) 
+fig4, ax4 = plt.subplots(figsize=(8,6)) 
+
+loss_prom = np.zeros(num_epochs)
+accs_prom = np.zeros(num_epochs)
+epochs_prom = []
+epoch_aux = 0
+
+for n in range(num_exps):
+    print("Experimento numero: ", n)
+    loss = np.zeros(num_epochs)
+    accs = np.zeros(num_epochs)
+
+    # Pesos iniciales aleatorios
+    w = np.random.uniform(-1,1,size=(hidden_size, input_size)) #filas #columnas
+    W = np.random.uniform(-1,1,size=(output_size, hidden_size + input_size))
+    b1 = np.random.uniform(-1,1,size=(1,hidden_size)).reshape(-1, 1) 
+    b2 = np.random.uniform(-1,1,size=(1,output_size)).reshape(-1, 1) 
+
+    for epoch in epochs:
+        #print("epoch",epoch)
+        acc = 0  
+        for u in range(num_test):
+
+            x = x_train[u].reshape(-1, 1)
+            y = y_train[u].reshape(-1, 1)
+
+            # Forward propagation
+            h1 = np.dot(w, x) + b1 #input de la capa oculta
+            V = act(h1) #output de la capa oculta
+            concatenate = np.vstack((V, x)) 
+            h2 = np.dot(W,concatenate) + b2 #input de la capa de salida
+            O = act(h2) #output de la capa de salida
+
+            # Calculo de la perdida
+            loss[epoch] += mse_loss(y, O)
+            loss_prom[epoch] += mse_loss(y, O)
+
+            #Calculo de la precision 
+    
+            if(abs(O - y) < 0.1*abs(y)):
+                acc += 1
+
+            # Backpropagation
+            delta2 = dact(h2)*(y-O)
+            delta1 = dact(h1)*np.dot(W[:, :hidden_size].T,delta2)
+
+            # Actualizacion de pesos
+            W += learning_rate*np.dot(delta2, concatenate.T) 
+            b2 += learning_rate*delta2*(1) 
+            w += learning_rate*np.dot(delta1, x.T) 
+            b1 += learning_rate*delta1*(1) 
+
+            #if epoch == num_epochs-1:
+                #print("Output ", O)
+                #print("W ", W)
+                #print("w ", w)
+    
+        accs[epoch] += acc/num_test
+        accs_prom[epoch] += acc/num_test
+
+        #if epoch % 500 == 0:
+        #    print(f'Epoch {epoch}: Loss = {loss[epoch]}')
+    
+    found_epoch = False
+    for epoch in range(num_epochs-1, -1, -1):
+        if (loss[epoch] > 0.1 and not found_epoch):
+            epoch_aux = epoch
+            found_epoch = True
+        if found_epoch:
+            break
+    if(loss[-1] < 0.1):
+        epochs_prom.append(epoch_aux)
+    
+    print("Entrenamiento " + str(n) + " completado.")
+
+    ax1.semilogx(epochs, loss, "-")
+    ax1.set_xlabel(r"Epoca", fontsize=18)
+    ax1.set_ylabel(r"Error cuadratico medio", fontsize=18)
+    ax1.tick_params(direction='in', top=True, right=True, left=True, bottom=True)
+    ax1.tick_params(axis='x', rotation=0, labelsize=18, color='black')
+    ax1.tick_params(axis='y', labelsize=18, color='black')
+    #ax1.set_xlim(0, 10000)
+    ax1.text(0.05, 0.95, r'C' , transform=ax1.transAxes, fontsize=24,
+     verticalalignment='top', fontweight='bold', color="black")
+    ax1.grid(True, linewidth=0.5, linestyle='-', alpha=0.9)
+    fig1.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej1b/mse_ej1b.pdf")
+    fig1.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej1b/mse_ej1b.png",
+     dpi=600)
+
+    ax2.semilogx(epochs, accs, "-")
+    ax2.set_xlabel(r"Epoca", fontsize=18)
+    ax2.set_ylabel(r"Precision", fontsize=18)
+    ax2.tick_params(direction='in', top=True, right=True, left=True, bottom=True)
+    ax2.tick_params(axis='x', rotation=0, labelsize=18, color='black')
+    ax2.tick_params(axis='y', labelsize=18, color='black')
+    #ax2.set_xlim(0, 10000)
+    ax2.text(0.05, 0.95, r'D' , transform=ax2.transAxes, fontsize=24, 
+    verticalalignment='top', fontweight='bold', color="black")
+    ax2.grid(True, linewidth=0.5, linestyle='-', alpha=0.9)
+    fig2.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej1b/acc_ej1b.pdf")
+    fig2.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej1b/acc_ej1b.png", 
+    dpi=600)
+
+loss_prom = loss_prom/num_exps
+accs_prom = accs_prom/num_exps
+
+print(epochs_prom)
+print("Epoca de convergencia", np.mean(epochs_prom))
+
+if len(epochs) == len(loss_prom) == len(accs_prom):
+    # Combina los arrays en una sola matriz
+    data = np.column_stack((epochs, loss_prom, accs_prom))
+
+    # Especifica el nombre de archivo en el que deseas guardar los datos
+    file_name = "../Redes-Neuronales/Practica_4/resultados/ej1b/prom_ej1b.txt"
+
+    # Guarda los datos en el archivo de texto
+    np.savetxt(file_name, data, fmt="%d %.6f %.6f")
+
 
 \end{lstlisting}
+
+\begin{lstlisting}[language=Python, caption={Ejercicio 2}, label=ej2]
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+#Ploteo 
+import seaborn as sns
+#sns.axes_style("whitegrid")
+sns.set_style("ticks")
+
+# Funcion de activacion
+def act(x):
+    return np.tanh(x)
+def dact(x):
+    return 1 - np.tanh(x) ** 2
+# Funcion de coste (error cuadratico medio)
+def mse_loss(y, O):
+    E = (y - O) ** 2
+    return 0.5*np.sum(E)
+
+# Datos de entrada y salida para XOR generalizado 
+import itertools
+def generate_input(length):
+    # Genera todas las combinaciones posibles de 1 y -1 con la longitud deseada
+    combinations = list(itertools.product([1, -1], repeat=length))
+    x = np.array(combinations)
+    y = np.prod(x, axis=1)
+    return x, y
+N = 5
+x_train, y_train = generate_input(N)
+
+#Arquitectura de la red
+input_size = N
+hidden_sizes = [1,3,5,7,9,11]
+output_size = 1
+learning_rate = 0.001
+num_epochs = 10000
+epochs = [i for i in range(0, num_epochs)]
+num_exps = 10
+num_test = len(x_train)
+
+fig1, ax1 = plt.subplots(figsize=(8,6)) 
+fig2, ax2 = plt.subplots(figsize=(8,6)) 
+n=1
+for hidden_size in hidden_sizes:
+    print("Experimento numero: ", n)
+    loss = np.zeros(num_epochs)
+    accs = np.zeros(num_epochs)
+
+    # Pesos iniciales aleatorios
+    w = np.random.uniform(-1,1,size=(hidden_size, input_size)) #filas #columnas
+    W = np.random.uniform(-1,1,size=(output_size, hidden_size)) 
+    b1 = np.random.uniform(-1,1,size=(1,hidden_size)).reshape(-1, 1) 
+    b2 = np.random.uniform(-1,1,size=(1,output_size)).reshape(-1, 1)
+
+    for epoch in epochs:
+        #print("epoch",epoch)
+        acc = 0  
+        for u in range(num_test):
+
+            x = x_train[u].reshape(-1, 1)
+            y = y_train[u].reshape(-1, 1)
+
+            # Forward propagation
+            h1 = np.dot(w, x) + b1 #input de la capa oculta
+            V = act(h1) #output de la capa oculta
+            h2 = np.dot(W, V) + b2 #input de la capa de salida
+            O = act(h2) #output de la capa de salida
+
+            # Calculo de la perdida
+            loss[epoch] += mse_loss(y, O)
+        
+            #Calculo de la precision 
+    
+            if(abs(O - y) < 0.1*abs(y)):
+                acc += 1
+            accs[epoch] = acc/num_test
+                
+            # Backpropagation
+            delta2 = dact(h2)*(y-O)
+            delta1 = dact(h1)*np.dot(W.T,delta2)
+
+            # Actualizacion de pesos
+            W += learning_rate*np.dot(delta2, V.T) 
+            b2 += learning_rate*delta2*(1) 
+            w += learning_rate*np.dot(delta1, x.T) 
+            b1 += learning_rate*delta1*(1) 
+
+            #if epoch == num_epochs-1:
+                #print("Output ", O)
+                #print("W ", W)
+                #print("w ", w)
+
+        if epoch % 500 == 0:
+            print(f'Epoch {epoch}: Loss = {loss[epoch]}')
+
+    n += 1
+
+    print("Entrenamiento completado.")
+
+    ax1.semilogx(epochs, loss, "-", label = "N = " + str(hidden_size))
+    ax1.set_xlabel(r"Epoca", fontsize=18)
+    ax1.set_ylabel(r"Error cuadratico medio", fontsize=18)
+    ax1.tick_params(direction='in', top=True, right=True, left=True, bottom=True)
+    ax1.tick_params(axis='x', rotation=0, labelsize=18, color='black')
+    ax1.tick_params(axis='y', labelsize=18, color='black')
+    ax1.legend(fontsize=12, framealpha=1, loc = "lower left")
+    #ax1.set_xlim(0, 10000)
+    ax1.text(0.05, 0.95, r'A' , transform=ax1.transAxes, fontsize=24, 
+    verticalalignment='top', fontweight='bold', color="black")
+    ax1.grid(True, linewidth=0.5, linestyle='-', alpha=0.9)
+    fig1.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej2/mse_ej2.pdf")
+    fig1.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej2/mse_ej2.png", 
+    dpi=600)
+
+    ax2.semilogx(epochs, accs, "-", label = "N = " + str(hidden_size))
+    ax2.set_xlabel(r"Epoca", fontsize=18)
+    ax2.set_ylabel(r"Precision", fontsize=18)
+    ax2.tick_params(direction='in', top=True, right=True, left=True, bottom=True)
+    ax2.tick_params(axis='x', rotation=0, labelsize=18, color='black')
+    ax2.tick_params(axis='y', labelsize=18, color='black')
+    ax2.legend(fontsize=12, framealpha=1, loc = "center left")
+    ax2.text(0.05, 0.95, r'B' , transform=ax2.transAxes, fontsize=24, 
+    verticalalignment='top', fontweight='bold', color="black")
+    #ax2.set_xlim(0, 10000)
+    ax2.grid(True, linewidth=0.5, linestyle='-', alpha=0.9)
+    fig2.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej2/acc_ej2.pdf")
+    fig2.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej2/acc_ej2.png", 
+    dpi=600)
+
+\end{lstlisting}
+
+\begin{lstlisting}[language=Python, caption={Ejercicio 3}, label=ej3]
+
+import tensorflow as tf
+import numpy as np
+import matplotlib.pyplot as plt
+
+def logistic_map(n):
+    x = np.zeros(n+1)
+    x[0] = np.random.random()
+    for i in range(n):
+        x[i+1] = 4 * x[i] * (1 - x[i])
+    y = x[1:]
+    x = x[:-1]
+    return x, y
+
+ntrains = [5,10,100]
+ntest = 100
+epochs = 3000
+learning_rate = 0.01
+colors = ['b','orange','g']
+c = 0
+fig1, ax1 = plt.subplots(figsize=(8,6)) 
+
+for ntrain in ntrains:
+
+    seed=2                            # for reproducibility 
+    np.random.seed(seed)
+    tf.random.set_seed(seed)
+
+    # Network architecture
+    input_dim = 1
+    hidden_dim = 5    # Numero de unidades ocultas
+    output_dim = 1
+
+    inputs = tf.keras.layers.Input(shape=(input_dim,))
+    hidden = tf.keras.layers.Dense(hidden_dim, activation='sigmoid')(inputs)
+    merge=tf.keras.layers.concatenate([inputs,hidden])
+    output = tf.keras.layers.Dense(1, activation='linear')(merge)
+
+    # Data Input
+    x_train=np.zeros(ntrain, dtype=np.float32)
+    y_train=np.zeros(ntrain, dtype=np.float32)
+    x_train, y_train = logistic_map(ntrain)
+        
+    x_test = np.zeros(ntest, dtype=np.float32)
+    y_test = np.zeros(ntest, dtype=np.float32)
+    x_test, y_test = logistic_map(ntest)
+
+    # Model 
+    
+    opti=tf.keras.optimizers.legacy.Adam(learning_rate=learning_rate, decay=0.0)
+    model = tf.keras.Model(inputs=inputs, outputs=output)
+    model.compile(optimizer=opti, loss='MSE')
+    print("Entrenamiento con " + str(ntrain) + " ejemplos.")
+    history=model.fit(x=x_train, y=y_train,
+                    epochs=epochs,
+                    #batch_size=4,
+                    shuffle=False,
+                    validation_data=(x_test, y_test), 
+                    verbose=True)
+    
+    prediction = model.predict(x_test, verbose=True)
+    
+    tf.keras.utils.plot_model(model, to_file='
+    ../Redes-Neuronales/Practica_4/resultados/ej3/logmap.png',
+     show_shapes=False, show_layer_names=True, rankdir='TB')
+    print(model.summary())
+
+    #####################################################################
+    # Output files
+
+    W_Input_Hidden = model.layers[1].get_weights()[0]
+    W_Output_Hidden = model.layers[3].get_weights()[0]
+    B_Input_Hidden = model.layers[1].get_weights()[1]
+    B_Output_Hidden = model.layers[3].get_weights()[1]
+    #print(summary)
+    print('INPUT-HIDDEN LAYER WEIGHTS:')
+    print(W_Input_Hidden)
+    print('HIDDEN-OUTPUT LAYER WEIGHTS:')
+    print(W_Output_Hidden)
+
+    print('INPUT-HIDDEN LAYER BIAS:')
+    print(B_Input_Hidden)
+    print('HIDDEN-OUTPUT LAYER BIAS:')
+    print(B_Output_Hidden)
+
+    # "Loss"
+    ax1.semilogy(np.sqrt(history.history['loss']),'-', color = colors[c],  
+    label = "Entrenamiento - " + str(ntrain) + " ejemplos")
+    ax1.semilogy(np.sqrt(history.history['val_loss']), '--', color = colors[c], 
+    label = "Validacion - " + str(ntrain) + " ejemplos")
+    #ax1.semilogy(history.history['v1_accuracy'], '-.', color = colors[c], 
+    label = "v1_accuracy - " + str(ntrain) + " ejemplos")
+    #ax1.set_title('model loss')
+    ax1.set_xlabel(r"Epoca", fontsize=18)
+    ax1.set_ylabel(r"Error cuadratico medio", fontsize=18)
+    ax1.legend(fontsize=12, framealpha=1)
+    ax1.tick_params(direction='in', top=True, right=True, left=True, bottom=True)
+    ax1.tick_params(axis='x',rotation=0, labelsize=18, color='black')
+    ax1.tick_params(axis='y', labelsize=18, color='black')
+    #ax1.set_xlim(-100, epochs)
+    ax1.grid(True, linewidth=0.5, linestyle='-', alpha=0.9)
+    fig1.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej3/mse_ej3.pdf")
+    fig1.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej3/mse_ej3.png",
+     dpi=600)
+
+    #Ploteo del mapeo logistico
+    fig2, ax2 = plt.subplots(figsize=(8,6)) 
+    ax2.plot(x_test, y_test, "o", label = 'Conjunto de validacion')
+    ax2.plot(x_test, prediction, "o", label = 'Prediccion')
+    ax2.plot(x_train, y_train, "o", label = 'Conjunto de entrenamiento')
+    ax2.set_xlabel(r"$x_n$", fontsize=18)
+    ax2.set_ylabel(r"$x_{n+1}$", fontsize=18)
+    ax2.legend(title='Entrenamiento con ' + str(ntrain) + ' ejemplos.', 
+    fontsize=15, framealpha=1, loc='lower center')
+    ax2.tick_params(direction='in', top=True, right=True, left=True, bottom=True)
+    ax2.tick_params(axis='x',rotation=0, labelsize=18, color='black')
+    ax2.tick_params(axis='y', labelsize=18, color='black')
+    #ax2.set_xlim(0, 1)
+    if(ntrain == 5):
+        ax2.text(0.05, 0.95, r'A' , transform=ax2.transAxes, fontsize=24,
+         verticalalignment='top', fontweight='bold', color="black")
+    if(ntrain == 10):
+        ax2.text(0.05, 0.95, r'B' , transform=ax2.transAxes, fontsize=24, 
+        verticalalignment='top', fontweight='bold', color="black")
+    if(ntrain == 100):
+        ax2.text(0.05, 0.95, r'C' , transform=ax2.transAxes, fontsize=24, 
+        verticalalignment='top', fontweight='bold', color="black")
+    ax2.grid(True, linewidth=0.5, linestyle='-', alpha=0.9)
+    fig2.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej3/logmap_" 
+    + str(ntrain) + "_tests_ej3.pdf")
+    fig2.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej3/logmap_" 
+    + str(ntrain) + "_tests_ej3.png", dpi=600)
+
+    c += 1
+\end{lstlisting}
+
 \end{onecolumn}
 
 \end{document}

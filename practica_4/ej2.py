@@ -1,7 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.stats import poisson
-from scipy.optimize import curve_fit
 
 #Ploteo 
 import seaborn as sns
@@ -33,7 +31,7 @@ x_train, y_train = generate_input(N)
 input_size = N
 hidden_sizes = [1,3,5,7,9,11]
 output_size = 1
-learning_rate = 0.01
+learning_rate = 0.001
 num_epochs = 10000
 epochs = [i for i in range(0, num_epochs)]
 num_exps = 10
@@ -48,10 +46,10 @@ for hidden_size in hidden_sizes:
     accs = np.zeros(num_epochs)
 
     # Pesos iniciales aleatorios
-    w = np.random.uniform(size=(hidden_size, input_size)) #filas #columnas
-    W = np.random.uniform(size=(output_size, hidden_size))
-    b1 = np.random.uniform(size=(1,hidden_size)).reshape(-1, 1) 
-    b2 = np.random.uniform(size=(1,output_size)).reshape(-1, 1) 
+    w = np.random.uniform(-1,1,size=(hidden_size, input_size)) #filas #columnas
+    W = np.random.uniform(-1,1,size=(output_size, hidden_size)) 
+    b1 = np.random.uniform(-1,1,size=(1,hidden_size)).reshape(-1, 1) 
+    b2 = np.random.uniform(-1,1,size=(1,output_size)).reshape(-1, 1)
 
     for epoch in epochs:
         #print("epoch",epoch)
@@ -86,8 +84,8 @@ for hidden_size in hidden_sizes:
             w += learning_rate*np.dot(delta1, x.T) 
             b1 += learning_rate*delta1*(1) 
 
-            if epoch == num_epochs-1:
-                print("Output ", O)
+            #if epoch == num_epochs-1:
+                #print("Output ", O)
                 #print("W ", W)
                 #print("w ", w)
 
@@ -98,25 +96,27 @@ for hidden_size in hidden_sizes:
 
     print("Entrenamiento completado.")
 
-    ax1.plot(epochs, loss, "-", label = "N = " + str(hidden_size))
+    ax1.semilogx(epochs, loss, "-", label = "N = " + str(hidden_size))
     ax1.set_xlabel(r"Época", fontsize=18)
     ax1.set_ylabel(r"Error cuádratico medio", fontsize=18)
     ax1.tick_params(direction='in', top=True, right=True, left=True, bottom=True)
     ax1.tick_params(axis='x', rotation=0, labelsize=18, color='black')
     ax1.tick_params(axis='y', labelsize=18, color='black')
-    ax1.legend(fontsize=12, framealpha=1)
+    ax1.legend(fontsize=12, framealpha=1, loc = "lower left")
     #ax1.set_xlim(0, 10000)
+    ax1.text(0.05, 0.95, r'A' , transform=ax1.transAxes, fontsize=24, verticalalignment='top', fontweight='bold', color="black")
     ax1.grid(True, linewidth=0.5, linestyle='-', alpha=0.9)
     fig1.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej2/mse_ej2.pdf")
     fig1.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej2/mse_ej2.png", dpi=600)
 
-    ax2.plot(epochs, accs, "-", label = "N = " + str(hidden_size))
+    ax2.semilogx(epochs, accs, "-", label = "N = " + str(hidden_size))
     ax2.set_xlabel(r"Época", fontsize=18)
     ax2.set_ylabel(r"Precisión", fontsize=18)
     ax2.tick_params(direction='in', top=True, right=True, left=True, bottom=True)
     ax2.tick_params(axis='x', rotation=0, labelsize=18, color='black')
     ax2.tick_params(axis='y', labelsize=18, color='black')
-    ax2.legend(fontsize=12, framealpha=1)
+    ax2.legend(fontsize=12, framealpha=1, loc = "center left")
+    ax2.text(0.05, 0.95, r'B' , transform=ax2.transAxes, fontsize=24, verticalalignment='top', fontweight='bold', color="black")
     #ax2.set_xlim(0, 10000)
     ax2.grid(True, linewidth=0.5, linestyle='-', alpha=0.9)
     fig2.savefig(f"../Redes-Neuronales/Practica_4/resultados/ej2/acc_ej2.pdf")
