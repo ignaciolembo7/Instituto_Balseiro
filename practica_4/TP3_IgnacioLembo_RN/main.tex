@@ -49,13 +49,13 @@ Trabajo práctico 3: Aprendizaje supervisado en redes multicapa}
 
 El algoritmo de aprendizaje supervisado llamado retropropagación (\textit{backpropagation}) es clave en el desarrollo de las redes neuronales. Dicho algoritmo, que tiene como base el algoritmo \textit{gradient-descent}, da una prescripción para actualizar los pesos $w_{ij}$ en cualquier red \textit{feed-forward} con el objetivo de aprender un conjunto de pares entrada-salida. 
 
-Se puede mostrar que utilizando retropropagación se pueden entrenar redes neuronales multicapa para que \textit{aprendan} alguna función. En particular, una red neuronal con una capa oculta se puede utilizar para representar cualquier función Booleana, como por ejemplo el XOR. En este trabajo, en las secciones \ref{sec:ej1} y \ref{sec:ej2}, se implementó en Python una red neuronal con una capa oculta y se utilizó el algoritmo de \textit{backpropagation} desarrollado en el libro de Hertz, Krough y Palmer para resolver la lógica del XOR y el problema de paridad. Además, en la sección \ref{sec:ej3} se utilizó el paquete de Python llamado \texttt{tensorflow} para entrenar una red que aprenda el mapeo logístico.
+Se puede mostrar que, utilizando retropropagación, se pueden entrenar redes neuronales multicapa para que \textit{aprendan} alguna función. En particular, una red neuronal con una capa oculta se puede utilizar para representar cualquier función Booleana, como por ejemplo el XOR. En este trabajo, en las secciones \ref{sec:ej1} y \ref{sec:ej2}, se implementó en Python una red neuronal con una capa oculta y se utilizó el algoritmo de \textit{backpropagation} desarrollado en el libro de Hertz, Krough y Palmer para resolver la lógica del XOR y el problema de paridad. En la sección \ref{sec:ej3} se utilizó la librería \texttt{Keras} del paquete de Python llamado \texttt{tensorflow} para entrenar una red que aprenda el mapeo logístico.
 
 Para las secciones \ref{sec:ej1} y \ref{sec:ej2} se define el error cuadrático medio (\textit{root mean square error} o MSE) como
 \begin{equation}
     E[\boldsymbol{w}] = \frac{1}{2} \sum_{\mu,i} \left[ \zeta_i^{\mu} - O_i^{\mu} \right]^2,
 \end{equation}
-donde $\mu$ es el índice de los pares entrada-salida, $i$ es el índice de las neuronas de la capa de salida, $O_j^{\mu}$ es la salida de la red para el par entrada-salida $\mu$ y $\zeta_j^{\mu}$ es la salida deseada para el par entrada-salida $\mu$. Además, la precisión de la red se define como la fracción de pares entrada-salida que la red clasifica correctamente. Se considera correcto si la salida de la red tiene un error realitivo menor o igual al $10\%$ respecto a la salida deseada. Además, en ambas secciones se utilizó como función de activación de las neuronas de la capa oculta y de salida la función $\tanh(x)$. 
+donde $\mu$ es el índice de los pares entrada-salida de entrenamiento $(\xi_i^\mu, \zeta_i^\mu)$, $i$ es el índice de las neuronas de la capa de salida y $O_i^{\mu}$ es la salida de la red para la entrada $\xi_i^\mu$. Además, la precisión de la red se define como la fracción de pares entrada-salida que la red clasifica correctamente. Se considera correcto si la salida de la red tiene un error realitivo menor o igual al $10\%$ respecto a la salida deseada. Además, en ambas secciones se utilizó como función de activación de las neuronas de la capa oculta y de salida la función $\tanh(x)$. 
 
 
 \section{Aprendizaje lógica XOR \label{sec:ej1}}
@@ -73,7 +73,7 @@ La regla XOR tiene dos entradas ($+1$ o $-1$) y la salida es $-1$ si ambos son d
     \label{fig:esq_1}
 \end{figure}
 
-Se utilizaron las cuatro posibles entradas del XOR para el entrenamiento de la red, se utilizó una tasa de aprendizaje de $\eta = 0.05$ y se entrenó la red durante $10000$ épocas. Se repitió el entrenamiento 10 veces para valores iniciales distintos de los pesos. Además se agregó un umbral o \textit{bias} a cada neurona de la capa oculta y de salida. Este umbral se representó como una neurona de salida $+1$ y conectada con pesos a todas las neuronas con \textit{bias}. En la Fig. \ref{fig:1} se muestran el MSE y la presición obtenidos en función de la épocas para ambas arquitecturas. 
+Se utilizaron las cuatro posibles entradas del XOR para el entrenamiento de la red, se utilizó una tasa de aprendizaje de $\eta = 0.05$ y se entrenó la red durante $10000$ épocas. Se repitió el entrenamiento 10 veces para valores iniciales distintos de los pesos. Además se agregó un umbral o \textit{bias} a cada neurona de la capa oculta y de salida. Este umbral se representó como una neurona de salida $+1$ y conectada con pesos a todas las neuronas con \textit{bias}. En la Fig. \ref{fig:1} se muestran el MSE y la precisión obtenidos en función de la épocas para ambas arquitecturas. 
 
 \begin{figure}[h]
     \centering
@@ -97,9 +97,9 @@ Se utilizaron las cuatro posibles entradas del XOR para el entrenamiento de la r
     \label{fig:1}
 \end{figure}
 
-Se definió el tiempo de convergencia para un experimento como la época a partir de la cual el MSE es menor a $0.1$ y este converge a aproximadamente 0 en las 10000 épocas. Es decir para los experimentos que no convergían no se calculó un tiempo de convergencia. Luego, para los experimentos que si convergían se calculo el tiempo de convergencia promedio obteniendo para la arquitectura 2-2-1 un tiempo de convergencia de $122.7$ épocas y para la arquitectura 2-1-1 un tiempo de convergencia de $533.33$ épocas. Además se destaca que para la primer arquitectura convergieron\footnote{El término converger se utiliza cuando el MSE, luego del entrenamiento, es aproximadamente 0} 9 de 10 experimentos y para la segunda 6 de 10.
+Se definió el tiempo de convergencia para un experimento como la época a partir de la cual el MSE es menor a $0.1$ y este converge a aproximadamente 0 en las 10000 épocas. Es decir para los experimentos que no convergían no se calculó un tiempo de convergencia. Luego, para los experimentos que sí convergían se calculó el tiempo de convergencia promedio obteniendo, para la arquitectura 2-2-1 un tiempo de convergencia de $122.7$ épocas y para la arquitectura 2-1-1 un tiempo de convergencia de $533.33$ épocas. Además se destaca que para la primer arquitectura convergieron\footnote{El término converger se utiliza cuando el MSE, luego del entrenamiento, es aproximadamente 0} 9 de 10 experimentos y para la segunda 6 de 10.
 
-Se promediaron las curvas de presición y MSE para los 10 experimentos realizados con condiciones iniciales aleatorias para cada arquitectura con el objetivo de comparar la evolución dichos parámetros en función de las épocas. Los resultados se muestran en la Fig. \ref{fig:1prom}. 
+Se promediaron las curvas de precisión y MSE para los 10 experimentos realizados con condiciones iniciales aleatorias para cada arquitectura con el objetivo de comparar la evolución de dichos parámetros en función de las épocas. Los resultados se muestran en la Fig. \ref{fig:1prom}. 
 
 \begin{figure}[h]
     \centering
@@ -115,7 +115,7 @@ Se promediaron las curvas de presición y MSE para los 10 experimentos realizado
     \label{fig:1prom}
 \end{figure}
 
-Se observa que, luego de 10000 épocas, con la arquitectura 2-2-1 se obtiene una mayor precisión y menor MSE promedio. En resumen en base a estos resultados la arquitectura 2-2-1 parece ser la más adecuada para resolver el problema del XOR. No obstante, para ambas arquitecturas el resultado obtenido depende fuertemente de los valores iniciales ya que, por ejemplo, no siempre se obtuvo que la 2-2-1 resuelve 9 de cad 10 casos. También el valor de la tasa de aprendizaje $\eta$ y el número de épocas son parámetros que pueden afectar el aprendizaje de la red.
+Se observa que, luego de 10000 épocas, con la arquitectura 2-2-1 se obtiene una mayor precisión y menor MSE promedio. En resumen, en base a estos resultados, la arquitectura 2-2-1 parece ser la más adecuada para resolver el problema del XOR. No obstante, para ambas arquitecturas el resultado obtenido depende fuertemente de los valores iniciales ya que, por ejemplo, no siempre se obtuvo que la 2-2-1 resuelve 9 de cad 10 casos. También el valor de la tasa de aprendizaje $\eta$ y el número de épocas son parámetros que pueden afectar el aprendizaje de la red.
 
 
 %\newpage
@@ -123,7 +123,7 @@ Se observa que, luego de 10000 épocas, con la arquitectura 2-2-1 se obtiene una
 
 \vspace{0.3cm}
 
-El problema de paridad es una generalización del XOR para una capa de entrada con $N$ neuronas. La salida es $+1$ si el producto de las entradas es $+1$ y $-1$ si el producto de las entradas es $-1$. Mediante el algoritmo de retropropagación se resolvió el problema de paridad utilizando una capa oculpa densa con $N'$ neuronas como se muestra en el esquema de la Fig. \ref{fig:esq_2}. 
+El problema de paridad es una generalización del XOR para una capa de entrada con $N$ neuronas. La salida es $+1$ si el producto de las entradas es $+1$ y $-1$ si el producto de las entradas es $-1$. Mediante el algoritmo de retropropagación se resolvió el problema de paridad utilizando una capa oculta densa con $N'$ neuronas como se muestra en el esquema de la Fig. \ref{fig:esq_2}. 
 
 \begin{figure}[H]
     \centering
@@ -148,18 +148,18 @@ El problema de paridad es una generalización del XOR para una capa de entrada c
     \label{fig:2}
 \end{figure}
 
-Se realizaron entrenamientos con $N' = 1,3,5,7,9,11$ para estudiar el efecto del aumento de neuronas de la capa oculta en la respuesta de la red. Para el entrenamiento de la red se utilizaron todas las entradas posibles para $N=5$, es decir $2^{N} = 32$ combinaciones de $1$ y $-1$ sin importar el orden. Se utilizó una tasa de aprendizaje de $0.001$ y se entrenó la red durante $10000$ épocas. La evolución de del MSE y de la presición se muestran en las Figs. \ref{fig:2}A y \ref{fig:2}B respectivamente. Se observa como para $N'>N$ la red aprende el problema de paridad con una precisión de aproximadamente el $100\%$ y un MSE de aproximadamente $0$. En cambio, para $N' < N$ la red no aprende el problema de paridad ya que vemos que al disminuir $N'$ la precisión disminuye y el MSE aumenta.
+Se realizaron entrenamientos con $N' = 1,3,5,7,9,11$ para estudiar el efecto del aumento de neuronas de la capa oculta en la respuesta de la red. Para el entrenamiento de la red se utilizaron todas las entradas posibles para $N=5$, es decir $2^{N} = 32$ combinaciones de $1$ y $-1$ sin importar el orden. Se utilizó una tasa de aprendizaje de $0.001$ y se entrenó la red durante $10000$ épocas. La evolución del MSE y de la precisión se muestran en las Figs. \ref{fig:2}A y \ref{fig:2}B respectivamente. Se observa como para $N'>N$ la red aprende el problema de paridad con una precisión de aproximadamente el $100\%$ y un MSE de aproximadamente $0$. En cambio, para $N' < N$ la red tiene más problemas para aprender el problema de paridad y que se ve que al disminuir $N'$ la precisión disminuye y el MSE aumenta.
 
 \section{Aprendizaje del mapeo logístico\label{sec:ej3}}
 
 \vspace{0.3cm}
 
-Por último, utilizando el algoritmo de retropropagación se entreno una red con el objetivo de aprender el mapeo logístico dado por 
+Por último, utilizando el algoritmo de retropropagación se entrenó una red con el objetivo de aprender el mapeo logístico dado por 
 \begin{equation}
-    x_{n+1} = 4 x_n (1- x_n)
+    x_{n+1} = 4 x_n (1- x_n).
 \end{equation}
 
-La arquitectura de la red consistió en una capa oculta densa compuesta de 5 neuronas y una conexión de la neurona de entrada a la de salida como se muestra en la Fig. \ref{fig:esq_3}. En este caso se utilizó como función de activación de las neuronas de la capa oculta la sigmoidea $g(x) = 1/(1 + \exp{(-x)})$ y la función linel para la neurona de salida. Las neuronas incluyen \textit{bias}.
+La arquitectura de la red consistió en una capa oculta densa compuesta de 5 neuronas y una conexión de las neuronas de entrada a la de salida como se muestra en la Fig. \ref{fig:esq_3}. En este caso se utilizó como función de activación de las neuronas de la capa oculta la sigmoidea $g(x) = 1/(1 + \exp{(-x)})$ y la función linel para la neurona de salida. Las neuronas incluyen \textit{bias}.
 
 \begin{figure}[ht]
     \centering
@@ -178,7 +178,7 @@ Se generaron dos bases de datos: Una con $N$ pares de datos $(x_n, x_{n+1})$ par
          \begin{subfigure}[b]{\linewidth}
             \includegraphics[width=\textwidth]{Figuras/mse_ej3.pdf}
          \end{subfigure}
-    \caption{Error cuadrático medio del conjunto de entrenamiento y del conjunto de validación en función de la época para $N=5,10,100$ ejemplos del conjunto de entrenamiento.} 
+    \caption{Error cuadrático medio en escala logarítmica del conjunto de entrenamiento y del conjunto de validación en función de la época para $N=5,10,100$ ejemplos del conjunto de entrenamiento.} 
     \label{fig:mse_3}
 \end{figure}
 

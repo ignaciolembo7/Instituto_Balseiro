@@ -1350,6 +1350,11 @@ INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvet
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr8t.vf
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr8t.vf
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8r.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr8t.vf
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8r.tfm
 INPUT .\Figuras\mseprom_ej1.pdf
 INPUT .\Figuras\mseprom_ej1.pdf
 INPUT Figuras\mseprom_ej1.pdf
@@ -1381,14 +1386,11 @@ INPUT Figuras\acc_ej2.pdf
 INPUT .\Figuras\acc_ej2.pdf
 INPUT .\Figuras\acc_ej2.pdf
 INPUT .\Figuras\acc_ej2.pdf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr8t.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr8t.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8r.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr8t.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8r.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7y.vf
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmr.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7t.vf
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT .\Figuras\esquema3.png
 INPUT .\Figuras\esquema3.png
 INPUT Figuras\esquema3.png
@@ -1420,8 +1422,6 @@ INPUT Figuras\logmap_100_tests_ej3.pdf
 INPUT .\Figuras\logmap_100_tests_ej3.pdf
 INPUT .\Figuras\logmap_100_tests_ej3.pdf
 INPUT .\Figuras\logmap_100_tests_ej3.pdf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7t.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
