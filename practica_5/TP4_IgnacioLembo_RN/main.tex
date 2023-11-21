@@ -46,7 +46,7 @@ Trabajo práctico 4: Aprendizaje no supervisado}
 
 \vspace{0.1cm}
 
-{\datesfont 31 de octubre de 2023.}
+{\datesfont 31 de octubre del 2023.}
 
 \vspace{0.1cm}
 }
@@ -368,7 +368,7 @@ Por último, se observa que en general, las neuronas luego de pasar todas por el
         for i in range(input_size):
             dot_plot[epoch][i] = np.dot(w, autovectores.T[i].reshape(-1, 1))
         
-        # Actualización de pesos
+        # Actualizacion de pesos
         w += learning_rate*O*(x_train-O*w)
     
     print("Entrenamiento completado.")
@@ -378,7 +378,7 @@ Por último, se observa que en general, las neuronas luego de pasar todas por el
         ax1.plot(epochs, w_plot[:,i], "-", label = r"$w_{" + str(i) + "}$")
     ax1.hlines(y=0.5,  xmin=0, xmax=num_epochs, linestyle='--', color='gray')
     ax1.hlines(y=-0.5,  xmin=0, xmax=num_epochs, linestyle='--', color='gray')
-    ax1.set_xlabel(r"Época", fontsize=18)
+    ax1.set_xlabel(r"Epoca", fontsize=18)
     ax1.set_ylabel(r"Pesos $w_j$", fontsize=18)
     ax1.tick_params(direction='in', top=True, right=True, left=True, bottom=True)
     ax1.tick_params(axis='x', rotation=0, labelsize=18, color='black')
@@ -396,7 +396,7 @@ Por último, se observa que en general, las neuronas luego de pasar todas por el
     ax2.hlines(y=1.0,  xmin=0, xmax=num_epochs, linestyle='--', color='gray')
     ax2.hlines(y=-1.0,  xmin=0, xmax=num_epochs, linestyle='--', color='gray')
     ax2.hlines(y=0.0,  xmin=0, xmax=num_epochs, linestyle='--', color='gray')
-    ax2.set_xlabel(r"Época", fontsize=18)
+    ax2.set_xlabel(r"Epoca", fontsize=18)
     ax2.set_ylabel(r"Producto escalar $\vec{w} \cdot \vec{v_j}$", fontsize=18)
     ax2.tick_params(direction='in', top=True, right=True, left=True, bottom=True)
     ax2.tick_params(axis='x', rotation=0, labelsize=18, color='black')
@@ -451,9 +451,9 @@ def input_square():
     while f:
         x = np.random.uniform(-0.5,0.5)
         y = np.random.uniform(0.0,2.0)
-        # Verifica si el punto está en la mitad inferior del cuadrado
+        # Verifica si el punto esta en la mitad inferior del cuadrado
         if (-0.5 <= x <= 0.5) and (0.0 <= y <= 1.0):
-            # Genera un número aleatorio adicional para duplicar la probabilidad en la mitad inferior
+            # Genera un numero aleatorio adicional para duplicar la probabilidad en la mitad inferior
             if y <= 0.5:
                 if np.random.rand() <= 0.5:
                     f = False
@@ -501,7 +501,7 @@ for epoch in tqdm(range(num_epochs)):
     norm = np.linalg.norm(w - x, axis=1)
     i_ = np.argmin(norm)
     sigma = sigma_0/(epoch+1)
-    # Actualización de pesos
+    # Actualizacion de pesos
     for i in range(output_size):
         w[i] += learning_rate*gaussian(i,i_,sigma)*(x-w[i])
         plot_w[epoch][i] = w[i]
