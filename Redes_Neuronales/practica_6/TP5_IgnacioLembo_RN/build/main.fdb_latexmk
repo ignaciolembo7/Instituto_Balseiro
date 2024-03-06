@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex build/fullrefs"] 1698891703 "build/fullrefs.aux" "build/fullrefs.bbl" "build/fullrefs" 1700584388 2
+["bibtex build/fullrefs"] 0 "build/fullrefs.aux" "build/fullrefs.bbl" "build/fullrefs" 0 -1
   "./opticajnl.bst" 1693405617 27799 16e93c66d939458e8a057b275ba7f7e0 ""
-  "build/fullrefs.aux" 1700584388 95 61d4a311559f0eef1fa61d59f4f81fb7 "pdflatex"
+  "build/fullrefs.aux" 1709747184 95 61d4a311559f0eef1fa61d59f4f81fb7 "pdflatex"
   (generated)
   "build/fullrefs.bbl"
   "build/fullrefs.blg"
   (rewritten before read)
-["pdflatex"] 1700584385 "c:/Users/Ignacio Lembo/Documents/GitHub/Redes-Neuronales/practica_6/TP5_IgnacioLembo_RN/main.tex" "build/main.pdf" "main" 1700584388 2
-  "C:/Users/Ignacio Lembo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1697320684 363868 2a1d234a8d75cf8097d2c5771b188d98 ""
+["pdflatex"] 1709747183 "c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Redes_Neuronales/practica_6/TP5_IgnacioLembo_RN/main.tex" "build/main.pdf" "main" 1709747185 2
+  "C:/Users/Ignacio Lembo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1709738487 363868 2a1d234a8d75cf8097d2c5771b188d98 ""
   "C:/Users/Ignacio Lembo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1691447391 23172417 cd8cf84e5031279826843bdd687bb378 ""
   "C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1001775420 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -191,11 +191,11 @@
   "C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "Figuras/hist_sec.pdf" 1700574685 19556 4a054e6101fd63b31fd7b83b3d8e478c ""
   "Figuras/m_vs_T.pdf" 1700506840 14577 9ef3ef2b563a57a137c89671ca8b66a6 ""
-  "build/fullrefs.aux" 1700584388 95 61d4a311559f0eef1fa61d59f4f81fb7 "pdflatex"
+  "build/fullrefs.aux" 1709747184 95 61d4a311559f0eef1fa61d59f4f81fb7 "pdflatex"
   "build/fullrefs.bbl" 0 -1 0 "bibtex build/fullrefs"
-  "build/main.aux" 1700584388 3399 8d3c4185fb2112678bc6fe5a37d59c74 "pdflatex"
-  "build/main.out" 1700584388 745 eeae2a0c3eab9f39ef65a3615c7ff7f9 "pdflatex"
-  "c:/Users/Ignacio Lembo/Documents/GitHub/Redes-Neuronales/practica_6/TP5_IgnacioLembo_RN/main.tex" 1700584385 13500 fae1f84a87ef598915c6c7bc159a96f7 ""
+  "build/main.aux" 1709747184 3399 8d3c4185fb2112678bc6fe5a37d59c74 "pdflatex"
+  "build/main.out" 1709747184 745 eeae2a0c3eab9f39ef65a3615c7ff7f9 "pdflatex"
+  "c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Redes_Neuronales/practica_6/TP5_IgnacioLembo_RN/main.tex" 1700584385 13500 fae1f84a87ef598915c6c7bc159a96f7 ""
   "jabbrv-ltwa-all.ldf" 1693405617 68876 ed126cdbca28ab86c2c0668453444e21 ""
   "jabbrv-ltwa-en.ldf" 1693405617 458692 02d8266b24704fe4f5f2f6e7c1b87e55 ""
   "jabbrv.sty" 1693405617 19083 8ad38f742f44e820c6ecf9365b058cb9 ""

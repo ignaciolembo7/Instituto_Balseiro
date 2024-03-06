@@ -1,4 +1,8 @@
-\begin{thebibliography}{}
-\newcommand{\enquote}[1]{``#1''}
+\begin{thebibliography}{1}
+
+\bibitem{benjamin_stirling_2002}
+Arthur~T. Benjamin, Gregory~O. Preston, and Jennifer~J. Quinn.
+\newblock A {Stirling} {Encounter} with {Harmonic} {Numbers}.
+\newblock {\em Mathematics Magazine}, 75(2):95--103, April 2002.
 
 \end{thebibliography}
