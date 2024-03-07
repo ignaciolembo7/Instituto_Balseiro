@@ -200,7 +200,7 @@ if __name__ == "__main__":
     #img2 = read_pgm_file(infile2)
     im1 = np.array(img1)
     #im2 = np.array(img2)
-    
+
     #Brute image 
     print("\n Brute image:")
     print("Size of image 1: {}".format(im1.shape))
@@ -219,23 +219,23 @@ if __name__ == "__main__":
     #Equalize image
     print("\n Equalize image")
     imout = Equalize(im1)
-    save_img_hist(imout,"ImageA_EQ")    
+    #save_img_hist(imout,"ImageA_EQ")    
     save_img(imout,"ImageA_EQ")    
-    #cv2.imwrite(outfile1,imout,[cv2.IMWRITE_PXM_BINARY,0])
+    cv2.imwrite(outfile1,imout,[cv2.IMWRITE_PXM_BINARY,0])
 
     #Transformación binaria
     print("\n Transformación binaria")
     imout = Trans_binary(im1)
     save_img(imout,f"ImageA_binary")
-    #cv2.imwrite(outfile1,imout,[cv2.IMWRITE_PXM_BINARY,0])
+    cv2.imwrite(outfile1,imout,[cv2.IMWRITE_PXM_BINARY,0])
 
     #Transformación exponencial
     print("\n Transformación exponencial")
     gamma = 0.5
     imout = Trans_exponential(im1,gamma)
     save_img(imout,f"ImageA_exp_gamma={gamma}")
-    #cv2.imwrite(outfile1,imout,[cv2.IMWRITE_PXM_BINARY,0])
-    
+    cv2.imwrite(outfile1,imout,[cv2.IMWRITE_PXM_BINARY,0])
+
     #Interpolate nn
     f = 0.25
     print("\n Interpolate NN")
@@ -252,7 +252,7 @@ if __name__ == "__main__":
     #Sustraction
     print("\n Sustraction")
     imout = sustraction(im1,im2)
-    save_img(imout,f"sustraction_exp_gamma=0.5")
+    save_img(imout,f"sustraction_exp_gamma=1.75")
     cv2.imwrite(outfile1,imout,[cv2.IMWRITE_PXM_BINARY,0])
 
     #Unsharp filter

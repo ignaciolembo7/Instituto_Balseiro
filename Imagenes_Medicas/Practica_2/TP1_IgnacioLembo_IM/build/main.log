@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.8.7)  6 MAR 2024 13:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.8.7)  7 MAR 2024 16:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -389,6 +389,7 @@ File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
+Package hyperref Info: Option `unicode' set `true' on input line 4045.
 Package hyperref Info: Hyper figures OFF on input line 4162.
 Package hyperref Info: Link nesting OFF on input line 4167.
 Package hyperref Info: Hyper index ON on input line 4170.
@@ -499,7 +500,6 @@ Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks40
 \es@quotdepth=\count312
 Package babel Info: Making " an active character on input line 570.
-Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
 Package babel Info: Making > an active character on input line 722.
 )) (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
@@ -530,129 +530,22 @@ Package caption Info: hyperref package is loaded.
 )
 \c@subfigure=\count315
 \c@subtable=\count316
-)
-\c@theorem=\count317
- (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
-Package: lineno 2023/05/19 line numbers on paragraphs v5.2
-\linenopenalty=\count318
-\output=\toks41
-\linenoprevgraf=\count319
-\linenumbersep=\dimen283
-\linenumberwidth=\dimen284
-\c@linenumber=\count320
-\c@pagewiselinenumber=\count321
-\c@LN@truepage=\count322
-\c@internallinenumber=\count323
-\c@internallinenumbers=\count324
-\quotelinenumbersep=\dimen285
-\bframerule=\dimen286
-\bframesep=\dimen287
-\bframebox=\box65
-\linenoamsmath@ams@eqpen=\count325
-LaTeX Info: Redefining \\ on input line 3146.
-) (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks42
-\inpenc@posthook=\toks43
-) (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count326
-\lst@gtempboxa=\box66
-\lst@token=\toks44
-\lst@length=\count327
-\lst@currlwidth=\dimen288
-\lst@column=\count328
-\lst@pos=\count329
-\lst@lostspace=\dimen289
-\lst@width=\dimen290
-\lst@newlines=\count330
-\lst@lineno=\count331
-\lst@maxwidth=\dimen291
- (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count332
-\lst@skipnumbers=\count333
-\lst@framebox=\box67
-) (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
-File: listings.cfg 2020/03/24 1.8d listings configuration
-))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
- (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
-Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
-\c@tracingmulticols=\count334
-\mult@box=\box68
-\multicol@leftmargin=\dimen292
-\c@unbalance=\count335
-\c@collectmore=\count336
-\doublecol@number=\count337
-\multicoltolerance=\count338
-\multicolpretolerance=\count339
-\full@width=\dimen293
-\page@free=\dimen294
-\premulticols=\dimen295
-\postmulticols=\dimen296
-\multicolsep=\skip71
-\multicolbaselineskip=\skip72
-\partial@page=\box69
-\last@line=\box70
-\maxbalancingoverflow=\dimen297
-\mult@rightbox=\box71
-\mult@grightbox=\box72
-\mult@firstbox=\box73
-\mult@gfirstbox=\box74
-\@tempa=\box75
-\@tempa=\box76
-\@tempa=\box77
-\@tempa=\box78
-\@tempa=\box79
-\@tempa=\box80
-\@tempa=\box81
-\@tempa=\box82
-\@tempa=\box83
-\@tempa=\box84
-\@tempa=\box85
-\@tempa=\box86
-\@tempa=\box87
-\@tempa=\box88
-\@tempa=\box89
-\@tempa=\box90
-\@tempa=\box91
-\@tempa=\box92
-\@tempa=\box93
-\@tempa=\box94
-\@tempa=\box95
-\@tempa=\box96
-\@tempa=\box97
-\@tempa=\box98
-\@tempa=\box99
-\@tempa=\box100
-\@tempa=\box101
-\@tempa=\box102
-\@tempa=\box103
-\@tempa=\box104
-\@tempa=\box105
-\@tempa=\box106
-\@tempa=\box107
-\@tempa=\box108
-\@tempa=\box109
-\@tempa=\box110
-\c@minrows=\count340
-\c@columnbadness=\count341
-\c@finalcolumnbadness=\count342
-\last@try=\dimen298
-\multicolovershoot=\dimen299
-\multicolundershoot=\dimen300
-\mult@nat@firstbox=\box111
-\colbreak@box=\box112
-\mc@col@check@num=\count343
+) (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count317
+\float@exts=\toks41
+\float@box=\box65
+\@float@everytoks=\toks42
+\@floatcapt=\box66
 ) (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
 Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
  (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks45
-\XKV@tempa@toks=\toks46
+\XKV@toks=\toks43
+\XKV@tempa@toks=\toks44
 )
-\XKV@depth=\count344
+\XKV@depth=\count318
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
@@ -660,82 +553,93 @@ Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
  (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
-\collectedbox=\box113
+\collectedbox=\box67
 )
-\tc@llx=\dimen301
-\tc@lly=\dimen302
-\tc@urx=\dimen303
-\tc@ury=\dimen304
+\tc@llx=\dimen283
+\tc@lly=\dimen284
+\tc@urx=\dimen285
+\tc@ury=\dimen286
 Package trimclip Info: Using driver 'tc-pdftex.def'.
  (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen305
-\adjbox@Height=\dimen306
-\adjbox@Depth=\dimen307
-\adjbox@Totalheight=\dimen308
-\adjbox@pwidth=\dimen309
-\adjbox@pheight=\dimen310
-\adjbox@pdepth=\dimen311
-\adjbox@ptotalheight=\dimen312
+\adjbox@Width=\dimen287
+\adjbox@Height=\dimen288
+\adjbox@Depth=\dimen289
+\adjbox@Totalheight=\dimen290
+\adjbox@pwidth=\dimen291
+\adjbox@pheight=\dimen292
+\adjbox@pdepth=\dimen293
+\adjbox@ptotalheight=\dimen294
  (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count345
+\c@checkoddpage=\count319
 LaTeX Info: Redefining \checkoddpage on input line 45.
 ) (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box114
-\sift@deathcycles=\count346
-\@vwid@loff=\dimen313
-\@vwid@roff=\dimen314
-)) (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/preprint\authblk.sty
-Package: authblk 2001/02/27 1.3 (PWD)
-\affilsep=\skip73
-\@affilsep=\skip74
-\c@Maxaffil=\count347
-\c@authors=\count348
-\c@affil=\count349
+\@vwid@box=\box68
+\sift@deathcycles=\count320
+\@vwid@loff=\dimen295
+\@vwid@roff=\dimen296
+)) (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks45
+\verbatim@line=\toks46
+\verbatim@in@stream=\read4
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 51.
+Package hyperref Info: Option `colorlinks' set `true' on input line 28.
+\c@theorem=\count321
+ (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/preprint\authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip71
+\@affilsep=\skip72
+\c@Maxaffil=\count322
+\c@authors=\count323
+\c@affil=\count324
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 44.
  (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count350
-\l__pdf_internal_box=\box115
-) (c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_2\TP1_IgnacioLembo_IM\build\main.aux)
+\l__color_backend_stack_int=\count325
+\l__pdf_internal_box=\box69
+) (c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_2\TP1_IgnacioLembo_IM\build\main.aux
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
  (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count351
-\scratchdimen=\dimen315
-\scratchbox=\box116
-\nofMPsegments=\count352
-\nofMParguments=\count353
+\scratchcounter=\count326
+\scratchdimen=\dimen297
+\scratchbox=\box70
+\nofMPsegments=\count327
+\nofMParguments=\count328
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count354
-\MPscratchDim=\dimen316
-\MPnumerator=\count355
-\makeMPintoPDFobject=\count356
+\MPscratchCnt=\count329
+\MPscratchDim=\dimen298
+\MPnumerator=\count330
+\makeMPintoPDFobject=\count331
 \everyMPtoPDFconversion=\toks48
 ) (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -743,765 +647,307 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 51.
+Package hyperref Info: Link coloring ON on input line 44.
+ (c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_2\TP1_IgnacioLembo_IM\build\main.out) (c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_2\TP1_IgnacioLembo_IM\build\main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-LaTeX Info: Redefining \. on input line 51.
-LaTeX Info: Redefining \% on input line 51.
+LaTeX Info: Redefining \. on input line 44.
+LaTeX Info: Redefining \% on input line 44.
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: listings package is loaded.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count357
-LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
  (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
  (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-LaTeX Warning: Reference `fig:Semilineartrans' on page 1 undefined on input line 59.
-
-<Figuras/ImageA_brute.png, id=6, 700.0554pt x 324.9741pt>
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 51.
+ (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+<Figuras/ImageA_brute.png, id=43, 700.0554pt x 324.9741pt>
 File: Figuras/ImageA_brute.png Graphic file (type png)
 <use Figuras/ImageA_brute.png>
-Package pdftex.def Info: Figuras/ImageA_brute.png  used on input line 67.
-(pdftex.def)             Requested size: 469.75502pt x 218.06871pt.
-<Figuras/ImageA_0_150.png, id=8, 700.2963pt x 324.9741pt>
+Package pdftex.def Info: Figuras/ImageA_brute.png  used on input line 57.
+(pdftex.def)             Requested size: 230.18253pt x 106.85004pt.
+<Figuras/ImageA_0_150.png, id=45, 700.2963pt x 324.9741pt>
 File: Figuras/ImageA_0_150.png Graphic file (type png)
 <use Figuras/ImageA_0_150.png>
-Package pdftex.def Info: Figuras/ImageA_0_150.png  used on input line 72.
-(pdftex.def)             Requested size: 469.75502pt x 217.99432pt.
+Package pdftex.def Info: Figuras/ImageA_0_150.png  used on input line 63.
+(pdftex.def)             Requested size: 230.18253pt x 106.81534pt.
+ [1
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:Semilineartrans' on page 1 undefined on input line 84.
-
-
-LaTeX Warning: Reference `fig:Semilineartrans_region' on page 1 undefined on input line 86.
-
-[1
-
-{C:/Users/Ignacio Lembo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<Figuras/ImageA_0_25.png, id=21, 221.74844pt x 267.03764pt>
+{C:/Users/Ignacio Lembo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Figuras/ImageA_brute.png> <./Figuras/ImageA_0_150.png>]
+<Figuras/ImageA_0_25.png, id=64, 221.74844pt x 267.03764pt>
 File: Figuras/ImageA_0_25.png Graphic file (type png)
 <use Figuras/ImageA_0_25.png>
-Package pdftex.def Info: Figuras/ImageA_0_25.png  used on input line 92.
+Package pdftex.def Info: Figuras/ImageA_0_25.png  used on input line 83.
 (pdftex.def)             Requested size: 112.74377pt x 135.77176pt.
-<Figuras/ImageA_25_62.png, id=22, 221.74844pt x 266.55585pt>
+<Figuras/ImageA_25_62.png, id=65, 221.74844pt x 266.55585pt>
 File: Figuras/ImageA_25_62.png Graphic file (type png)
 <use Figuras/ImageA_25_62.png>
-Package pdftex.def Info: Figuras/ImageA_25_62.png  used on input line 98.
+Package pdftex.def Info: Figuras/ImageA_25_62.png  used on input line 88.
 (pdftex.def)             Requested size: 112.74377pt x 135.52681pt.
-<Figuras/ImageA_62_113.png, id=23, 220.06215pt x 265.35135pt>
+<Figuras/ImageA_62_113.png, id=66, 220.06215pt x 265.35135pt>
 File: Figuras/ImageA_62_113.png Graphic file (type png)
 <use Figuras/ImageA_62_113.png>
-Package pdftex.def Info: Figuras/ImageA_62_113.png  used on input line 104.
+Package pdftex.def Info: Figuras/ImageA_62_113.png  used on input line 93.
 (pdftex.def)             Requested size: 112.74377pt x 135.94687pt.
-<Figuras/ImageA_113_150.png, id=24, 220.30305pt x 263.66505pt>
+<Figuras/ImageA_113_150.png, id=67, 220.30305pt x 263.66505pt>
 File: Figuras/ImageA_113_150.png Graphic file (type png)
 <use Figuras/ImageA_113_150.png>
-Package pdftex.def Info: Figuras/ImageA_113_150.png  used on input line 109.
+Package pdftex.def Info: Figuras/ImageA_113_150.png  used on input line 98.
 (pdftex.def)             Requested size: 112.74377pt x 134.93811pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:EQ' on page 2 undefined on input line 117.
-
-<Figuras/ImageA_EQ_hist.png, id=25, 700.89854pt x 324.9741pt>
+<Figuras/ImageA_EQ_hist.png, id=69, 700.89854pt x 324.9741pt>
 File: Figuras/ImageA_EQ_hist.png Graphic file (type png)
 <use Figuras/ImageA_EQ_hist.png>
-Package pdftex.def Info: Figuras/ImageA_EQ_hist.png  used on input line 125.
-(pdftex.def)             Requested size: 469.75502pt x 217.8059pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:binarytrans' on page 2 undefined on input line 144.
-
-
-LaTeX Warning: Reference `fig:Exptrans' on page 2 undefined on input line 146.
-
-<Figuras/ImageA_binary.png, id=26, 222.71205pt x 267.03764pt>
+Package pdftex.def Info: Figuras/ImageA_EQ_hist.png  used on input line 112.
+(pdftex.def)             Requested size: 352.31625pt x 163.35442pt.
+ [2 <./Figuras/ImageA_0_25.png> <./Figuras/ImageA_25_62.png> <./Figuras/ImageA_62_113.png> <./Figuras/ImageA_113_150.png> <./Figuras/ImageA_EQ_hist.png>]
+<Figuras/ImageA_binary.png, id=83, 222.71205pt x 267.03764pt>
 File: Figuras/ImageA_binary.png Graphic file (type png)
 <use Figuras/ImageA_binary.png>
-Package pdftex.def Info: Figuras/ImageA_binary.png  used on input line 150.
-(pdftex.def)             Requested size: 187.89914pt x 225.30429pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figuras/ImageA_exp_gamma=0.25.png, id=27, 222.71205pt x 267.03764pt>
+Package pdftex.def Info: Figuras/ImageA_binary.png  used on input line 143.
+(pdftex.def)             Requested size: 117.43875pt x 140.81212pt.
+<Figuras/ImageA_exp_gamma=0.25.png, id=85, 222.71205pt x 267.03764pt>
 File: Figuras/ImageA_exp_gamma=0.25.png Graphic file (type png)
 <use Figuras/ImageA_exp_gamma=0.25.png>
-Package pdftex.def Info: Figuras/ImageA_exp_gamma=0.25.png  used on input line 159.
-(pdftex.def)             Requested size: 150.32504pt x 180.24669pt.
-<Figuras/ImageA_exp_gamma=0.5.png, id=28, 222.71205pt x 267.03764pt>
+Package pdftex.def Info: Figuras/ImageA_exp_gamma=0.25.png  used on input line 154.
+(pdftex.def)             Requested size: 93.94957pt x 112.64807pt.
+<Figuras/ImageA_exp_gamma=0.5.png, id=86, 222.71205pt x 267.03764pt>
 File: Figuras/ImageA_exp_gamma=0.5.png Graphic file (type png)
 <use Figuras/ImageA_exp_gamma=0.5.png>
-Package pdftex.def Info: Figuras/ImageA_exp_gamma=0.5.png  used on input line 164.
-(pdftex.def)             Requested size: 150.32504pt x 180.24669pt.
-<Figuras/ImageA_exp_gamma=0.75.png, id=29, 222.71205pt x 267.03764pt>
+Package pdftex.def Info: Figuras/ImageA_exp_gamma=0.5.png  used on input line 159.
+(pdftex.def)             Requested size: 93.94957pt x 112.64807pt.
+<Figuras/ImageA_exp_gamma=0.75.png, id=87, 222.71205pt x 267.03764pt>
 File: Figuras/ImageA_exp_gamma=0.75.png Graphic file (type png)
 <use Figuras/ImageA_exp_gamma=0.75.png>
-Package pdftex.def Info: Figuras/ImageA_exp_gamma=0.75.png  used on input line 169.
-(pdftex.def)             Requested size: 150.32504pt x 180.24669pt.
-<Figuras/ImageA_exp_gamma=1.25.png, id=30, 222.71205pt x 267.03764pt>
+Package pdftex.def Info: Figuras/ImageA_exp_gamma=0.75.png  used on input line 164.
+(pdftex.def)             Requested size: 93.94957pt x 112.64807pt.
+<Figuras/ImageA_exp_gamma=1.25.png, id=88, 222.71205pt x 267.03764pt>
 File: Figuras/ImageA_exp_gamma=1.25.png Graphic file (type png)
 <use Figuras/ImageA_exp_gamma=1.25.png>
-Package pdftex.def Info: Figuras/ImageA_exp_gamma=1.25.png  used on input line 174.
-(pdftex.def)             Requested size: 150.32504pt x 180.24669pt.
-<Figuras/ImageA_exp_gamma=1.5.png, id=31, 222.71205pt x 267.03764pt>
+Package pdftex.def Info: Figuras/ImageA_exp_gamma=1.25.png  used on input line 170.
+(pdftex.def)             Requested size: 93.94957pt x 112.64807pt.
+<Figuras/ImageA_exp_gamma=1.5.png, id=89, 222.71205pt x 267.03764pt>
 File: Figuras/ImageA_exp_gamma=1.5.png Graphic file (type png)
 <use Figuras/ImageA_exp_gamma=1.5.png>
-Package pdftex.def Info: Figuras/ImageA_exp_gamma=1.5.png  used on input line 179.
-(pdftex.def)             Requested size: 150.32504pt x 180.24669pt.
-<Figuras/ImageA_exp_gamma=1.75.png, id=32, 222.71205pt x 267.03764pt>
+Package pdftex.def Info: Figuras/ImageA_exp_gamma=1.5.png  used on input line 175.
+(pdftex.def)             Requested size: 93.94957pt x 112.64807pt.
+<Figuras/ImageA_exp_gamma=1.75.png, id=90, 222.71205pt x 267.03764pt>
 File: Figuras/ImageA_exp_gamma=1.75.png Graphic file (type png)
 <use Figuras/ImageA_exp_gamma=1.75.png>
-Package pdftex.def Info: Figuras/ImageA_exp_gamma=1.75.png  used on input line 184.
-(pdftex.def)             Requested size: 150.32504pt x 180.24669pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:EQ_sustraction' on page 2 undefined on input line 191.
-
-
-LaTeX Warning: Reference `fig:binary_sustraction' on page 2 undefined on input line 191.
-
-
-LaTeX Warning: Reference `fig:Exptrans0.5_sustraction' on page 2 undefined on input line 191.
-
-
-LaTeX Warning: Reference `fig:Exptrans1.75_sustraction' on page 2 undefined on input line 191.
-
-<Figuras/ImageA_EQ.png, id=33, 222.71205pt x 267.03764pt>
-File: Figuras/ImageA_EQ.png Graphic file (type png)
-<use Figuras/ImageA_EQ.png>
-Package pdftex.def Info: Figuras/ImageA_EQ.png  used on input line 197.
-(pdftex.def)             Requested size: 112.74377pt x 135.18094pt.
-<Figuras/sustraction_EQ.png, id=34, 222.71205pt x 267.03764pt>
-File: Figuras/sustraction_EQ.png Graphic file (type png)
-<use Figuras/sustraction_EQ.png>
-Package pdftex.def Info: Figuras/sustraction_EQ.png  used on input line 201.
-(pdftex.def)             Requested size: 112.74377pt x 135.18094pt.
-File: Figuras/ImageA_binary.png Graphic file (type png)
-<use Figuras/ImageA_binary.png>
-Package pdftex.def Info: Figuras/ImageA_binary.png  used on input line 207.
-(pdftex.def)             Requested size: 112.74377pt x 135.18094pt.
-<Figuras/sustraction_binary.png, id=35, 222.71205pt x 267.03764pt>
-File: Figuras/sustraction_binary.png Graphic file (type png)
-<use Figuras/sustraction_binary.png>
-Package pdftex.def Info: Figuras/sustraction_binary.png  used on input line 211.
-(pdftex.def)             Requested size: 112.74377pt x 135.18094pt.
-File: Figuras/ImageA_exp_gamma=0.5.png Graphic file (type png)
-<use Figuras/ImageA_exp_gamma=0.5.png>
-Package pdftex.def Info: Figuras/ImageA_exp_gamma=0.5.png  used on input line 217.
-(pdftex.def)             Requested size: 112.74377pt x 135.18094pt.
-<Figuras/sustraction_exp_gamma=0.5.png, id=36, 222.71205pt x 267.03764pt>
-File: Figuras/sustraction_exp_gamma=0.5.png Graphic file (type png)
-<use Figuras/sustraction_exp_gamma=0.5.png>
-Package pdftex.def Info: Figuras/sustraction_exp_gamma=0.5.png  used on input line 221.
-(pdftex.def)             Requested size: 112.74377pt x 135.18094pt.
-File: Figuras/ImageA_exp_gamma=1.75.png Graphic file (type png)
-<use Figuras/ImageA_exp_gamma=1.75.png>
-Package pdftex.def Info: Figuras/ImageA_exp_gamma=1.75.png  used on input line 227.
-(pdftex.def)             Requested size: 112.74377pt x 135.18094pt.
-<Figuras/sustraction_exp_gamma=1.75.png, id=37, 222.71205pt x 267.03764pt>
-File: Figuras/sustraction_exp_gamma=1.75.png Graphic file (type png)
-<use Figuras/sustraction_exp_gamma=1.75.png>
-Package pdftex.def Info: Figuras/sustraction_exp_gamma=1.75.png  used on input line 231.
-(pdftex.def)             Requested size: 112.74377pt x 135.18094pt.
-
-LaTeX Warning: Float too large for page by 21.29369pt on input line 235.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:Interpolate' on page 2 undefined on input line 241.
-
-<Figuras/Interpolate_nn_f=0.25.png, id=38, 267.03764pt x 267.03764pt>
+Package pdftex.def Info: Figuras/ImageA_exp_gamma=1.75.png  used on input line 180.
+(pdftex.def)             Requested size: 93.94957pt x 112.64807pt.
+ [3 <./Figuras/ImageA_binary.png>]
+<Figuras/dif_EQ.png, id=106, 445.54456pt x 267.03764pt>
+File: Figuras/dif_EQ.png Graphic file (type png)
+<use Figuras/dif_EQ.png>
+Package pdftex.def Info: Figuras/dif_EQ.png  used on input line 193.
+(pdftex.def)             Requested size: 140.92793pt x 84.46364pt.
+<Figuras/dif_binary.png, id=107, 445.1832pt x 267.03764pt>
+File: Figuras/dif_binary.png Graphic file (type png)
+<use Figuras/dif_binary.png>
+Package pdftex.def Info: Figuras/dif_binary.png  used on input line 199.
+(pdftex.def)             Requested size: 140.92793pt x 84.53291pt.
+<Figuras/dif_gamma=0.5.png, id=108, 445.9059pt x 267.03764pt>
+File: Figuras/dif_gamma=0.5.png Graphic file (type png)
+<use Figuras/dif_gamma=0.5.png>
+Package pdftex.def Info: Figuras/dif_gamma=0.5.png  used on input line 206.
+(pdftex.def)             Requested size: 140.92793pt x 84.39844pt.
+<Figuras/dif_gamma=1.75.png, id=109, 445.4241pt x 267.03764pt>
+File: Figuras/dif_gamma=1.75.png Graphic file (type png)
+<use Figuras/dif_gamma=1.75.png>
+Package pdftex.def Info: Figuras/dif_gamma=1.75.png  used on input line 212.
+(pdftex.def)             Requested size: 140.92793pt x 84.48808pt.
+ [4 <./Figuras/ImageA_exp_gamma=0.25.png> <./Figuras/ImageA_exp_gamma=0.5.png> <./Figuras/ImageA_exp_gamma=0.75.png> <./Figuras/ImageA_exp_gamma=1.25.png> <./Figuras/ImageA_exp_gamma=1.5.png> <./Figuras/ImageA_exp_gamma=1.75.png> <./Figuras/dif_EQ.png> <./Figuras/dif_binary.png> <./Figuras/dif_gamma=0.5.png> <./Figuras/dif_gamma=1.75.png>]
+<Figuras/Interpolate_nn_f=0.25.png, id=128, 267.03764pt x 267.03764pt>
 File: Figuras/Interpolate_nn_f=0.25.png Graphic file (type png)
 <use Figuras/Interpolate_nn_f=0.25.png>
-Package pdftex.def Info: Figuras/Interpolate_nn_f=0.25.png  used on input line 247.
+Package pdftex.def Info: Figuras/Interpolate_nn_f=0.25.png  used on input line 229.
 (pdftex.def)             Requested size: 112.74377pt x 112.74586pt.
-<Figuras/Interpolate_nn_f=0.5.png, id=39, 267.03764pt x 267.03764pt>
+<Figuras/Interpolate_nn_f=0.5.png, id=129, 267.03764pt x 267.03764pt>
 File: Figuras/Interpolate_nn_f=0.5.png Graphic file (type png)
 <use Figuras/Interpolate_nn_f=0.5.png>
-Package pdftex.def Info: Figuras/Interpolate_nn_f=0.5.png  used on input line 251.
+Package pdftex.def Info: Figuras/Interpolate_nn_f=0.5.png  used on input line 233.
 (pdftex.def)             Requested size: 112.74377pt x 112.74586pt.
-<Figuras/Interpolate_nn_f=2.png, id=40, 267.03764pt x 267.03764pt>
+<Figuras/Interpolate_nn_f=2.png, id=130, 267.03764pt x 267.03764pt>
 File: Figuras/Interpolate_nn_f=2.png Graphic file (type png)
 <use Figuras/Interpolate_nn_f=2.png>
-Package pdftex.def Info: Figuras/Interpolate_nn_f=2.png  used on input line 255.
+Package pdftex.def Info: Figuras/Interpolate_nn_f=2.png  used on input line 237.
 (pdftex.def)             Requested size: 112.74377pt x 112.74586pt.
-<Figuras/Interpolate_nn_f=8.png, id=41, 267.03764pt x 267.03764pt>
+<Figuras/Interpolate_nn_f=8.png, id=131, 267.03764pt x 267.03764pt>
 File: Figuras/Interpolate_nn_f=8.png Graphic file (type png)
 <use Figuras/Interpolate_nn_f=8.png>
-Package pdftex.def Info: Figuras/Interpolate_nn_f=8.png  used on input line 259.
+Package pdftex.def Info: Figuras/Interpolate_nn_f=8.png  used on input line 241.
 (pdftex.def)             Requested size: 112.74377pt x 112.74586pt.
-<Figuras/Interpolate_bilinear_f=0.25.png, id=42, 267.03764pt x 267.03764pt>
+<Figuras/Interpolate_bilinear_f=0.25.png, id=132, 267.03764pt x 267.03764pt>
 File: Figuras/Interpolate_bilinear_f=0.25.png Graphic file (type png)
 <use Figuras/Interpolate_bilinear_f=0.25.png>
-Package pdftex.def Info: Figuras/Interpolate_bilinear_f=0.25.png  used on input line 263.
+Package pdftex.def Info: Figuras/Interpolate_bilinear_f=0.25.png  used on input line 245.
 (pdftex.def)             Requested size: 112.74377pt x 112.74586pt.
-<Figuras/Interpolate_bilinear_f=0.5.png, id=43, 267.03764pt x 267.03764pt>
+<Figuras/Interpolate_bilinear_f=0.5.png, id=133, 267.03764pt x 267.03764pt>
 File: Figuras/Interpolate_bilinear_f=0.5.png Graphic file (type png)
 <use Figuras/Interpolate_bilinear_f=0.5.png>
-Package pdftex.def Info: Figuras/Interpolate_bilinear_f=0.5.png  used on input line 269.
+Package pdftex.def Info: Figuras/Interpolate_bilinear_f=0.5.png  used on input line 250.
 (pdftex.def)             Requested size: 112.74377pt x 112.74586pt.
-<Figuras/Interpolate_bilinear_f=2.png, id=44, 267.03764pt x 267.03764pt>
+<Figuras/Interpolate_bilinear_f=2.png, id=134, 267.03764pt x 267.03764pt>
 File: Figuras/Interpolate_bilinear_f=2.png Graphic file (type png)
 <use Figuras/Interpolate_bilinear_f=2.png>
-Package pdftex.def Info: Figuras/Interpolate_bilinear_f=2.png  used on input line 275.
+Package pdftex.def Info: Figuras/Interpolate_bilinear_f=2.png  used on input line 255.
 (pdftex.def)             Requested size: 112.74377pt x 112.74586pt.
-<Figuras/Interpolate_bilinear_f=8.png, id=45, 267.03764pt x 267.03764pt>
+<Figuras/Interpolate_bilinear_f=8.png, id=135, 267.03764pt x 267.03764pt>
 File: Figuras/Interpolate_bilinear_f=8.png Graphic file (type png)
 <use Figuras/Interpolate_bilinear_f=8.png>
-Package pdftex.def Info: Figuras/Interpolate_bilinear_f=8.png  used on input line 281.
+Package pdftex.def Info: Figuras/Interpolate_bilinear_f=8.png  used on input line 260.
 (pdftex.def)             Requested size: 112.74377pt x 112.74586pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:Pasabajo' on page 2 undefined on input line 292.
-
-[2]
-<Figuras/ImagenA.png, id=56, 181.67876pt x 217.81375pt>
+<Figuras/ImagenA.png, id=137, 181.67876pt x 217.81375pt>
 File: Figuras/ImagenA.png Graphic file (type png)
 <use Figuras/ImagenA.png>
-Package pdftex.def Info: Figuras/ImagenA.png  used on input line 309.
+Package pdftex.def Info: Figuras/ImagenA.png  used on input line 288.
 (pdftex.def)             Requested size: 112.74377pt x 135.1694pt.
-<Figuras/ImagenA3x3.png, id=57, 181.67876pt x 217.81375pt>
+<Figuras/ImagenA3x3.png, id=138, 181.67876pt x 217.81375pt>
 File: Figuras/ImagenA3x3.png Graphic file (type png)
 <use Figuras/ImagenA3x3.png>
-Package pdftex.def Info: Figuras/ImagenA3x3.png  used on input line 314.
+Package pdftex.def Info: Figuras/ImagenA3x3.png  used on input line 293.
 (pdftex.def)             Requested size: 112.74377pt x 135.1694pt.
-<Figuras/ImagenA5x5.png, id=58, 181.67876pt x 217.81375pt>
+<Figuras/ImagenA5x5.png, id=139, 181.67876pt x 217.81375pt>
 File: Figuras/ImagenA5x5.png Graphic file (type png)
 <use Figuras/ImagenA5x5.png>
-Package pdftex.def Info: Figuras/ImagenA5x5.png  used on input line 319.
+Package pdftex.def Info: Figuras/ImagenA5x5.png  used on input line 298.
 (pdftex.def)             Requested size: 112.74377pt x 135.1694pt.
-<Figuras/ImagenA7x7.png, id=59, 181.67876pt x 217.81375pt>
+<Figuras/ImagenA7x7.png, id=140, 181.67876pt x 217.81375pt>
 File: Figuras/ImagenA7x7.png Graphic file (type png)
 <use Figuras/ImagenA7x7.png>
-Package pdftex.def Info: Figuras/ImagenA7x7.png  used on input line 324.
+Package pdftex.def Info: Figuras/ImagenA7x7.png  used on input line 303.
 (pdftex.def)             Requested size: 112.74377pt x 135.1694pt.
-<Figuras/ImagenC.png, id=60, 128.48pt x 128.48pt>
+<Figuras/ImagenC.png, id=141, 128.48pt x 128.48pt>
 File: Figuras/ImagenC.png Graphic file (type png)
 <use Figuras/ImagenC.png>
-Package pdftex.def Info: Figuras/ImagenC.png  used on input line 329.
+Package pdftex.def Info: Figuras/ImagenC.png  used on input line 308.
 (pdftex.def)             Requested size: 112.74377pt x 112.74515pt.
-<Figuras/ImagenC3x3.png, id=61, 128.48pt x 128.48pt>
+<Figuras/ImagenC3x3.png, id=142, 128.48pt x 128.48pt>
 File: Figuras/ImagenC3x3.png Graphic file (type png)
 <use Figuras/ImagenC3x3.png>
-Package pdftex.def Info: Figuras/ImagenC3x3.png  used on input line 334.
+Package pdftex.def Info: Figuras/ImagenC3x3.png  used on input line 313.
 (pdftex.def)             Requested size: 112.74377pt x 112.74515pt.
-<Figuras/ImagenC5x5.png, id=62, 128.48pt x 128.48pt>
+<Figuras/ImagenC5x5.png, id=143, 128.48pt x 128.48pt>
 File: Figuras/ImagenC5x5.png Graphic file (type png)
 <use Figuras/ImagenC5x5.png>
-Package pdftex.def Info: Figuras/ImagenC5x5.png  used on input line 339.
+Package pdftex.def Info: Figuras/ImagenC5x5.png  used on input line 318.
 (pdftex.def)             Requested size: 112.74377pt x 112.74515pt.
-<Figuras/ImagenC7x7.png, id=63, 128.48pt x 128.48pt>
+<Figuras/ImagenC7x7.png, id=144, 128.48pt x 128.48pt>
 File: Figuras/ImagenC7x7.png Graphic file (type png)
 <use Figuras/ImagenC7x7.png>
-Package pdftex.def Info: Figuras/ImagenC7x7.png  used on input line 344.
+Package pdftex.def Info: Figuras/ImagenC7x7.png  used on input line 323.
 (pdftex.def)             Requested size: 112.74377pt x 112.74515pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:superman' on page 3 undefined on input line 356.
-
-
-LaTeX Warning: Reference `fig:superman' on page 3 undefined on input line 356.
-
-
-LaTeX Warning: Reference `fig:supermanfft' on page 3 undefined on input line 356.
-
-<Figuras/superman.png, id=64, 596.2275pt x 816.04875pt>
+ [5 <./Figuras/Interpolate_nn_f=0.25.png> <./Figuras/Interpolate_nn_f=0.5.png> <./Figuras/Interpolate_nn_f=2.png> <./Figuras/Interpolate_nn_f=8.png> <./Figuras/Interpolate_bilinear_f=0.25.png> <./Figuras/Interpolate_bilinear_f=0.5.png> <./Figuras/Interpolate_bilinear_f=2.png> <./Figuras/Interpolate_bilinear_f=8.png>]
+<Figuras/superman.png, id=163, 596.2275pt x 816.04875pt>
 File: Figuras/superman.png Graphic file (type png)
 <use Figuras/superman.png>
-Package pdftex.def Info: Figuras/superman.png  used on input line 362.
-(pdftex.def)             Requested size: 230.18253pt x 315.04515pt.
-<Figuras/Inverse FFT of superman_process.png, id=65, 596.2275pt x 816.04875pt>
+Package pdftex.def Info: Figuras/superman.png  used on input line 341.
+(pdftex.def)             Requested size: 172.63689pt x 236.28697pt.
+<Figuras/Inverse FFT of superman_process.png, id=164, 596.2275pt x 816.04875pt>
 File: Figuras/Inverse FFT of superman_process.png Graphic file (type png)
 <use Figuras/Inverse FFT of superman_process.png>
-Package pdftex.def Info: Figuras/Inverse FFT of superman_process.png  used on input line 367.
-(pdftex.def)             Requested size: 230.18253pt x 315.04515pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figuras/FFT of superman.png, id=66, 1027.84pt x 1027.84pt>
+Package pdftex.def Info: Figuras/Inverse FFT of superman_process.png  used on input line 346.
+(pdftex.def)             Requested size: 172.63689pt x 236.28697pt.
+ [6 <./Figuras/ImagenA.png (PNG copy)> <./Figuras/ImagenA3x3.png (PNG copy)> <./Figuras/ImagenA5x5.png (PNG copy)> <./Figuras/ImagenA7x7.png (PNG copy)> <./Figuras/ImagenC.png (PNG copy)> <./Figuras/ImagenC3x3.png (PNG copy)> <./Figuras/ImagenC5x5.png (PNG copy)> <./Figuras/ImagenC7x7.png (PNG copy)>]
+<Figuras/FFT of superman.png, id=171, 1027.84pt x 1027.84pt>
 File: Figuras/FFT of superman.png Graphic file (type png)
 <use Figuras/FFT of superman.png>
-Package pdftex.def Info: Figuras/FFT of superman.png  used on input line 379.
-(pdftex.def)             Requested size: 230.18253pt x 230.17186pt.
-<Figuras/FFT of superman_process.png, id=67, 1027.84pt x 1027.84pt>
+Package pdftex.def Info: Figuras/FFT of superman.png  used on input line 358.
+(pdftex.def)             Requested size: 172.63689pt x 172.62889pt.
+<Figuras/FFT of superman_process.png, id=172, 1027.84pt x 1027.84pt>
 File: Figuras/FFT of superman_process.png Graphic file (type png)
 <use Figuras/FFT of superman_process.png>
-Package pdftex.def Info: Figuras/FFT of superman_process.png  used on input line 385.
-(pdftex.def)             Requested size: 230.18253pt x 230.17186pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:highunsharp' on page 3 undefined on input line 401.
-
-
-LaTeX Warning: Reference `fig:plot_highboost' on page 3 undefined on input line 401.
-
-[3]
+Package pdftex.def Info: Figuras/FFT of superman_process.png  used on input line 363.
+(pdftex.def)             Requested size: 172.63689pt x 172.62889pt.
+ [7 <./Figuras/superman.png (PNG copy)> <./Figuras/Inverse FFT of superman_process.png (PNG copy)> <./Figuras/FFT of superman.png (PNG copy)> <./Figuras/FFT of superman_process.png (PNG copy)>]
 File: Figuras/ImagenA.png Graphic file (type png)
 <use Figuras/ImagenA.png>
-Package pdftex.def Info: Figuras/ImagenA.png  used on input line 407.
-(pdftex.def)             Requested size: 150.32504pt x 180.22699pt.
-<Figuras/ImagenA_noise=5.png, id=76, 181.67876pt x 217.81375pt>
+Package pdftex.def Info: Figuras/ImagenA.png  used on input line 387.
+(pdftex.def)             Requested size: 93.94957pt x 112.63896pt.
+<Figuras/ImagenA_noise=5.png, id=179, 181.67876pt x 217.81375pt>
 File: Figuras/ImagenA_noise=5.png Graphic file (type png)
 <use Figuras/ImagenA_noise=5.png>
-Package pdftex.def Info: Figuras/ImagenA_noise=5.png  used on input line 412.
-(pdftex.def)             Requested size: 150.32504pt x 180.22699pt.
-<Figuras/ImagenA_noise=5_filter_7x7.png, id=77, 181.67876pt x 217.81375pt>
+Package pdftex.def Info: Figuras/ImagenA_noise=5.png  used on input line 392.
+(pdftex.def)             Requested size: 93.94957pt x 112.63896pt.
+<Figuras/ImagenA_noise=5_filter_7x7.png, id=180, 181.67876pt x 217.81375pt>
 File: Figuras/ImagenA_noise=5_filter_7x7.png Graphic file (type png)
 <use Figuras/ImagenA_noise=5_filter_7x7.png>
-Package pdftex.def Info: Figuras/ImagenA_noise=5_filter_7x7.png  used on input line 417.
-(pdftex.def)             Requested size: 150.32504pt x 180.22699pt.
-<Figuras/unsharp.png, id=78, 222.71205pt x 267.03764pt>
+Package pdftex.def Info: Figuras/ImagenA_noise=5_filter_7x7.png  used on input line 397.
+(pdftex.def)             Requested size: 93.94957pt x 112.63896pt.
+<Figuras/unsharp.png, id=181, 222.71205pt x 267.03764pt>
 File: Figuras/unsharp.png Graphic file (type png)
 <use Figuras/unsharp.png>
-Package pdftex.def Info: Figuras/unsharp.png  used on input line 422.
-(pdftex.def)             Requested size: 150.32504pt x 180.24669pt.
-<Figuras/highboost_A=2.png, id=79, 222.71205pt x 267.03764pt>
+Package pdftex.def Info: Figuras/unsharp.png  used on input line 403.
+(pdftex.def)             Requested size: 93.94957pt x 112.64807pt.
+<Figuras/highboost_A=2.png, id=182, 222.71205pt x 267.03764pt>
 File: Figuras/highboost_A=2.png Graphic file (type png)
 <use Figuras/highboost_A=2.png>
-Package pdftex.def Info: Figuras/highboost_A=2.png  used on input line 427.
-(pdftex.def)             Requested size: 150.32504pt x 180.24669pt.
-<Figuras/highboost_A=3.png, id=80, 222.71205pt x 267.03764pt>
+Package pdftex.def Info: Figuras/highboost_A=2.png  used on input line 409.
+(pdftex.def)             Requested size: 93.94957pt x 112.64807pt.
+<Figuras/highboost_A=3.png, id=183, 222.71205pt x 267.03764pt>
 File: Figuras/highboost_A=3.png Graphic file (type png)
 <use Figuras/highboost_A=3.png>
-Package pdftex.def Info: Figuras/highboost_A=3.png  used on input line 432.
-(pdftex.def)             Requested size: 150.32504pt x 180.24669pt.
+Package pdftex.def Info: Figuras/highboost_A=3.png  used on input line 414.
+(pdftex.def)             Requested size: 93.94957pt x 112.64807pt.
 
+Underfull \hbox (badness 1221) in paragraph at lines 415--415
+[]\OT1/ptm/m/n/10.95 (f) |Fil-tro High-boost
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figuras/Highboost_plot.png, id=81, 498.9039pt x 376.2858pt>
+[8 <./Figuras/ImagenA_noise=5.png (PNG copy)> <./Figuras/ImagenA_noise=5_filter_7x7.png (PNG copy)> <./Figuras/unsharp.png> <./Figuras/highboost_A=2.png> <./Figuras/highboost_A=3.png>]
+<Figuras/Highboost_plot.png, id=193, 498.9039pt x 376.2858pt>
 File: Figuras/Highboost_plot.png Graphic file (type png)
 <use Figuras/Highboost_plot.png>
-Package pdftex.def Info: Figuras/Highboost_plot.png  used on input line 443.
-(pdftex.def)             Requested size: 328.82707pt x 248.02211pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:SNR' on page 4 undefined on input line 454.
-
-
-LaTeX Warning: Reference `tab:SNR' on page 4 undefined on input line 458.
-
-<Figuras/roi_corte2.png, id=82, 386.04225pt x 386.04225pt>
+Package pdftex.def Info: Figuras/Highboost_plot.png  used on input line 425.
+(pdftex.def)             Requested size: 281.85587pt x 212.59038pt.
+<Figuras/roi_corte2.png, id=196, 386.04225pt x 386.04225pt>
 File: Figuras/roi_corte2.png Graphic file (type png)
 <use Figuras/roi_corte2.png>
-Package pdftex.def Info: Figuras/roi_corte2.png  used on input line 464.
+Package pdftex.def Info: Figuras/roi_corte2.png  used on input line 444.
 (pdftex.def)             Requested size: 161.12706pt x 161.12935pt.
-<Figuras/hist_corte2.png, id=83, 205.9695pt x 121.6545pt>
+<Figuras/hist_corte2.png, id=197, 205.9695pt x 121.6545pt>
 File: Figuras/hist_corte2.png Graphic file (type png)
 <use Figuras/hist_corte2.png>
-Package pdftex.def Info: Figuras/hist_corte2.png  used on input line 470.
+Package pdftex.def Info: Figuras/hist_corte2.png  used on input line 449.
 (pdftex.def)             Requested size: 230.18253pt x 135.95508pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:FWHM' on page 4 undefined on input line 489.
-
-
-LaTeX Warning: Reference `fig:FWHM' on page 4 undefined on input line 489.
-
-
-LaTeX Warning: Reference `tab:FWHM' on page 4 undefined on input line 489.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figuras/roi_zoom_corte11.png, id=84, 385.47011pt x 386.6445pt>
+ [9 <./Figuras/Highboost_plot.png>]
+<Figuras/roi_zoom_corte11.png, id=210, 385.47011pt x 386.6445pt>
 File: Figuras/roi_zoom_corte11.png Graphic file (type png)
 <use Figuras/roi_zoom_corte11.png>
-Package pdftex.def Info: Figuras/roi_zoom_corte11.png  used on input line 509.
-(pdftex.def)             Requested size: 184.14671pt x 184.70229pt.
-<Figuras/profile_corte11.png, id=85, 517.935pt x 299.31825pt>
+Package pdftex.def Info: Figuras/roi_zoom_corte11.png  used on input line 488.
+(pdftex.def)             Requested size: 161.12706pt x 161.61671pt.
+<Figuras/profile_corte11.png, id=211, 517.935pt x 299.31825pt>
 File: Figuras/profile_corte11.png Graphic file (type png)
 <use Figuras/profile_corte11.png>
-Package pdftex.def Info: Figuras/profile_corte11.png  used on input line 515.
-(pdftex.def)             Requested size: 253.20218pt x 146.32925pt.
-
-Overfull \hbox (23.01965pt too wide) in paragraph at lines 515--516
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4] [5] [6 <./Figuras/ImageA_brute.png> <./Figuras/ImageA_0_150.png>] [7 <./Figuras/ImageA_0_25.png> <./Figuras/ImageA_25_62.png> <./Figuras/ImageA_62_113.png> <./Figuras/ImageA_113_150.png> <./Figuras/ImageA_EQ_hist.png>] [8 <./Figuras/ImageA_binary.png>] [9 <./Figuras/ImageA_exp_gamma=0.25.png> <./Figuras/ImageA_exp_gamma=0.5.png> <./Figuras/ImageA_exp_gamma=0.75.png> <./Figuras/ImageA_exp_gamma=1.25.png> <./Figuras/ImageA_exp_gamma=1.5.png> <./Figuras/ImageA_exp_gamma=1.75.png>] [10 <./Figuras/ImageA_EQ.png> <./Figuras/sustraction_EQ.png> <./Figuras/sustraction_binary.png> <./Figuras/sustraction_exp_gamma=0.5.png> <./Figuras/sustraction_exp_gamma=1.75.png>] [11 <./Figuras/Interpolate_nn_f=0.25.png> <./Figuras/Interpolate_nn_f=0.5.png> <./Figuras/Interpolate_nn_f=2.png> <./Figuras/Interpolate_nn_f=8.png> <./Figuras/Interpolate_bilinear_f=0.25.png> <./Figuras/Interpolate_bilinear_f=0.5.png> <./Figuras/Interpolate_bilinear_f=2.png> <./Figuras/Interpolate_bilinear_f=8.png>] [12 <./Figuras/ImagenA.png (PNG copy)> <./Figuras/ImagenA3x3.png (PNG copy)> <./Figuras/ImagenA5x5.png (PNG copy)> <./Figuras/ImagenA7x7.png (PNG copy)> <./Figuras/ImagenC.png (PNG copy)> <./Figuras/ImagenC3x3.png (PNG copy)> <./Figuras/ImagenC5x5.png (PNG copy)> <./Figuras/ImagenC7x7.png (PNG copy)>] [13 <./Figuras/superman.png (PNG copy)> <./Figuras/Inverse FFT of superman_process.png (PNG copy)>] [14 <./Figuras/FFT of superman.png (PNG copy)> <./Figuras/FFT of superman_process.png (PNG copy)>] [15 <./Figuras/ImagenA_noise=5.png (PNG copy)> <./Figuras/ImagenA_noise=5_filter_7x7.png (PNG copy)> <./Figuras/unsharp.png> <./Figuras/highboost_A=2.png> <./Figuras/highboost_A=3.png>] [16 <./Figuras/Highboost_plot.png> <./Figuras/roi_corte2.png> <./Figuras/hist_corte2.png>] [17 <./Figuras/roi_zoom_corte11.png> <./Figuras/profile_corte11.png>]
-
-c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex:542: Package Listings Error: Couldn't load requested style.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.542 \begin{lstlisting}[style=mystyle]
-                                       
-The following styles weren't loadable:
-    ,mystyle$
-This may cause errors in the sequel.
-
-
-c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex:542: Package Listings Error: style mystyle undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.542 \begin{lstlisting}[style=mystyle]
-                                       
-The style is not loadable. Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 555.
-(C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 555.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 562.
- (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-LaTeX Font Info:    Trying to load font information for OML+ptm on input line 562.
- (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlptm.fd
-File: omlptm.fd 
-)
-LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 562.
-
-
-c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex:590: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.590         ax2.set_ylabel(r"Número 
-                                       de píxeles", fontsize=15)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex:590: LaTeX Error: Invalid UTF-8 byte "BA.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.590         ax2.set_ylabel(r"Número 
-                                       de píxeles", fontsize=15)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex:590: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.590 ...    ax2.set_ylabel(r"Número de píxeles"
-                                                  , fontsize=15)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex:590: LaTeX Error: Invalid UTF-8 byte "AD.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.590 ...    ax2.set_ylabel(r"Número de píxeles"
-                                                  , fontsize=15)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex:599: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.599 ... eje y (puedes ajustar este valor según 
-                                                  tu necesidad)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex:599: LaTeX Error: Invalid UTF-8 byte "BA.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.599 ... eje y (puedes ajustar este valor según 
-                                                  tu necesidad)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex:600: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.600 ... eje y (puedes ajustar este valor según 
-                                                  tu necesidad)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex:600: LaTeX Error: Invalid UTF-8 byte "BA.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.600 ... eje y (puedes ajustar este valor según 
-                                                  tu necesidad)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex:603: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.603 ...yle='-', linewidth=2)  # Trama la línea 
-                                                  recta
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex:603: LaTeX Error: Invalid UTF-8 byte "AD.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.603 ...yle='-', linewidth=2)  # Trama la línea 
-                                                  recta
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-Overfull \hbox (15.04991pt too wide) in paragraph at lines 603--605
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[18
-
-
-] [19] [20]
-
-c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex:770: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.770         #Transformación 
-                               binaria
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex:770: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.770         #Transformación 
-                               binaria
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex:771: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.771         print("\n Transformación 
-                                        binaria")
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex:771: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.771         print("\n Transformación 
-                                        binaria")
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex:776: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.776         #Transformación 
-                               exponencial
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex:776: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.776         #Transformación 
-                               exponencial
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex:777: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.777         print("\n Transformación 
-                                        exponencial")
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex:777: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.777         print("\n Transformación 
-                                        exponencial")
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-[21] [22] (c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_2\TP1_IgnacioLembo_IM\build\main.aux
+Package pdftex.def Info: Figuras/profile_corte11.png  used on input line 493.
+(pdftex.def)             Requested size: 230.18253pt x 133.02493pt.
+ [10 <./Figuras/roi_corte2.png> <./Figuras/hist_corte2.png>] [11 <./Figuras/roi_zoom_corte11.png> <./Figuras/profile_corte11.png>] (c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_2\TP1_IgnacioLembo_IM\build\main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  C077C97275B7652AD41D8927A2C9EB61;1209.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 24221BF9807B1751E10FA2B55B6A9AEC;1726.
  ) 
 Here is how much of TeX's memory you used:
- 28009 strings out of 476406
- 521567 string characters out of 2785756
- 1941787 words of memory out of 3000000
- 47491 multiletter control sequences out of 15000+600000
- 537399 words of font info for 91 fonts, out of 8000000 for 9000
+ 25735 strings out of 476406
+ 489308 string characters out of 2785756
+ 1863787 words of memory out of 3000000
+ 45551 multiletter control sequences out of 15000+600000
+ 535976 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,9n,104p,1173b,2032s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_2\TP1_IgnacioLembo_IM\build\main.pdf" (22 pages, 13782640 bytes).
+ 100i,9n,104p,1111b,652s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_2\TP1_IgnacioLembo_IM\build\main.pdf" (11 pages, 14411947 bytes).
 PDF statistics:
- 647 PDF objects out of 1000 (max. 8388607)
- 355 named destinations out of 1000 (max. 500000)
- 258 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 290 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 325 words of extra memory for PDF output out of 10000 (max. 10000000)
 
