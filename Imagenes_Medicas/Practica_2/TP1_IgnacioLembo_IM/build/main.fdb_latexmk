@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1709841179 "c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex" "build/main.pdf" "main" 1709841191 0
+["pdflatex"] 1710601496 "c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex" "build/main.pdf" "main" 1710601509 0
   "C:/Users/Ignacio Lembo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1709749960 363868 2a1d234a8d75cf8097d2c5771b188d98 ""
   "C:/Users/Ignacio Lembo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1691447391 23172417 cd8cf84e5031279826843bdd687bb378 ""
   "C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -244,8 +244,8 @@
   "Figuras/roi_zoom_corte11.png" 1709578118 3051397 0ae8dba468d83f30c2fd7f4406b1d98b ""
   "Figuras/superman.png" 1709573656 454869 683972072e77fafdd252cfa87fa314a4 ""
   "Figuras/unsharp.png" 1709579310 138055 4eaaa8fa03f61410147cdb46fa950b81 ""
-  "build/main.aux" 1709841191 10383 4a6457f34c8789a7b9f5cec4f9a5c46b "pdflatex"
-  "build/main.out" 1709841191 1726 24221bf9807b1751e10fa2b55b6a9aec "pdflatex"
+  "build/main.aux" 1710601509 10383 4a6457f34c8789a7b9f5cec4f9a5c46b "pdflatex"
+  "build/main.out" 1710601509 1726 24221bf9807b1751e10fa2b55b6a9aec "pdflatex"
   "c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_2/TP1_IgnacioLembo_IM/main.tex" 1709841178 25733 6cb72d83aad64c6a2ad55c7d8c0b9d40 ""
   "main.tex" 1709841178 25733 6cb72d83aad64c6a2ad55c7d8c0b9d40 ""
   (generated)
