@@ -1,103 +1,161 @@
- %ARTdemo (script) Demonstrates the use of, and the results from, the ART methods.
-%
-% This script illustrates the use of the ART methods kaczmarz, symmetric
-% kaczmarz, and randomized kaczmarz.
-%
-% The script creates a parallel-beam test problem, adds noise, and solves
-% the problems with the ART methods.  The exact solution and the results
-% from the methods are shown.
-%
-% See also: nonnegdemo, SIRTdemo, trainingdemo.
-
-% Maria Saxild-Hansen and Per Chr. Hansen, Mar 11, 2011, DTU Compute.
-
 close all
-fprintf(1,'\nStarting ARTdemo:\n\n');
+fprintf(1,'\nStarting modify ARTdemo:\n\n');
 
-% Set the parameters for the test problem.
-N = 50;           % The discretization points.
-theta = 0:5:179;  % No. of used angles.
-p = 75;           % No. of parallel rays.
-eta = 0.05;       % Relative noise level.
+% Inicializar matrices para almacenar errores de reconstrucción
+errors_kaczmarz = [];
+errors_symkaczmarz = [];
+errors_randkaczmarz = [];
+errors_sart = [];
+errors_em = [];
 
-fprintf(1,'Creating a parallel-bema tomography test problem\n');
-fprintf(1,'with N = %2.0f, theta = %1.0f:%1.0f:%3.0f, and p = %2.0f.',...
-    [N,theta(1),theta(2)-theta(1),theta(end),p]);
+ini = 1;
+fin = 100;
+step = 2;
 
-% Create the test problem.
-[A,b_ex,x_ex] = paralleltomo(N,theta,p);
+%for i = [ini:step:fin]
+  %fprintf(1,'i = %2.0d \n', i);
 
-% Noise level.
-delta = eta*norm(b_ex);
+  % Set the parameters for the test problem.
+  N = 50;           % The discretization points.
+  p = 75;    % No. of parallel rays.
+  eta = 0.05;       % Relative noise level.
+  k = 50; % No. of iterations.
+  nang = 36.0;   %nang = 1.0*i; % No. of used angles
+  theta = 0:180.0/nang:179;
 
-% Add noise to the rhs.
-randn('state',0);
-e = randn(size(b_ex));
-e = delta*e/norm(e);
-b = b_ex + e;
+  %fprintf(1,'Creating a parallel-beam tomography test problem\n');
+  %fprintf(1,'with N = %2.0f, theta = %1.0f:%1.0f:%3.0f, and p = %2.0f.',...
+  %    [N,theta(1),theta(2)-theta(1),theta(end),p]);
 
-% Show the exact solution.
-figure
-imagesc(reshape(x_ex,N,N)), colormap gray,
-axis image off
-c = caxis;
-title('Exact phantom')
+  % Create the test problem.
+  [A,b_ex,x_ex] = paralleltomo(N,theta,p);
 
-% No. of iterations.
-k = 10;
+  % Noise level.
+  delta = eta*norm(b_ex);
 
-fprintf(1,'\n\n');
-fprintf(1,'Perform k = %2.0f iterations with Kaczmarz''s method.',k);
-fprintf(1,'\nThis takes a moment ...');
+  % Add noise to the rhs.
+  randn('state',0);
+  e = randn(size(b_ex));
+  e = delta*e/norm(e);
+  b = b_ex + e;
 
-% Perform the kaczmarz iterations.
-Xkacz = kaczmarz(A,b,k);
+  % Show the exact solution.
+  figure
+  imagesc(reshape(x_ex,N,N)), colormap gray,
+  axis image off
+  c = caxis;
+  title('Exact phantom')
 
-% Show the kaczmarz solution.
-figure
-imagesc(reshape(Xkacz,N,N)), colormap gray,
-axis image off
-caxis(c);
-title('Kaczmarz reconstruction')
+  %fprintf(1,'\n\n');
+  %fprintf(1,'Perform k = %2.0f iterations with FBP method.',k);
+  %fprintf(1,'\nThis takes a moment ...');
 
-fprintf(1,'\n\n');
-fprintf(1,'Perform k = %2.0f iterations with the symmetric Kaczmarz method.',k);
-fprintf(1,'\nThis takes a moment ...');
+  % Perform the kaczmarz iterations.
+  tic
+  Xfbp = fbp(A,b,theta,'ram-lak');
+  toc
 
-% Perform the EM iterations.
-XEm = ex_max(A,b,k);
+  %Show the fbp solution.
+  figure
+  imagesc(reshape(Xfbp,N,N)), colormap gray,
+  axis image off
+  caxis(c);
+  title('FBP reconstruction')
 
-% Show the EM solution.
-figure
-imagesc(reshape(XEm,N,N)), colormap gray,
-axis image off
-caxis(c);
-title('EM reconstruction')
+  %fprintf(1,'\n\n');
+  %fprintf(1,'Perform k = %2.0f iterations with Kaczmarz''s method.',k);
+  %fprintf(1,'\nThis takes a moment ...');
 
-fprintf(1,'\n\n');
-fprintf(1,'Perform k = %2.0f iterations with the EM method.',k);
-fprintf(1,'\nThis takes a moment ...\n');
+  % Perform the kaczmarz iterations.
+  %tic
+  Xkacz = kaczmarz(A,b,k);
+  %toc
 
-% Perform the symmetric kaczmarz iterations.
-Xsymk = symkaczmarz(A,b,k);
+  % Calcular error de reconstrucción para Kaczmarz
+  error_kaczmarz = norm(x_ex - Xkacz, 'fro') / norm(x_ex, 'fro');
+  errors_kaczmarz = [errors_kaczmarz error_kaczmarz];
 
-% Show the symmetric kaczmarz solution.
-figure
-imagesc(reshape(Xsymk,N,N)), colormap gray,
-axis image off
-caxis(c);
-title('Symmetric Kaczmarz reconstruction')
+  %Show the kaczmarz solution.
+  %figure
+  %imagesc(reshape(Xkacz,N,N)), colormap gray,
+  %axis image off
+  %caxis(c);
+  %title('Kaczmarz reconstruction')
 
-fprintf(1,'\n\n');
-fprintf(1,'Perform k = %2.0f iterations with the randomized Kaczmarz method.',k);
-fprintf(1,'\nThis takes a moment ...\n');
+  %fprintf(1,'\n\n');
+  %fprintf(1,'Perform k = %2.0f iterations with the symmetric Kaczmarz method.',k);
+  %fprintf(1,'\nThis takes a moment ...');
 
-% Perform the randomized kaczmarz iterations.
-Xrand = randkaczmarz(A,b,k);
+  % Perform the symmetric kaczmarz iterations.
+  %tic
+  Xsymk = symkaczmarz(A,b,k);
+  %toc
 
-% Show the randomized kaczmarz solution.
-figure
-imagesc(reshape(Xrand,N,N)), colormap gray,
-axis image off
-caxis(c);
-title('Randomized Kaczmarz reconstruction')
+  % Calcular error de reconstrucción para Symmetric Kaczmarz
+  error_symkaczmarz = norm(x_ex - Xsymk, 'fro') / norm(x_ex, 'fro');
+  errors_symkaczmarz = [errors_symkaczmarz error_symkaczmarz];
+
+  % Show the symmetric kaczmarz solution.
+  %figure
+  %imagesc(reshape(Xsymk,N,N)), colormap gray,
+  %axis image off
+  %caxis(c);
+  %title('Symmetric Kaczmarz reconstruction')
+
+  %fprintf(1,'\n\n');
+  %fprintf(1,'Perform k = %2.0f iterations with the randomized Kaczmarz method.',k);
+  %fprintf(1,'\nThis takes a moment ...\n');
+
+  % Perform the randomized kaczmarz iterations.
+  %tic
+  Xrand = randkaczmarz(A,b,k);
+  %toc
+
+  % Calcular error de reconstrucción para Randomized Kaczmarz
+  error_randkaczmarz = norm(x_ex - Xrand, 'fro') / norm(x_ex, 'fro');
+  errors_randkaczmarz = [errors_randkaczmarz error_randkaczmarz];
+
+  % Show the randomized kaczmarz solution.
+  %figure
+  %imagesc(reshape(Xrand,N,N)), colormap gray,
+  %axis image off
+  %caxis(c);
+  %title('Randomized Kaczmarz reconstruction')
+
+  %fprintf(1,'\n\n');
+  %fprintf(1,'Perform k = %2.0f iterations with the SART method.',k);
+  %fprintf(1,'\nThis takes a moment ...\n');
+
+  % Perform the SART iterations.
+  %tic
+  Xsart = sart(A,b,k);
+  %toc
+
+  % Calcular error de reconstrucción para SART
+  error_sart = norm(x_ex - Xsart, 'fro') / norm(x_ex, 'fro');
+  errors_sart = [errors_sart error_sart];
+
+  % Show the SART solution.
+  %figure
+  %imagesc(reshape(Xsart,N,N)), colormap gray,
+  %axis image off
+  %caxis(c);
+  %title('SART reconstruction')
+
+%endfor
+
+% Graficar errores de reconstrucción para cada método en función de p
+%figure
+%plot([ini:step:fin]/10, errors_kaczmarz, '-o', 'DisplayName', 'Kaczmarz', 'Color', 'blue', 'MarkerFaceColor', 'blue');
+%hold on
+%plot([ini:step:fin]/10, errors_symkaczmarz, '-s', 'DisplayName', 'Kaczmarz simétrico', 'Color', 'red', 'MarkerFaceColor', 'red');
+%plot([ini:step:fin]/10, errors_randkaczmarz, '-^', 'DisplayName', 'Kaczmarz aleatorio', 'Color', 'green', 'MarkerFaceColor', 'green');
+%plot([ini:step:fin]/10, errors_sart, '-d', 'DisplayName', 'SART', 'Color', 'black', 'MarkerFaceColor', 'black');
+%xlabel('Nivel de ruido \eta [%]')
+%ylabel('Error de reconstrucción')
+%title('Reconstruction Error vs. p for Different Methods')
+%legend('Location', 'NorthEast')  % Colocar la leyenda en la esquina superior derecha
+%grid on
+%set(gca, 'FontSize', 20)
+
+

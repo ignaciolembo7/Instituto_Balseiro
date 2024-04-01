@@ -1,7 +1,7 @@
-PWD c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM
+PWD c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM
 INPUT C:\Users\Ignacio Lembo\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\main.tex
-OUTPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.log
+INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\main.tex
+OUTPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.log
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -1000,10 +1000,10 @@ INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.aux
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.aux
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.aux
-OUTPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.aux
+INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.aux
+INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.aux
+INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.aux
+OUTPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.aux
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -1025,18 +1025,18 @@ INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\ep
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.out
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.out
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.out
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.out
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.out
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.out
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.out
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.out
-OUTPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.pdf
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.out
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.out
-OUTPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.out
+INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.out
+INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.out
+INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.out
+INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.out
+INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.out
+INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.out
+INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.out
+INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.out
+OUTPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.pdf
+INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.out
+INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.out
+OUTPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.out
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
@@ -1061,7 +1061,6 @@ INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsf
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
@@ -1079,33 +1078,21 @@ INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsf
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr7t.tfm
-INPUT .\Figuras\SL_rasterizado.png
-INPUT .\Figuras\SL_rasterizado.png
-INPUT Figuras\SL_rasterizado.png
-INPUT .\Figuras\SL_rasterizado.png
-INPUT .\Figuras\SL_rasterizado.png
-INPUT .\Figuras\SL_rasterizado.png
-INPUT .\Figuras\SL_rasterizado.png
+INPUT .\Figuras\enunciado.png
+INPUT .\Figuras\enunciado.png
+INPUT Figuras\enunciado.png
+INPUT .\Figuras\enunciado.png
+INPUT .\Figuras\enunciado.png
+INPUT .\Figuras\enunciado.png
+INPUT .\Figuras\enunciado.png
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT .\Figuras\SL_rasterizado_EQ.png
-INPUT .\Figuras\SL_rasterizado_EQ.png
-INPUT Figuras\SL_rasterizado_EQ.png
-INPUT .\Figuras\SL_rasterizado_EQ.png
-INPUT .\Figuras\SL_rasterizado_EQ.png
-INPUT .\Figuras\SL_rasterizado_EQ.png
-INPUT .\Figuras\SL_rasterizado_EQ.png
-INPUT .\Figuras\SL_sinogram.png
-INPUT .\Figuras\SL_sinogram.png
-INPUT Figuras\SL_sinogram.png
-INPUT .\Figuras\SL_sinogram.png
-INPUT .\Figuras\SL_sinogram.png
-INPUT .\Figuras\SL_sinogram.png
-INPUT .\Figuras\SL_sinogram.png
+INPUT .\Figuras\ej1.png
+INPUT .\Figuras\ej1.png
+INPUT Figuras\ej1.png
+INPUT .\Figuras\ej1.png
+INPUT .\Figuras\ej1.png
+INPUT .\Figuras\ej1.png
+INPUT .\Figuras\ej1.png
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
@@ -1115,244 +1102,173 @@ INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT .\Figuras\ej1_sol.png
+INPUT .\Figuras\ej1_sol.png
+INPUT Figuras\ej1_sol.png
+INPUT .\Figuras\ej1_sol.png
+INPUT .\Figuras\ej1_sol.png
+INPUT .\Figuras\ej1_sol.png
+INPUT .\Figuras\ej1_sol.png
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr7t.tfm
+INPUT .\Figuras\exact_phantom.png
+INPUT .\Figuras\exact_phantom.png
+INPUT Figuras\exact_phantom.png
+INPUT .\Figuras\exact_phantom.png
+INPUT .\Figuras\exact_phantom.png
+INPUT .\Figuras\exact_phantom.png
+INPUT .\Figuras\exact_phantom.png
+INPUT .\Figuras\Kaczmarz_rec.png
+INPUT .\Figuras\Kaczmarz_rec.png
+INPUT Figuras\Kaczmarz_rec.png
+INPUT .\Figuras\Kaczmarz_rec.png
+INPUT .\Figuras\Kaczmarz_rec.png
+INPUT .\Figuras\Kaczmarz_rec.png
+INPUT .\Figuras\Kaczmarz_rec.png
+INPUT .\Figuras\Kaczmarz_sym.png
+INPUT .\Figuras\Kaczmarz_sym.png
+INPUT Figuras\Kaczmarz_sym.png
+INPUT .\Figuras\Kaczmarz_sym.png
+INPUT .\Figuras\Kaczmarz_sym.png
+INPUT .\Figuras\Kaczmarz_sym.png
+INPUT .\Figuras\Kaczmarz_sym.png
+INPUT .\Figuras\Kaczmarz_random.png
+INPUT .\Figuras\Kaczmarz_random.png
+INPUT Figuras\Kaczmarz_random.png
+INPUT .\Figuras\Kaczmarz_random.png
+INPUT .\Figuras\Kaczmarz_random.png
+INPUT .\Figuras\Kaczmarz_random.png
+INPUT .\Figuras\Kaczmarz_random.png
+INPUT .\Figuras\sart_rec.png
+INPUT .\Figuras\sart_rec.png
+INPUT Figuras\sart_rec.png
+INPUT .\Figuras\sart_rec.png
+INPUT .\Figuras\sart_rec.png
+INPUT .\Figuras\sart_rec.png
+INPUT .\Figuras\sart_rec.png
+INPUT .\Figuras\fbp_rec.png
+INPUT .\Figuras\fbp_rec.png
+INPUT Figuras\fbp_rec.png
+INPUT .\Figuras\fbp_rec.png
+INPUT .\Figuras\fbp_rec.png
+INPUT .\Figuras\fbp_rec.png
+INPUT .\Figuras\fbp_rec.png
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr7t.vf
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT .\Figuras\SL_rasterizado_EQ.png
-INPUT .\Figuras\SL_rasterizado_EQ.png
-INPUT Figuras\SL_rasterizado_EQ.png
-INPUT .\Figuras\SL_rasterizado_EQ.png
-INPUT .\Figuras\SL_rec_lineal_EQ.png
-INPUT .\Figuras\SL_rec_lineal_EQ.png
-INPUT Figuras\SL_rec_lineal_EQ.png
-INPUT .\Figuras\SL_rec_lineal_EQ.png
-INPUT .\Figuras\SL_rec_lineal_EQ.png
-INPUT .\Figuras\SL_rec_lineal_EQ.png
-INPUT .\Figuras\SL_rec_lineal_EQ.png
-INPUT .\Figuras\sustraction.png
-INPUT .\Figuras\sustraction.png
-INPUT Figuras\sustraction.png
-INPUT .\Figuras\sustraction.png
-INPUT .\Figuras\sustraction.png
-INPUT .\Figuras\sustraction.png
-INPUT .\Figuras\sustraction.png
-INPUT .\Figuras\error_vs_detectores.png
-INPUT .\Figuras\error_vs_detectores.png
-INPUT Figuras\error_vs_detectores.png
-INPUT .\Figuras\error_vs_detectores.png
-INPUT .\Figuras\error_vs_detectores.png
-INPUT .\Figuras\error_vs_detectores.png
-INPUT .\Figuras\error_vs_detectores.png
-INPUT .\Figuras\error_vs_proyecciones.png
-INPUT .\Figuras\error_vs_proyecciones.png
-INPUT Figuras\error_vs_proyecciones.png
-INPUT .\Figuras\error_vs_proyecciones.png
-INPUT .\Figuras\error_vs_proyecciones.png
-INPUT .\Figuras\error_vs_proyecciones.png
-INPUT .\Figuras\error_vs_proyecciones.png
-INPUT .\Figuras\error_vs_filters.png
-INPUT .\Figuras\error_vs_filters.png
-INPUT Figuras\error_vs_filters.png
-INPUT .\Figuras\error_vs_filters.png
-INPUT .\Figuras\error_vs_filters.png
-INPUT .\Figuras\error_vs_filters.png
-INPUT .\Figuras\error_vs_filters.png
-INPUT .\Figuras\sinograma_0.1.png
-INPUT .\Figuras\sinograma_0.1.png
-INPUT Figuras\sinograma_0.1.png
-INPUT .\Figuras\sinograma_0.1.png
-INPUT .\Figuras\sinograma_0.1.png
-INPUT .\Figuras\sinograma_0.1.png
-INPUT .\Figuras\sinograma_0.1.png
-INPUT .\Figuras\reconstruction_ramp_EQ.png
-INPUT .\Figuras\reconstruction_ramp_EQ.png
-INPUT Figuras\reconstruction_ramp_EQ.png
-INPUT .\Figuras\reconstruction_ramp_EQ.png
-INPUT .\Figuras\reconstruction_ramp_EQ.png
-INPUT .\Figuras\reconstruction_ramp_EQ.png
-INPUT .\Figuras\reconstruction_ramp_EQ.png
-INPUT .\Figuras\reconstruction_shepp-logan_EQ.png
-INPUT .\Figuras\reconstruction_shepp-logan_EQ.png
-INPUT Figuras\reconstruction_shepp-logan_EQ.png
-INPUT .\Figuras\reconstruction_shepp-logan_EQ.png
-INPUT .\Figuras\reconstruction_shepp-logan_EQ.png
-INPUT .\Figuras\reconstruction_shepp-logan_EQ.png
-INPUT .\Figuras\reconstruction_shepp-logan_EQ.png
-INPUT .\Figuras\reconstruction_cosine_EQ.png
-INPUT .\Figuras\reconstruction_cosine_EQ.png
-INPUT Figuras\reconstruction_cosine_EQ.png
-INPUT .\Figuras\reconstruction_cosine_EQ.png
-INPUT .\Figuras\reconstruction_cosine_EQ.png
-INPUT .\Figuras\reconstruction_cosine_EQ.png
-INPUT .\Figuras\reconstruction_cosine_EQ.png
-INPUT .\Figuras\reconstruction_hamming_EQ.png
-INPUT .\Figuras\reconstruction_hamming_EQ.png
-INPUT Figuras\reconstruction_hamming_EQ.png
-INPUT .\Figuras\reconstruction_hamming_EQ.png
-INPUT .\Figuras\reconstruction_hamming_EQ.png
-INPUT .\Figuras\reconstruction_hamming_EQ.png
-INPUT .\Figuras\reconstruction_hamming_EQ.png
-INPUT .\Figuras\reconstruction_hann_EQ.png
-INPUT .\Figuras\reconstruction_hann_EQ.png
-INPUT Figuras\reconstruction_hann_EQ.png
-INPUT .\Figuras\reconstruction_hann_EQ.png
-INPUT .\Figuras\reconstruction_hann_EQ.png
-INPUT .\Figuras\reconstruction_hann_EQ.png
-INPUT .\Figuras\reconstruction_hann_EQ.png
-INPUT .\Figuras\error_vs_filters_noise.png
-INPUT .\Figuras\error_vs_filters_noise.png
-INPUT Figuras\error_vs_filters_noise.png
-INPUT .\Figuras\error_vs_filters_noise.png
-INPUT .\Figuras\error_vs_filters_noise.png
-INPUT .\Figuras\error_vs_filters_noise.png
-INPUT .\Figuras\error_vs_filters_noise.png
-INPUT .\Figuras\sinograma_circulo.png
-INPUT .\Figuras\sinograma_circulo.png
-INPUT Figuras\sinograma_circulo.png
-INPUT .\Figuras\sinograma_circulo.png
-INPUT .\Figuras\sinograma_circulo.png
-INPUT .\Figuras\sinograma_circulo.png
-INPUT .\Figuras\sinograma_circulo.png
-INPUT .\Figuras\retroproyeccion_p=8_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=8_filter=none.png
-INPUT Figuras\retroproyeccion_p=8_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=8_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=8_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=8_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=8_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=16_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=16_filter=none.png
-INPUT Figuras\retroproyeccion_p=16_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=16_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=16_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=16_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=16_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=32_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=32_filter=none.png
-INPUT Figuras\retroproyeccion_p=32_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=32_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=32_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=32_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=32_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=64_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=64_filter=none.png
-INPUT Figuras\retroproyeccion_p=64_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=64_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=64_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=64_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=64_filter=none.png
-INPUT .\Figuras\retroproyeccion_p=8_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=8_filter=ramp.png
-INPUT Figuras\retroproyeccion_p=8_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=8_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=8_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=8_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=8_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=16_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=16_filter=ramp.png
-INPUT Figuras\retroproyeccion_p=16_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=16_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=16_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=16_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=16_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=32_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=32_filter=ramp.png
-INPUT Figuras\retroproyeccion_p=32_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=32_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=32_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=32_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=32_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=64_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=64_filter=ramp.png
-INPUT Figuras\retroproyeccion_p=64_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=64_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=64_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=64_filter=ramp.png
-INPUT .\Figuras\retroproyeccion_p=64_filter=ramp.png
-INPUT .\Figuras\sinograma_50.png
-INPUT .\Figuras\sinograma_50.png
-INPUT Figuras\sinograma_50.png
-INPUT .\Figuras\sinograma_50.png
-INPUT .\Figuras\sinograma_50.png
-INPUT .\Figuras\sinograma_50.png
-INPUT .\Figuras\sinograma_50.png
-INPUT .\Figuras\sinograma_150.png
-INPUT .\Figuras\sinograma_150.png
-INPUT Figuras\sinograma_150.png
-INPUT .\Figuras\sinograma_150.png
-INPUT .\Figuras\sinograma_150.png
-INPUT .\Figuras\sinograma_150.png
-INPUT .\Figuras\sinograma_150.png
-INPUT .\Figuras\sinograma_250.png
-INPUT .\Figuras\sinograma_250.png
-INPUT Figuras\sinograma_250.png
-INPUT .\Figuras\sinograma_250.png
-INPUT .\Figuras\sinograma_250.png
-INPUT .\Figuras\sinograma_250.png
-INPUT .\Figuras\sinograma_250.png
-INPUT .\Figuras\sinograma_300.png
-INPUT .\Figuras\sinograma_300.png
-INPUT Figuras\sinograma_300.png
-INPUT .\Figuras\sinograma_300.png
-INPUT .\Figuras\sinograma_300.png
-INPUT .\Figuras\sinograma_300.png
-INPUT .\Figuras\sinograma_300.png
-INPUT .\Figuras\reconstruction_50_EQ.png
-INPUT .\Figuras\reconstruction_50_EQ.png
-INPUT Figuras\reconstruction_50_EQ.png
-INPUT .\Figuras\reconstruction_50_EQ.png
-INPUT .\Figuras\reconstruction_50_EQ.png
-INPUT .\Figuras\reconstruction_50_EQ.png
-INPUT .\Figuras\reconstruction_50_EQ.png
-INPUT .\Figuras\reconstruction_150_EQ.png
-INPUT .\Figuras\reconstruction_150_EQ.png
-INPUT Figuras\reconstruction_150_EQ.png
-INPUT .\Figuras\reconstruction_150_EQ.png
-INPUT .\Figuras\reconstruction_150_EQ.png
-INPUT .\Figuras\reconstruction_150_EQ.png
-INPUT .\Figuras\reconstruction_150_EQ.png
-INPUT .\Figuras\reconstruction_250_EQ.png
-INPUT .\Figuras\reconstruction_250_EQ.png
-INPUT Figuras\reconstruction_250_EQ.png
-INPUT .\Figuras\reconstruction_250_EQ.png
-INPUT .\Figuras\reconstruction_250_EQ.png
-INPUT .\Figuras\reconstruction_250_EQ.png
-INPUT .\Figuras\reconstruction_250_EQ.png
-INPUT .\Figuras\reconstruction_300_EQ.png
-INPUT .\Figuras\reconstruction_300_EQ.png
-INPUT Figuras\reconstruction_300_EQ.png
-INPUT .\Figuras\reconstruction_300_EQ.png
-INPUT .\Figuras\reconstruction_300_EQ.png
-INPUT .\Figuras\reconstruction_300_EQ.png
-INPUT .\Figuras\reconstruction_300_EQ.png
-INPUT .\Figuras\reconstruction_150_360_EQ.png
-INPUT .\Figuras\reconstruction_150_360_EQ.png
-INPUT Figuras\reconstruction_150_360_EQ.png
-INPUT .\Figuras\reconstruction_150_360_EQ.png
-INPUT .\Figuras\reconstruction_150_360_EQ.png
-INPUT .\Figuras\reconstruction_150_360_EQ.png
-INPUT .\Figuras\reconstruction_150_360_EQ.png
-INPUT .\Figuras\reconstruction_150_EQ.png
-INPUT .\Figuras\reconstruction_150_EQ.png
-INPUT Figuras\reconstruction_150_EQ.png
-INPUT .\Figuras\reconstruction_150_EQ.png
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.aux
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.out
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.out
+INPUT .\Figuras\err_vs_det.png
+INPUT .\Figuras\err_vs_det.png
+INPUT Figuras\err_vs_det.png
+INPUT .\Figuras\err_vs_det.png
+INPUT .\Figuras\err_vs_det.png
+INPUT .\Figuras\err_vs_det.png
+INPUT .\Figuras\err_vs_det.png
+INPUT .\Figuras\err_vs_ang.png
+INPUT .\Figuras\err_vs_ang.png
+INPUT Figuras\err_vs_ang.png
+INPUT .\Figuras\err_vs_ang.png
+INPUT .\Figuras\err_vs_ang.png
+INPUT .\Figuras\err_vs_ang.png
+INPUT .\Figuras\err_vs_ang.png
+INPUT .\Figuras\err_vs_noise.png
+INPUT .\Figuras\err_vs_noise.png
+INPUT Figuras\err_vs_noise.png
+INPUT .\Figuras\err_vs_noise.png
+INPUT .\Figuras\err_vs_noise.png
+INPUT .\Figuras\err_vs_noise.png
+INPUT .\Figuras\err_vs_noise.png
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT .\Figuras\em_k=3.png
+INPUT .\Figuras\em_k=3.png
+INPUT Figuras\em_k=3.png
+INPUT .\Figuras\em_k=3.png
+INPUT .\Figuras\em_k=3.png
+INPUT .\Figuras\em_k=3.png
+INPUT .\Figuras\em_k=3.png
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT .\Figuras\em_k=9.png
+INPUT .\Figuras\em_k=9.png
+INPUT Figuras\em_k=9.png
+INPUT .\Figuras\em_k=9.png
+INPUT .\Figuras\em_k=9.png
+INPUT .\Figuras\em_k=9.png
+INPUT .\Figuras\em_k=9.png
+INPUT .\Figuras\em_k=13.png
+INPUT .\Figuras\em_k=13.png
+INPUT Figuras\em_k=13.png
+INPUT .\Figuras\em_k=13.png
+INPUT .\Figuras\em_k=13.png
+INPUT .\Figuras\em_k=13.png
+INPUT .\Figuras\em_k=13.png
+INPUT .\Figuras\em_k=20.png
+INPUT .\Figuras\em_k=20.png
+INPUT Figuras\em_k=20.png
+INPUT .\Figuras\em_k=20.png
+INPUT .\Figuras\em_k=20.png
+INPUT .\Figuras\em_k=20.png
+INPUT .\Figuras\em_k=20.png
+INPUT .\Figuras\em_k=40.png
+INPUT .\Figuras\em_k=40.png
+INPUT Figuras\em_k=40.png
+INPUT .\Figuras\em_k=40.png
+INPUT .\Figuras\em_k=40.png
+INPUT .\Figuras\em_k=40.png
+INPUT .\Figuras\em_k=40.png
+INPUT .\Figuras\em_k=50.png
+INPUT .\Figuras\em_k=50.png
+INPUT Figuras\em_k=50.png
+INPUT .\Figuras\em_k=50.png
+INPUT .\Figuras\em_k=50.png
+INPUT .\Figuras\em_k=50.png
+INPUT .\Figuras\em_k=50.png
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT .\Figuras\em_0.005.png
+INPUT .\Figuras\em_0.005.png
+INPUT Figuras\em_0.005.png
+INPUT .\Figuras\em_0.005.png
+INPUT .\Figuras\em_0.005.png
+INPUT .\Figuras\em_0.005.png
+INPUT .\Figuras\em_0.005.png
+INPUT .\Figuras\em_0.05.png
+INPUT .\Figuras\em_0.05.png
+INPUT Figuras\em_0.05.png
+INPUT .\Figuras\em_0.05.png
+INPUT .\Figuras\em_0.05.png
+INPUT .\Figuras\em_0.05.png
+INPUT .\Figuras\em_0.05.png
+INPUT .\Figuras\em_0.1.png
+INPUT .\Figuras\em_0.1.png
+INPUT Figuras\em_0.1.png
+INPUT .\Figuras\em_0.1.png
+INPUT .\Figuras\em_0.1.png
+INPUT .\Figuras\em_0.1.png
+INPUT .\Figuras\em_0.1.png
+INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.aux
+INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.out
+INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.out
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb

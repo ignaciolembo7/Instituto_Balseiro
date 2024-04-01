@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.8.7)  19 MAR 2024 19:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.8.7)  30 MAR 2024 18:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_3/TP2_IgnacioLembo_IM/main.tex"
-(c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_3/TP2_IgnacioLembo_IM/main.tex
+**"c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_4/TP3_IgnacioLembo_IM/main.tex"
+(c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Imagenes_Medicas/Practica_4/TP3_IgnacioLembo_IM/main.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17> (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -604,7 +604,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count325
 \l__pdf_internal_box=\box69
-) (c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.aux
+) (c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
@@ -648,7 +648,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring ON on input line 44.
- (c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.out) (c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_3\TP2_IgnacioLembo_IM\build\main.out)
+ (c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.out) (c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -665,58 +665,142 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
  (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 52.
+<Figuras/enunciado.png, id=24, 146.58765pt x 119.0046pt>
+File: Figuras/enunciado.png Graphic file (type png)
+<use Figuras/enunciado.png>
+Package pdftex.def Info: Figuras/enunciado.png  used on input line 62.
+(pdftex.def)             Requested size: 138.11092pt x 112.12943pt.
+<Figuras/ej1.png, id=26, 149.5989pt x 115.51155pt>
+File: Figuras/ej1.png Graphic file (type png)
+<use Figuras/ej1.png>
+Package pdftex.def Info: Figuras/ej1.png  used on input line 68.
+(pdftex.def)             Requested size: 138.11092pt x 106.64378pt.
+ [1
+
+{C:/Users/Ignacio Lembo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Figuras/enunciado.png> <./Figuras/ej1.png>]
+<Figuras/ej1_sol.png, id=47, 421.0932pt x 259.9311pt>
+File: Figuras/ej1_sol.png Graphic file (type png)
+<use Figuras/ej1_sol.png>
+Package pdftex.def Info: Figuras/ej1_sol.png  used on input line 78.
+(pdftex.def)             Requested size: 375.80544pt x 231.98839pt.
+ [2 <./Figuras/ej1_sol.png>]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 87.
  (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-<Figuras/SL_rasterizado.png, id=40, 256.96pt x 256.96pt>
-File: Figuras/SL_rasterizado.png Graphic file (type png)
-<use Figuras/SL_rasterizado.png>
-Package pdftex.def Info: Figuras/SL_rasterizado.png  used on input line 58.
-(pdftex.def)             Requested size: 184.14671pt x 184.14845pt.
-<Figuras/SL_rasterizado_EQ.png, id=41, 256.96pt x 256.96pt>
-File: Figuras/SL_rasterizado_EQ.png Graphic file (type png)
-<use Figuras/SL_rasterizado_EQ.png>
-Package pdftex.def Info: Figuras/SL_rasterizado_EQ.png  used on input line 64.
-(pdftex.def)             Requested size: 184.14671pt x 184.14845pt.
-<Figuras/SL_sinogram.png, id=43, 368.37625pt x 321.2pt>
-File: Figuras/SL_sinogram.png Graphic file (type png)
-<use Figuras/SL_sinogram.png>
-Package pdftex.def Info: Figuras/SL_sinogram.png  used on input line 78.
-(pdftex.def)             Requested size: 234.8775pt x 204.79782pt.
- [1
+<Figuras/exact_phantom.png, id=56, 260.47313pt x 260.47313pt>
+File: Figuras/exact_phantom.png Graphic file (type png)
+<use Figuras/exact_phantom.png>
+Package pdftex.def Info: Figuras/exact_phantom.png  used on input line 93.
+(pdftex.def)             Requested size: 150.32504pt x 150.32333pt.
+<Figuras/Kaczmarz_rec.png, id=57, 263.48438pt x 262.73157pt>
+File: Figuras/Kaczmarz_rec.png Graphic file (type png)
+<use Figuras/Kaczmarz_rec.png>
+Package pdftex.def Info: Figuras/Kaczmarz_rec.png  used on input line 99.
+(pdftex.def)             Requested size: 150.32504pt x 149.90286pt.
+<Figuras/Kaczmarz_sym.png, id=58, 260.47313pt x 260.47313pt>
+File: Figuras/Kaczmarz_sym.png Graphic file (type png)
+<use Figuras/Kaczmarz_sym.png>
+Package pdftex.def Info: Figuras/Kaczmarz_sym.png  used on input line 105.
+(pdftex.def)             Requested size: 150.32504pt x 150.32333pt.
+<Figuras/Kaczmarz_random.png, id=59, 263.48438pt x 264.23718pt>
+File: Figuras/Kaczmarz_random.png Graphic file (type png)
+<use Figuras/Kaczmarz_random.png>
+Package pdftex.def Info: Figuras/Kaczmarz_random.png  used on input line 111.
+(pdftex.def)             Requested size: 150.32504pt x 150.7619pt.
+<Figuras/sart_rec.png, id=60, 263.48438pt x 265.74281pt>
+File: Figuras/sart_rec.png Graphic file (type png)
+<use Figuras/sart_rec.png>
+Package pdftex.def Info: Figuras/sart_rec.png  used on input line 117.
+(pdftex.def)             Requested size: 150.32504pt x 151.62094pt.
+<Figuras/fbp_rec.png, id=61, 262.73157pt x 263.48438pt>
+File: Figuras/fbp_rec.png Graphic file (type png)
+<use Figuras/fbp_rec.png>
+Package pdftex.def Info: Figuras/fbp_rec.png  used on input line 123.
+(pdftex.def)             Requested size: 150.32504pt x 150.76256pt.
+ [3 <./Figuras/exact_phantom.png> <./Figuras/Kaczmarz_rec.png> <./Figuras/Kaczmarz_sym.png> <./Figuras/Kaczmarz_random.png> <./Figuras/sart_rec.png> <./Figuras/fbp_rec.png>]
+<Figuras/err_vs_det.png, id=75, 2041.6275pt x 960.58875pt>
+File: Figuras/err_vs_det.png Graphic file (type png)
+<use Figuras/err_vs_det.png>
+Package pdftex.def Info: Figuras/err_vs_det.png  used on input line 137.
+(pdftex.def)             Requested size: 469.75502pt x 221.0187pt.
+<Figuras/err_vs_ang.png, id=78, 2041.6275pt x 960.58875pt>
+File: Figuras/err_vs_ang.png Graphic file (type png)
+<use Figuras/err_vs_ang.png>
+Package pdftex.def Info: Figuras/err_vs_ang.png  used on input line 149.
+(pdftex.def)             Requested size: 469.75502pt x 221.0187pt.
+ [4 <./Figuras/err_vs_det.png (PNG copy)>]
+<Figuras/err_vs_noise.png, id=86, 2041.6275pt x 960.58875pt>
+File: Figuras/err_vs_noise.png Graphic file (type png)
+<use Figuras/err_vs_noise.png>
+Package pdftex.def Info: Figuras/err_vs_noise.png  used on input line 157.
+(pdftex.def)             Requested size: 469.75502pt x 221.0187pt.
+ [5 <./Figuras/err_vs_ang.png (PNG copy)> <./Figuras/err_vs_noise.png (PNG copy)>]
+<Figuras/em_k=3.png, id=93, 268.75406pt x 268.00125pt>
+File: Figuras/em_k=3.png Graphic file (type png)
+<use Figuras/em_k=3.png>
+Package pdftex.def Info: Figuras/em_k=3.png  used on input line 193.
+(pdftex.def)             Requested size: 150.32504pt x 149.90382pt.
+<Figuras/em_k=9.png, id=94, 268.75406pt x 268.00125pt>
+File: Figuras/em_k=9.png Graphic file (type png)
+<use Figuras/em_k=9.png>
+Package pdftex.def Info: Figuras/em_k=9.png  used on input line 199.
+(pdftex.def)             Requested size: 150.32504pt x 149.90382pt.
+<Figuras/em_k=13.png, id=95, 266.49562pt x 268.00125pt>
+File: Figuras/em_k=13.png Graphic file (type png)
+<use Figuras/em_k=13.png>
+Package pdftex.def Info: Figuras/em_k=13.png  used on input line 205.
+(pdftex.def)             Requested size: 150.32504pt x 151.1797pt.
+<Figuras/em_k=20.png, id=96, 269.50688pt x 268.00125pt>
+File: Figuras/em_k=20.png Graphic file (type png)
+<use Figuras/em_k=20.png>
+Package pdftex.def Info: Figuras/em_k=20.png  used on input line 211.
+(pdftex.def)             Requested size: 150.32504pt x 149.48671pt.
+<Figuras/em_k=40.png, id=97, 265.74281pt x 267.24844pt>
+File: Figuras/em_k=40.png Graphic file (type png)
+<use Figuras/em_k=40.png>
+Package pdftex.def Info: Figuras/em_k=40.png  used on input line 217.
+(pdftex.def)             Requested size: 150.32504pt x 151.17915pt.
+<Figuras/em_k=50.png, id=98, 268.00125pt x 267.24844pt>
+File: Figuras/em_k=50.png Graphic file (type png)
+<use Figuras/em_k=50.png>
+Package pdftex.def Info: Figuras/em_k=50.png  used on input line 223.
+(pdftex.def)             Requested size: 150.32504pt x 149.90277pt.
+ [6]
+<Figuras/em_0.005.png, id=106, 2041.6275pt x 960.58875pt>
+File: Figuras/em_0.005.png Graphic file (type png)
+<use Figuras/em_0.005.png>
+Package pdftex.def Info: Figuras/em_0.005.png  used on input line 237.
+(pdftex.def)             Requested size: 230.18253pt x 108.28876pt.
+<Figuras/em_0.05.png, id=107, 2041.6275pt x 960.58875pt>
+File: Figuras/em_0.05.png Graphic file (type png)
+<use Figuras/em_0.05.png>
+Package pdftex.def Info: Figuras/em_0.05.png  used on input line 243.
+(pdftex.def)             Requested size: 230.18253pt x 108.28876pt.
+<Figuras/em_0.1.png, id=108, 2041.6275pt x 960.58875pt>
+File: Figuras/em_0.1.png Graphic file (type png)
+<use Figuras/em_0.1.png>
+Package pdftex.def Info: Figuras/em_0.1.png  used on input line 249.
+(pdftex.def)             Requested size: 234.8775pt x 110.50201pt.
+ [7 <./Figuras/em_k=3.png> <./Figuras/em_k=9.png> <./Figuras/em_k=13.png> <./Figuras/em_k=20.png> <./Figuras/em_k=40.png> <./Figuras/em_k=50.png>] [8 <./Figuras/em_0.005.png (PNG copy)> <./Figuras/em_0.05.png (PNG copy)> <./Figuras/em_0.1.png (PNG copy)>] (c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.aux
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+)
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: C3410576E1BB36F4CB51DF6A8798DBE5;784.
+ ) 
+Here is how much of TeX's memory you used:
+ 25511 strings out of 476406
+ 482020 string characters out of 2785756
+ 1862787 words of memory out of 3000000
+ 45375 multiletter control sequences out of 15000+600000
+ 533278 words of font info for 84 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 100i,9n,104p,1028b,652s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on "c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Imagenes_Medicas\Practica_4\TP3_IgnacioLembo_IM\build\main.pdf" (8 pages, 1110842 bytes).
+PDF statistics:
+ 181 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 150 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-{C:/Users/Ignacio Lembo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Figuras/SL_rasterizado.png (PNG copy)> <./Figuras/SL_rasterizado_EQ.png (PNG copy)>]
-File: Figuras/SL_rasterizado_EQ.png Graphic file (type png)
-<use Figuras/SL_rasterizado_EQ.png>
-Package pdftex.def Info: Figuras/SL_rasterizado_EQ.png  used on input line 95.
-(pdftex.def)             Requested size: 150.32504pt x 150.32687pt.
-<Figuras/SL_rec_lineal_EQ.png, id=57, 256.96pt x 256.96pt>
-File: Figuras/SL_rec_lineal_EQ.png Graphic file (type png)
-<use Figuras/SL_rec_lineal_EQ.png>
-Package pdftex.def Info: Figuras/SL_rec_lineal_EQ.png  used on input line 101.
-(pdftex.def)             Requested size: 150.32504pt x 150.32687pt.
-<Figuras/sustraction.png, id=58, 267.03764pt x 267.03764pt>
-File: Figuras/sustraction.png Graphic file (type png)
-<use Figuras/sustraction.png>
-Package pdftex.def Info: Figuras/sustraction.png  used on input line 107.
-(pdftex.def)             Requested size: 150.32504pt x 150.32646pt.
- [2 <./Figuras/SL_sinogram.png (PNG copy)>]
-<Figuras/error_vs_detectores.png, id=78, 513.23746pt x 370.5042pt>
-File: Figuras/error_vs_detectores.png Graphic file (type png)
-<use Figuras/error_vs_detectores.png>
-Package pdftex.def Info: Figuras/error_vs_detectores.png  used on input line 123.
-(pdftex.def)             Requested size: 150.32504pt x 108.51761pt.
-<Figuras/error_vs_proyecciones.png, id=79, 498.78345pt x 376.40625pt>
-File: Figuras/error_vs_proyecciones.png Graphic file (type png)
-<use Figuras/error_vs_proyecciones.png>
-Package pdftex.def Info: Figuras/error_vs_proyecciones.png  used on input line 129.
-(pdftex.def)             Requested size: 150.32504pt x 113.43965pt.
-<Figuras/error_vs_filters.png, id=80, 503.60146pt x 376.2858pt>
-File: Figuras/error_vs_filters.png Graphic file (type png)
-<use Figuras/error_vs_filters.png>
-Package pdftex.def Info: Figuras/error_vs_filters.png  used on input line 135.
-(pdftex.def)             Requested size: 150.32504pt x 112.31818pt.
- [3 <./Figuras/SL_rec_lineal_EQ.png (PNG copy)> <./Figuras/sustraction.png> <./Figuras/error_vs_detectores.png> <./Figuras/error_vs_proyecciones.png>
-!pdfTeX error: pdflatex: fflush() failed (Invalid argument)
- ==> Fatal error occurred, no output PDF file produced!

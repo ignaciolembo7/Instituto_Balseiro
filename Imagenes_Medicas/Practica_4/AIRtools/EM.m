@@ -1,16 +1,13 @@
-function [X,info] = EM(A,b,K,x0,options)
-% Materia: Imagenes Medicas
-% TP 4 Ej 2e.
-% EM
+function [X,info] = em(A,b,K,x0,options)
+%KACZMARZ Kaczmarz's method (often referred to as ART)
 %
-%   [X,info] = Em(A,b,K)
-%   [X,info] = EM(A,b,K,x0)
-%   [X,info] = EM(A,b,K,x0,options)
+%   [X,info] = kaczmarz(A,b,K)
+%   [X,info] = kaczmarz(A,b,K,x0)
+%   [X,info] = kaczmarz(A,b,K,x0,options)
 %
-% Implements Expetation Maximization's method for the system Ax = b
+% Implements Kaczmarz's method for the system Ax = b:
 %       
-
-%       
+%       x^{k+1} = x^k + lambda*(b_i - a^i'*x^k)/(||a^i||_2^2)*a^i
 %
 % where a_i' is the i-th row of A, and i = (k mod m) + 1.
 %
@@ -39,7 +36,7 @@ function [X,info] = EM(A,b,K,x0,options)
 %                 each step.
 %       box       Upper bound L in box constraint [0,L] on pixel values.
 %       damping   A parameter D to avoid division by very small row norms
-%                 by adding D*max_i{||a^i||_2^1} to ||a^i||_2^1.
+%                 by adding D*max_i{||a^i||_2^2} to ||a^i||_2^2.
 %
 % Output:
 %   X      Matrix containing the saved iterations.
@@ -49,6 +46,7 @@ function [X,info] = EM(A,b,K,x0,options)
 %                    2 : stopped by DP-rule
 %          info(2) = no. of iterations.
 %
+% See also: randkaczmarz, symkaczmarz
 
 % Maria Saxild-Hansen and Per Chr. Hansen, July 5, 2015, DTU Compute.
 
@@ -65,7 +63,6 @@ end
 
 % Default value of starting vector x0.
 if nargin < 4 || isempty(x0)
-    % x0 = zeros(n,1);
     x0 = 0.1 .* ones(n,1);
 end
 
@@ -205,9 +202,9 @@ end % end if nargin includes options.
 
 % Initialization before iterations.
 xk = x0;
-% normAi = full(sum(abs(A), 1));  % Remember that A is transposed.
-% I = find(normAi>0);
-% normAi = normAi + damp*max(normAi);
+%normAi = full(abs(sum(A.*A,1)));  % Remember that A is transposed.
+%I = find(normAi>0);
+%normAi = normAi + damp*max(normAi);
 
 stop = 0;
 k = 0;
@@ -220,27 +217,17 @@ while ~stop
         xkm1 = xk;
     end
     % The Kaczmarz sweep.
-    
 %    for i = I
-%        ai = full(A(:, i));  % Remember that A is transposed.
-%        % xk = xk + (lambda*(b(i) - ai'*xk)/normAi(i))*ai;
-	%
-	% update:
-	% x = x .* (A' * (y ./ (A * x + r))) ./ sum(A)'
-	% where A = D(ci) G
-	%
-%        xk = xk .* (((b(i) / (ai'*xk + 1e-8)) / normAi(i)) * ai);
-    % xk = (xk./(sum(A')')).*(A*(b./(A*xk)));
-##    size(A)
-##    size(xk)
-##    size(b)
-##    size(A' * xk)
-##    size(sum(A'))
-    xk = xk .* (A * (b ./ (A' * xk))) ./ sum(A')';
-    if nonneg, xk = max(xk,0); end
-    if boxcon, xk = min(xk,L); end
+%        ai = full(A(:,i));  % Remember that A is transposed.
+%        xk = xk + (lambda*(b(i) - ai'*xk)/normAi(i))*ai;
+%        if nonneg, xk = max(xk,0); end
+%        if boxcon, xk = min(xk,L); end
 %    end
-    
+%    EM reconstructution
+     xk = xk .* (A * (b ./ (A' * xk))) ./ sum(A')';
+     if nonneg, xk = max(xk,0); end
+     if boxcon, xk = min(xk,L); end
+     
     % Stopping rules.
     if strncmpi(stoprule,'DP',2)
         % DP stopping rule.
