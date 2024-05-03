@@ -1,0 +1,271 @@
+\chapter{\textcolor{myred}{La métrica de Reissner-Nordström}}
+
+%Principio de equivalencia (fuerte): En un laboratorio en caída libre (no rotante) que ocupa una pequeña región del espacio tiempo, las leyes de la física son las correspondientes a la relatividad especial
+\subsection*{\textbf{Sobre las unidades geométricas}}
+A partir de ahora, salvo que indiquemos lo contrario, usaremos las unidades geométricas. Esto es, tomaremos la velocidad de la luz $c$, y la constante de gravitación universal $G$ como :
+
+\begin{remarkbox}{Consideración de las unidades geométricas}
+\begin{equation*}
+    c=G=1\ \ \textit{adimensional}
+\end{equation*}
+\end{remarkbox}
+
+Hacemos esto para olvidarnos de las constantes, y hacer menos engorrosas las ecuaciones.
+\begin{table}[h]
+  \begin{center}
+    \begin{tabular}{lccl}
+      \toprule
+      Variable & Unidades SI & Unidades Geom. & Factor \\
+      \midrule
+      Masa & $kg$ & $m$ &$c^2 G^{-1}$ \\
+      Longitud & $m$ & $m$ & 1 \\
+      Tiempo & $s$ & $m$ & $c^{-1}$\\
+      Velocidad & $m s^{-1}$ & adim & $c$  \\
+      Aceleración & $m s^{-2}$ & m{-1} & $c^2$  \\
+      Fuerza & $kg m s^{-2}$ & adim & $c^4 G^{-1}$  \\
+      Momento Angular & $kg m^2 s^{-1}$ & $m^2$ & $c^3 G^{-1}$ \\
+      Momento & $kg m s^{-1}$ & $m$ & $c^3 G^{-1}$ \\
+      Energía & $kg m^2 s^{-2}$ & $m$ & $c^{4} G^{-1}$\\
+      Densidad de Energía & $kg m^{-1} s^{-2}$ & $m^{-2}$ & $c^4 G^{-1}$  \\
+      \bottomrule
+    \end{tabular}
+  \end{center}
+  \caption{Unidades Geométricas. Para convertir Geom. $\rightarrow$ SI, multiplicar por el factor. Para convertir SI $\rightarrow$ Geom., dividir por el factor. De forma general, para unidades SI de "$kg^\alpha m^\beta s^\gamma$", las unidades geométricas son "$m^{\alpha + \beta + \gamma}$".}
+  \label{geounits}
+\end{table}
+\section{\huge{Geodésicas en la Geometría de Reissner-Nordström}}
+
+\textcolor{myred}{\hrule}
+
+\newthought{Ahora encontremos las ecuaciones que describen el movimiento de fotones y partículas no cargadas.} La partícula seguirá una geodésica \textbf{\textit{time-like}} mientras que el fotón una geodésica \textbf{\textit{light-like}}. Sea $x^\alpha = x^\alpha (\lambda)$ una curva parametrizada por $\lambda$, entonces debe cumplir la Ec. (\ref{geodesicx}):
+\begin{equation}
+    \frac{d^2 x^\alpha}{d \lambda^2} + \Gamma^\alpha_{\mu\nu} \frac{d x^\mu}{d \lambda} \frac{d x^\nu}{d \lambda} = 0
+\end{equation}
+
+Donde $\Gamma^\alpha_{\mu\nu}$ son los símbolos de Christoffel asociados a la métrica. Para una geodésica \textit{time-like} lo más natural es definir el parámetro $\lambda$ como el tiempo propio $\tau$, mientras que una geodésica \textit{light-like} no puede parametrizarse con $\tau$. Mantendremos por ahora el parámetro $\lambda$ para trabajar con los dos casos. Reemplazando los símbolos de Christoffel para nuestra métrica las ecuaciones de movimiento son:
+ 
+\newthought{Para $\alpha=0$:}
+\begin{equation}
+    \frac{d^2 t}{d \lambda^2} + \frac{A^\prime}{A} \frac{d t}{d \lambda} \frac{d r}{d \lambda} = 0
+\label{eqt3.1}
+\end{equation}
+\newthought{Para $\alpha=1$:}
+\begin{equation}
+\begin{split}
+    \frac{d^2 r}{d \lambda^2} + \frac{A^\prime}{2B} \left(\frac{d t}{d \lambda}\right)^2 + \frac{B^\prime}{2B} \left(\frac{d r}{d \lambda}\right)^2 - \frac{r}{B} \left(\frac{d \theta}{d \lambda}\right)^2 &\\- \frac{r \sin^2{\theta}}{B} \left(\frac{d \phi}{d \lambda}\right)^2 &= 0
+\label{eqradial3.1}
+\end{split}
+\end{equation}
+\newthought{Para $\alpha=2$:}
+\begin{equation}
+    \frac{d^2 \theta}{d \lambda^2} + \frac{2}{r} \frac{d \theta}{d \lambda} \frac{d r}{d \lambda} - \sin{\theta}\cos{\theta} \left(\frac{d \phi}{d \lambda}\right)^2= 0
+\end{equation}
+\newthought{Para $\alpha=3$:}
+\begin{equation}
+    \frac{d^2 \phi}{d \lambda^2} + \frac{2}{r} \frac{d \phi}{d \lambda} \frac{d r}{d \lambda} - 2\cot{\theta}\frac{d \phi}{d \lambda} \frac{d \theta}{d \lambda}= 0
+\label{eqazimutal3.1}
+\end{equation}
+
+Debido a la simetría esférica la trayectoria debe estar contenida en un plano definido por las condiciones iniciales\footnote{Trazamos el plano que contiene la velocidad en el instante inicial, ya sea de la partícula o del fotón. Sí la trayectoria se saliera de ese plano, la dirección en la que lo haga sería preferencial, rompiendo la simetría esférica del sistema.}, por lo que podemos poner sin ninguna pérdida de generalidad que $\theta=\pi/2$ en todo momento. Esto nos anula las derivadas de $\theta$, y las ecuaciones de movimiento se simplifican. Ahora, las Ecs. (\ref{eqradial3.1}) y (\ref{eqazimutal3.1}) nos quedan:
+
+\begin{equation}
+    \frac{d^2 r}{d \lambda^2} + \frac{A^\prime}{2B} \left(\frac{d t}{d \lambda}\right)^2 + \frac{B^\prime}{2B} \left(\frac{d r}{d \lambda}\right)^2 -  \frac{r}{B} \left(\frac{d \phi}{d \lambda}\right)^2 = 0
+\label{eqradial3.2}
+\end{equation}
+\begin{equation}
+    \frac{d^2 \phi}{d \lambda^2} + \frac{2}{r} \frac{d \phi}{d \lambda} \frac{d r}{d \lambda}= 0
+\label{eqazimutal3.2}
+\end{equation}
+
+Sí dividimos la Ec. (\ref{eqazimutal3.2}) por $d\phi/d\lambda$, y usamos que:
+\begin{equation}
+\begin{split}
+    \left(\frac{d\phi}{d\lambda}\right)^{-1} \frac{d^2\phi}{d\lambda^2} &= \frac{d}{d\lambda} \log{\left(\frac{d\phi}{d\lambda}\right)}\\
+    \text{y, }\ \frac{2}{r} \frac{dr}{d\lambda} &= \frac{d}{d\lambda}\log{(r^2)}
+\end{split}
+\end{equation}
+llegamos a que:
+
+\begin{equation}
+    \frac{d}{d\lambda}\log{\left(r^2\frac{d\phi}{d\lambda}\right)}=0 \Rightarrow r^2 \frac{d\phi}{d\lambda} = L = cte
+\label{eqL}
+\end{equation}
+
+Donde $L$ es una constante del movimiento que coincide con el \textit{momento angular por unidad de masa} de la teoría Newtoniana. De manera similar, obtenemos para la Ec. (\ref{eqt3.1}) que:
+
+\begin{equation}
+    \frac{d}{d\lambda}\log{\left(A\frac{dt}{d\lambda}\right)}=0 \Rightarrow A \frac{dt}{d\lambda} = e = cte
+\label{eqe}
+\end{equation}
+
+Con $e$ una constante del movimiento que se puede interpretar como la \textit{energía total relativista por unidad de masa}. Ahora usamos las Ecs. (\ref{eqL}) y (\ref{eqe}) en la Ec. (\ref{eqradial3.2}) y tenemos:
+
+\begin{equation}
+    \frac{d^2 r}{d \lambda^2} + \frac{A^\prime}{2B} \frac{e^2}{A^2} + \frac{B^\prime}{2B} \left(\frac{d r}{d \lambda}\right)^2 - \frac{r}{B} \frac{L^2}{r^4} = 0
+\end{equation}
+recordando que $B\prime=-A\prime/A^2$ y multiplicando por $2Bdr/d\lambda$:
+\begin{equation}
+\begin{split}
+    0&=2B\frac{d^2 r}{d \lambda^2}\frac{dr}{d\lambda} - e^2 B^\prime \frac{dr}{d\lambda} + B^\prime \frac{dr}{d\lambda} \left(\frac{d r}{d \lambda}\right)^2 - \frac{2L^2}{r^3} \frac{dr}{d\lambda}\\
+    &=\frac{d}{d\lambda}\left[ B \left(\frac{d r}{d \lambda}\right)^2 - e^2 B + \frac{L^2}{r^2}\right]
+\end{split}
+\end{equation}
+por lo que:
+\begin{equation}
+    B \left(\frac{d r}{d \lambda}\right)^2 - e^2 B + \frac{L^2}{r^2} = -(e_0)^2 = cte
+\label{eqe0}
+\end{equation}
+
+Donde $e_0$ se puede pensar como la \textit{energía total en reposo por unidad de masa}. Reescribiendo la Ec. (\ref{eqe0}) obtenemos:
+\begin{equation}
+    \left(\frac{d r}{d \lambda}\right)^2 = e^2 -A\left( \frac{L^2}{r^2} + {e_0}^2\right)
+\label{eqradial3.3}
+\end{equation}
+
+Esta ecuación nos da $dr/d\lambda$ en función de $r$. Para obtener una ecuación de $dr/d\phi$ dividimos la Ec. (\ref{eqradial3.3}) por $(d\phi/d\lambda)^2 = L^2/r^4$:
+\begin{equation}
+    \left( \frac{dr}{d\phi} \right)^2 = \frac{r^4 e^2}{L^2} - r^2 A \left(1 + \frac{r^2 {e_0}^2}{L^2} \right)
+\end{equation}
+recordando que $A=1 - (r_s/r) + (r_Q/r)^2$, llegamos a:
+\begin{equation}
+\begin{split}
+    \left( \frac{dr}{d\phi} \right)^2 = -{r_Q}^2 + r_s r - \left(1 + \frac{{r_Q}^2 {e_0}^2}{L^2} \right) r^2 &\\+ \frac{r_s {e_0}^2}{L_2} r^3 &- \frac{{e_0}^2 - e^2}{L^2} r^4
+\end{split}
+\label{eqrposta}
+\end{equation}
+
+Esta es la ecuación que buscamos, nos da $dr/d\phi$ en términos de $r$. En teoría ya con esto podemos encontrar la trayectoria de una partícula o fotón, tomando los valores de las constantes a partir de las condiciones iniciales. Sin embargo, la Ec. (\ref{eqrposta}) se puede simplificar aún más apelando a la métrica\footnote{Recordemos que $c=G=1$ y $\theta=\pi/2$.}:
+
+\begin{equation}
+    ds^2 = d\tau^2 = A dt^2 - \frac{1}{A} dr^2 - r^2 d\phi^2
+\end{equation}
+
+De las Ecs. (\ref{eqL}), (\ref{eqe}) y (\ref{eq0}) tenemos:
+\begin{equation}
+\begin{split}
+    d\phi^2 &= \frac{L^2}{r^4} d\lambda^2\\
+    dt^2 &= \frac{e^2}{A^2} d\lambda^2\\
+    dr^2 &= \left[e^2 - A\left({e_0}^2 + \frac{L^2}{r^2}\right)\right] d\lambda^2
+\end{split}
+\end{equation}
+
+Sustituyendo $d\phi^2$, $dt^2$ y $dr^2$ en la métrica conseguimos:
+
+\begin{remarkbox}{Relación entre $d\tau^2$ y $d\lambda^2$.}
+\begin{equation}
+    d\tau^2 = {e_0}^2 d\lambda^2
+\label{doujou}
+\end{equation}
+\end{remarkbox}
+
+Finalmente, sí tenemos una partícula con masa y parametrizamos con el tiempo propio, $d\lambda^2=d\tau^2$, según la Ec. (\ref{doujou}) tendremos que $e_0=1$. Sí tenemos un fotón el tiempo propio es nulo, $d\tau^2=0$, y por lo tanto $e_0=0$. Usando este resultado, junto a la Ec. (\ref{eqrposta}) escribimos al fin la ecuación de la trayectoria de un cuerpo no cargado:
+
+\newthought{Para la luz:}
+\begin{equation}
+    \left( \frac{dr}{d\phi} \right)^2 = -{r_Q}^2 + r_s r - r^2 - \frac{e^2}{L^2} r^4
+\label{eqlightlike}
+\end{equation}
+\newthought{Para un cuerpo, no cargado, con masa:}
+\begin{equation}
+    \left( \frac{dr}{d\phi} \right)^2 = -{r_Q}^2 + r_s r - \left(1 + \frac{{r_Q}^2}{L^2} \right) r^2 + \frac{r_s}{L_2} r^3 - \frac{1 - e^2}{L^2} r^4
+\label{eqtimelike}
+\end{equation}
+
+\subsection*{\textbf{Trayectoria de un cuerpo cargado en la Geometría de R-N.}}
+\newthought{Teniendo el espacio-tiempo \textit{lleno} de campo electromagnético, es natural preguntarse} la trayectoria de una carga. Para ello nos dirigimos al formalismo de Lagrange. Para una partícula cargada, en un espacio-tiempo cuya curvatura está descrita por $g_{\mu\nu}$, el lagrangiano es\footnote{Sí no hubiera campo electromagnético, $A_\mu=0$ y la solución se correspondería con el lagrangiano de una partícula bajo influencia de un campo gravitatorio. El término correspondiente a la "energía potencial" está incluido en el término con la métrica. En espacio plano, sin campos, se reduce a la energía cinética de una partícula en el vacío.}:
+
+\begin{equation}
+    \mathcal{L} = \frac{1}{2} g_{\mu\nu} \dot{x^\mu}\dot{x^\nu} + q A_\mu \dot{x^\mu}
+\end{equation}
+
+Donde $q$ es la \textit{carga por unidad de masa} de la partícula, $A_\mu$ es el cuadri-potencial electromagnético y los "puntos" representan una derivada respecto al tiempo propio $\tau$ de la partícula. En nuestro caso solo tenemos campo eléctrico radial, y el cuadri-potencial resulta ser:
+  
+\begin{equation}
+    A_\mu=[A_0,A_1,A_2,A_3]=\left[\frac{Q}{4\pi\epsilon_0 r^2},\ 0,\ 0,\ 0 \right]
+\end{equation}
+
+Y, usando la métrica de Reissner-Nordström, el lagrangiano es:
+
+\begin{equation}
+    \mathcal{L} = \frac{1}{2}\left( A\dot{t}^2 - \frac{1}{A} \dot{r}^2 - r^2 \dot{\theta}^2 - r^2 \sin^2{\theta} \dot{\phi}^2 \right) + q \frac{Q}{4\pi\epsilon_0 r^2} \dot{t}
+\end{equation}
+
+Como antes la trayectoria será en un plano, así que podemos sin pérdida de generalidad considerar $\theta=\pi/2$ y $\dot{\theta}=0$. Luego, las ecuaciones de Euler-Lagrange son:
+
+\newthought{Para $t$:}
+\begin{equation}
+\frac{d}{d\tau}\frac{\partial \mathcal{L}}{\partial \dot{t}} - \frac{\partial \mathcal{L}}{\partial t} = \frac{d}{d\tau}\left[ A\dot{t} + \frac{qQ}{4\pi\epsilon_0 r^2} \right]  = 0
+\label{eqt3.4}
+\end{equation}
+\newthought{Para $r$:}
+\begin{equation}
+    \frac{d}{d\tau}\frac{\partial \mathcal{L}}{\partial \dot{r}} - \frac{\partial \mathcal{L}}{\partial r} = -\frac{\ddot{r}}{A} - \frac{A^\prime}{2} \dot{t}^2 - 2 r \dot{\phi}^2 + \frac{qQ}{2\pi\epsilon_0 r^3}  = 0
+\label{eqradial3.4}
+\end{equation}
+\newthought{Para $\phi$:}
+\begin{equation}
+    \frac{d}{d\tau}\frac{\partial \mathcal{L}}{\partial \dot{\phi}} - \frac{\partial \mathcal{L}}{\partial \phi} =\frac{d}{d \tau}\left[ r^2 \dot{\phi} \right] = 0
+\label{eqazimutal3.4}
+\end{equation}
+
+De las Ecs. (\ref{eqt3.4}) y (\ref{eqazimutal3.4}) tenemos las constantes de movimiento:
+
+\begin{equation}
+    A\dot{t} + \frac{qQ}{4\pi\epsilon_0 r} = e\ \ \text{, y }\ r^2 \dot{\phi} = L
+\label{conservposta}
+\end{equation}
+la única diferencia de las constantes con el caso de la partícula sin carga, es el término $e$ que aparece la energía potencial electrostática $\frac{qQ}{4\pi\epsilon_0 r}$. Ahora, para llegar a una expresión de $dr/d\phi$ como función de $r$, necesitamos apelar a la métrica:
+
+\begin{equation}
+    ds^2=d\tau^2=Adt^2 - \frac{1}{A}dr^2- r^2d\phi^2
+\end{equation}
+Dividimos por $d\tau^2$, y multiplicamos por $A$:
+\begin{equation}
+    \dot{r}^2 + A - A^2 \dot{t}^2 + A r^2 \dot{\phi}^2 =0
+\end{equation}
+
+Usando las Ecs. (\ref{conservposta}), sustituimos $\dot{\phi}$ y $\dot{t}$:
+\begin{equation}
+    \dot{r}^2 + A - \left(e-\frac{qQ}{4\pi\epsilon_0 r}\right)^2 + A \frac{L^2}{r^2} =0
+\end{equation}
+
+Finalmente, dividiendo por $\dot{\phi}$:
+
+\newthought{Para un cuerpo cargado con masa:}
+\begin{equation}
+\begin{split}
+    \left( \frac{dr}{d\phi} \right)^2 &= -r^2 A\left(1+\frac{r^2}{L^2}\right) + \frac{r^4}{L^2}\left( e - \frac{qQ}{4\pi\epsilon_0 r} \right)^2\\
+    &=-{r_Q}^2 + r_s r - \left( 1 + \frac{{r_Q}^2 - \left(\frac{qQ}{4\pi\epsilon_0 r}\right)^2}{L^2} \right) r^2 \\ &+ \frac{1}{L^2} \left(r_s - 2e\frac{qQ}{4\pi\epsilon_0 r}\right)r^3 - \frac{(1-e^2)}{L^2}r^4
+\end{split}
+\end{equation}
+
+Esta es la ecuación que describe la órbita de una partícula cargada en el espacio-tiempo de Reissner-Nordström. Como era esperado, se reduce a la Ec. (\ref{eqtimelike}) cuándo hacemos $q=0$.
+
+%\subsection*{\textbf{Horizonte de Eventos}}
+
+%\newthought{Para encontrar singularidades} tenemos que mirar donde las componentes de la métrica no están definidas. Para la métrica de R-N, la componente crucial es:
+
+%\begin{equation}
+%    g_{tt}=-\frac{1}{g_{rr}} = A = 1 - \frac{r_s}{r} + \frac{{r_Q}^2}{r^2}
+%\end{equation}
+
+%Los puntos singulares de la métrica son $r=0$ y $r$ tal que $A=1/g_{rr}=0$. Calculemos las raíces de $A$:
+%\begin{equation}
+%    A=1 - \frac{r_s}{r} + \frac{{r_Q}^2}{r^2}=0 \Rightarrow r^2 - r_s r + (r_Q)^2 = 0
+%\end{equation}
+%cuyas soluciones son:
+%\begin{equation}
+%    r_\pm = \frac{1}{2}\left(r_s \pm \sqrt{{r_s}^2 - (2r_Q)^2}\right)
+%\label{eqhorizonte}
+%\end{equation}
+
+%Entonces tenemos tres puntos singulares: $r=r_+$, $r=r_-$ y $r=0$. Dependiendo de los valores de $r_s$ y $r_Q$ puede que la Ec. (\ref{eqhorizonte}) tenga dos, una o ninguna solución. Esto nos motiva a analizar tres casos distintos:
+
+%\newthought{Para $r_s>2r_Q$} tenemos dos raíces distintas $r_+$ y $r_-$. Llamamos $r_+$ el horizonte de eventos porque para radios menores a ese, ni la luz puede escaparse del mismo. El nombre de "agujero negro" se refiere entonces a un cuerpo cuyas dimensiones sean menores a $r_+$\footnote{Recordemos que todo lo que estudiamos de la métrica de R-N vale solo para una región del espacio vacío. Todo lo que esté "dentro" del cuerpo yace por fuera del alcance de la métrica que desarrollamos.}. Podemos dividir el espacio en tres regiones:
+%\begin{itemize}
+%    \item Región 1: $r_+<r<\infty$
+%    \item Región 2: $r_-<r<\infty$
+%    \item Región 3: $0<r<r_-$
+%\end{itemize}
+
+%Se puede demostrar que un cuerpo en la región 2 está obligado a disminuir su coordenada $r$, al menos hasta entrar en la región 3 donde eso deja de ser cierto y el cuerpo no está obligado a estrellarse con la singularidad en $r=0$.
