@@ -2356,9 +2356,6 @@
     <bcf:citekey order="5" intorder="1">landau2</bcf:citekey>
     <bcf:citekey order="6" intorder="1">landau2</bcf:citekey>
     <bcf:citekey order="7" intorder="1">moore</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">moore</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">moore</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">Jhonny</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

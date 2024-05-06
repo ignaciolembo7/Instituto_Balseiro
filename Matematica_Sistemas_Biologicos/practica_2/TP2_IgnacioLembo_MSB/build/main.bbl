@@ -77,28 +77,6 @@
       \field{title}{The Classical Theory of Fields: Fourth Revised English Edition}
       \field{year}{1994}
     \endentry
-    \entry{Jhonny}{article}{}
-      \name{author}{1}{}{%
-        {{hash=31cd44e337d1ceb25fab169eed6c1bee}{%
-           family={Nordebo},
-           familyi={N\bibinitperiod},
-           given={Jonatan},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{31cd44e337d1ceb25fab169eed6c1bee}
-      \strng{fullhash}{31cd44e337d1ceb25fab169eed6c1bee}
-      \strng{bibnamehash}{31cd44e337d1ceb25fab169eed6c1bee}
-      \strng{authorbibnamehash}{31cd44e337d1ceb25fab169eed6c1bee}
-      \strng{authornamehash}{31cd44e337d1ceb25fab169eed6c1bee}
-      \strng{authorfullhash}{31cd44e337d1ceb25fab169eed6c1bee}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Umeå University, Faculty of Science and Technology, Department of Physics.}
-      \field{title}{The Reissner-Nordström metric}
-      \field{year}{2016}
-    \endentry
     \entry{moore}{book}{}
       \name{author}{1}{}{%
         {{hash=daa0cd6c45dcd394fb0e58b7fe1a45c0}{%

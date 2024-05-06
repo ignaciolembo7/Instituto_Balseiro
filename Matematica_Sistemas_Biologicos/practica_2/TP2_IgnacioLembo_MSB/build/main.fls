@@ -1,7 +1,7 @@
-PWD c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB
+PWD c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB
 INPUT C:\Users\Ignacio Lembo\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\main.tex
-OUTPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.log
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\main.tex
+OUTPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.log
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\tufte-latex\tufte-book.cls
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\tufte-latex\tufte-book.cls
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\tufte-latex\tufte-book.cls
@@ -192,9 +192,9 @@ INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifl
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\nul:
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\nul:
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\nul:
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\nul:
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\nul:
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\nul:
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
@@ -1498,7 +1498,7 @@ INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\base\makeid
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\base\makeidx.sty
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\base\makeidx.sty
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\base\makeidx.sty
-OUTPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.idx
+OUTPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.idx
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\tcolorbox\tcolorbox.sty
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\tcolorbox\tcolorbox.sty
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\tcolorbox\tcolorbox.sty
@@ -1595,10 +1595,10 @@ INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\fncychap\fn
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\fncychap\fncychap.sty
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\fncychap\fncychap.sty
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.aux
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.aux
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.aux
-OUTPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.aux
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.aux
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.aux
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.aux
+OUTPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.aux
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -1635,28 +1635,28 @@ INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\ep
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.out
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.out
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.out
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.out
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.out
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.out
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.out
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.out
-OUTPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.pdf
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.out
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.out
-OUTPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.out
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.out
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.out
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.out
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.out
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.out
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.out
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.out
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.out
+OUTPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.pdf
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.out
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.out
+OUTPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.out
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
-OUTPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.bcf
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.bbl
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.bbl
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.bbl
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.bbl
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.bbl
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.bbl
+OUTPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.bcf
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.bbl
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.bbl
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.bbl
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.bbl
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.bbl
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.bbl
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1phv.fd
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1phv.fd
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1phv.fd
@@ -1979,250 +1979,11 @@ INPUT .\Im\muchoscristoffel.png
 INPUT .\Im\muchoscristoffel.png
 INPUT .\Im\muchoscristoffel.png
 INPUT .\Im\muchoscristoffel.png
-INPUT .\Chapter2.tex
-INPUT .\Chapter2.tex
-INPUT .\Chapter2.tex
-INPUT Chapter2.tex
-INPUT .\Chapter2.tex
-INPUT .\Chapter2.tex
-INPUT Chapter2.tex
-INPUT .\Im\eceinstein.png
-INPUT .\Im\eceinstein.png
-INPUT Im\eceinstein.png
-INPUT .\Im\eceinstein.png
-INPUT .\Im\eceinstein.png
-INPUT .\Im\eceinstein.png
-INPUT .\Im\eceinstein.png
-INPUT .\Im\tensor.png
-INPUT .\Im\tensor.png
-INPUT Im\tensor.png
-INPUT .\Im\tensor.png
-INPUT .\Im\tensor.png
-INPUT .\Im\tensor.png
-INPUT .\Im\tensor.png
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7y.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7m.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmri.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8r.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplri8r.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr9t.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmr.tfm
-INPUT .\Im\geod.png
-INPUT .\Im\geod.png
-INPUT Im\geod.png
-INPUT .\Im\geod.png
-INPUT .\Im\geod.png
-INPUT .\Im\geod.png
-INPUT .\Im\geod.png
-INPUT .\Im\sonic.jpg
-INPUT .\Im\sonic.jpg
-INPUT Im\sonic.jpg
-INPUT .\Im\sonic.jpg
-INPUT .\Im\sonic.jpg
-INPUT .\Im\sonic.jpg
-INPUT .\Im\sonic.jpg
-INPUT .\Chapter3.tex
-INPUT .\Chapter3.tex
-INPUT .\Chapter3.tex
-INPUT Chapter3.tex
-INPUT .\Chapter3.tex
-INPUT .\Chapter3.tex
-INPUT Chapter3.tex
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmb7m.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7y.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7v.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmr.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplri9d.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplri9d.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7t.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr9t.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr9t.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr9t.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmr7m.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmr7m.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmr7m.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmr7y.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmr7y.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmr7y.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmr7v.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmr7v.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmr7v.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmr7t.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmr7t.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmr7t.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb9t.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb9t.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb9t.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmb7m.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmb7m.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmb7m.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmb7y.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmb7y.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmb7y.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmb7t.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmb7t.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmb7t.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplri9d.tfm
-INPUT .\Chapter4.tex
-INPUT .\Chapter4.tex
-INPUT .\Chapter4.tex
-INPUT Chapter4.tex
-INPUT .\Chapter4.tex
-INPUT .\Chapter4.tex
-INPUT Chapter4.tex
-INPUT .\Im\luz_circular.png
-INPUT .\Im\luz_circular.png
-INPUT Im\luz_circular.png
-INPUT .\Im\luz_circular.png
-INPUT .\Im\luz_circular.png
-INPUT .\Im\luz_circular.png
-INPUT .\Im\luz_circular.png
-INPUT .\Im\luz_interior_angulo91.png
-INPUT .\Im\luz_interior_angulo91.png
-INPUT Im\luz_interior_angulo91.png
-INPUT .\Im\luz_interior_angulo91.png
-INPUT .\Im\luz_interior_angulo91.png
-INPUT .\Im\luz_interior_angulo91.png
-INPUT .\Im\luz_interior_angulo91.png
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1pplj.fd
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1pplj.fd
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1pplj.fd
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1pplj.fd
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr9c.tfm
-INPUT .\Im\luz_exterior_angulo89_1vuelta.png
-INPUT .\Im\luz_exterior_angulo89_1vuelta.png
-INPUT Im\luz_exterior_angulo89_1vuelta.png
-INPUT .\Im\luz_exterior_angulo89_1vuelta.png
-INPUT .\Im\luz_exterior_angulo89_1vuelta.png
-INPUT .\Im\luz_exterior_angulo89_1vuelta.png
-INPUT .\Im\luz_exterior_angulo89_1vuelta.png
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr9c.vf
-INPUT .\Im\rvsphi_mercurio.png
-INPUT .\Im\rvsphi_mercurio.png
-INPUT Im\rvsphi_mercurio.png
-INPUT .\Im\rvsphi_mercurio.png
-INPUT .\Im\rvsphi_mercurio.png
-INPUT .\Im\rvsphi_mercurio.png
-INPUT .\Im\rvsphi_mercurio.png
-INPUT .\Im\drvsphi_mercurio.png
-INPUT .\Im\drvsphi_mercurio.png
-INPUT Im\drvsphi_mercurio.png
-INPUT .\Im\drvsphi_mercurio.png
-INPUT .\Im\drvsphi_mercurio.png
-INPUT .\Im\drvsphi_mercurio.png
-INPUT .\Im\drvsphi_mercurio.png
-INPUT .\Im\Roseta.png
-INPUT .\Im\Roseta.png
-INPUT Im\Roseta.png
-INPUT .\Im\Roseta.png
-INPUT .\Im\Roseta.png
-INPUT .\Im\Roseta.png
-INPUT .\Im\Roseta.png
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplri9d.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplri8r.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmri.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplrij8r.tfm
-INPUT .\Chapter5.tex
-INPUT .\Chapter5.tex
-INPUT .\Chapter5.tex
-INPUT Chapter5.tex
-INPUT .\Chapter5.tex
-INPUT .\Chapter5.tex
-INPUT Chapter5.tex
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr9d.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr9d.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr8r.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmr.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplrc8r.tfm
-INPUT .\Im\F1000033-01.jpeg
-INPUT .\Im\F1000033-01.jpeg
-INPUT Im\F1000033-01.jpeg
-INPUT .\Im\F1000033-01.jpeg
-INPUT .\Im\F1000033-01.jpeg
-INPUT .\Im\F1000033-01.jpeg
-INPUT .\Im\F1000033-01.jpeg
-INPUT .\Im\moore.jpg
-INPUT .\Im\moore.jpg
-INPUT Im\moore.jpg
-INPUT .\Im\moore.jpg
-INPUT .\Im\moore.jpg
-INPUT .\Im\moore.jpg
-INPUT .\Im\moore.jpg
-INPUT .\Im\wheeler.jpg
-INPUT .\Im\wheeler.jpg
-INPUT Im\wheeler.jpg
-INPUT .\Im\wheeler.jpg
-INPUT .\Im\wheeler.jpg
-INPUT .\Im\wheeler.jpg
-INPUT .\Im\wheeler.jpg
-INPUT .\Im\landau.jpg
-INPUT .\Im\landau.jpg
-INPUT Im\landau.jpg
-INPUT .\Im\landau.jpg
-INPUT .\Im\landau.jpg
-INPUT .\Im\landau.jpg
-INPUT .\Im\landau.jpg
-INPUT .\Im\susskind.png
-INPUT .\Im\susskind.png
-INPUT Im\susskind.png
-INPUT .\Im\susskind.png
-INPUT .\Im\susskind.png
-INPUT .\Im\susskind.png
-INPUT .\Im\susskind.png
-INPUT .\Im\bumpyy.png
-INPUT .\Im\bumpyy.png
-INPUT Im\bumpyy.png
-INPUT .\Im\bumpyy.png
-INPUT .\Im\bumpyy.png
-INPUT .\Im\bumpyy.png
-INPUT .\Im\bumpyy.png
-INPUT .\Im\bumpy.png
-INPUT .\Im\bumpy.png
-INPUT Im\bumpy.png
-INPUT .\Im\bumpy.png
-INPUT .\Im\bumpy.png
-INPUT .\Im\bumpy.png
-INPUT .\Im\bumpy.png
-INPUT .\Im\scienceclic.png
-INPUT .\Im\scienceclic.png
-INPUT Im\scienceclic.png
-INPUT .\Im\scienceclic.png
-INPUT .\Im\scienceclic.png
-INPUT .\Im\scienceclic.png
-INPUT .\Im\scienceclic.png
-INPUT .\Im\qr_img.png
-INPUT .\Im\qr_img.png
-INPUT Im\qr_img.png
-INPUT .\Im\qr_img.png
-INPUT .\Im\qr_img.png
-INPUT .\Im\qr_img.png
-INPUT .\Im\qr_img.png
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\bera\t1fvm.fd
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\bera\t1fvm.fd
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\bera\t1fvm.fd
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex\latex\bera\t1fvm.fd
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\bera\fvmr8t.tfm
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\vf\public\bera\fvmr8t.vf
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\bera\fvmr8r.tfm
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.aux
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.out
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.out
-INPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.run.xml
-OUTPUT c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.run.xml
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.aux
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.out
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.out
+INPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.run.xml
+OUTPUT c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.run.xml
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
@@ -2240,8 +2001,6 @@ INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\public\ma
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\public\mathpazo\fplmri.pfb
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\public\fpl\fplrc8a.pfb
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\public\fpl\fplrc8a.pfb
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\bera\fvmr8a.pfb
-INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\bera\fvmr8a.pfb
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvr8a.pfb

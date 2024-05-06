@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.8.7)  7 MAR 2024 22:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.8.7)  5 MAY 2024 18:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Matematica_Sistemas_Biologicos/practica_1/TP1_IgnacioLembo_MSB/main.tex"
-(c:/Users/Ignacio Lembo/Documents/GitHub/Instituto_Balseiro/Matematica_Sistemas_Biologicos/practica_1/TP1_IgnacioLembo_MSB/main.tex
+**"c:/Users/Ignacio Lembo/Documents/Repositorios/Instituto_Balseiro/Matematica_Sistemas_Biologicos/practica_2/TP2_IgnacioLembo_MSB/main.tex"
+(c:/Users/Ignacio Lembo/Documents/Repositorios/Instituto_Balseiro/Matematica_Sistemas_Biologicos/practica_2/TP2_IgnacioLembo_MSB/main.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17> (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/tufte-latex\tufte-book.cls
 Document Class: tufte-book 2015/06/21 v3.5.2 Tufte-book class
@@ -1171,7 +1171,7 @@ Package csquotes Info: Redefining alias 'default' -> 'spanish'.
 Package biblatex Warning: Patching footnotes failed.
 (biblatex)                Footnote detection will not work.
 
-(c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.aux
+(c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 
@@ -1222,18 +1222,6 @@ LaTeX Warning: Label `fig:sen' multiply defined.
 
 
 LaTeX Warning: Label `fig:sen' multiply defined.
-
-
-LaTeX Warning: Label `fig:sen' multiply defined.
-
-
-LaTeX Warning: Label `fig:sen' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
 
 )
 \openout1 = `main.aux'.
@@ -1323,7 +1311,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 316.
- (c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.out) (c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.out)
+ (c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.out) (c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
@@ -1339,7 +1327,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.bbl)
+ (c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.bbl)
 Package biblatex Info: Reference section=0 on input line 316.
 Package biblatex Info: Reference segment=0 on input line 316.
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 320.
@@ -1352,16 +1340,6 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 16.19989pt on input line 320.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 32.39978pt on input line 320.
-
-Overfull \hbox (11.86774pt too wide) in paragraph at lines 320--320
-[]\T1/phv/m/n/36/200ls AGUJEROS NE-GROS DE 
- []
-
-
-Overfull \hbox (29.9732pt too wide) in paragraph at lines 320--320
-\T1/phv/m/n/36/200ls REISSNER-NORDSTRÖM[]  
- []
-
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 12.59991pt on input line 320.
 
@@ -1394,7 +1372,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 12.9599pt on input line 3.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 18.66588pt on input line 3.
-<Im/3653b705a42ad6a980fc834e6ca39875.jpg, id=34, 642.4pt x 481.8pt>
+<Im/3653b705a42ad6a980fc834e6ca39875.jpg, id=22, 642.4pt x 481.8pt>
 File: Im/3653b705a42ad6a980fc834e6ca39875.jpg Graphic file (type jpg)
 <use Im/3653b705a42ad6a980fc834e6ca39875.jpg>
 Package pdftex.def Info: Im/3653b705a42ad6a980fc834e6ca39875.jpg  used on input line 12.
@@ -1446,7 +1424,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.91925pt on input line 15.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.25204pt on input line 15.
-<Im/27c518672e8aa2b372107cca7726603f.jpg, id=35, 712.1004pt x 371.4678pt>
+<Im/27c518672e8aa2b372107cca7726603f.jpg, id=23, 712.1004pt x 371.4678pt>
 File: Im/27c518672e8aa2b372107cca7726603f.jpg Graphic file (type jpg)
 <use Im/27c518672e8aa2b372107cca7726603f.jpg>
 Package pdftex.def Info: Im/27c518672e8aa2b372107cca7726603f.jpg  used on input line 20.
@@ -1467,7 +1445,7 @@ LaTeX Warning: Marginpar on page 3 moved.
 [3
 
  <./Im/3653b705a42ad6a980fc834e6ca39875.jpg> <./Im/27c518672e8aa2b372107cca7726603f.jpg>]
-<Im/gravuniv.png, id=51, 963.6pt x 722.7pt>
+<Im/gravuniv.png, id=39, 963.6pt x 722.7pt>
 File: Im/gravuniv.png Graphic file (type png)
 <use Im/gravuniv.png>
 Package pdftex.def Info: Im/gravuniv.png  used on input line 47.
@@ -1496,12 +1474,12 @@ LaTeX Warning: Marginpar on page 4 moved.
 
 LaTeX Warning: Marginpar on page 4 moved.
 
-<Im/curvatura aceleracion.png, id=53, 817.0525pt x 548.0475pt>
+<Im/curvatura aceleracion.png, id=41, 817.0525pt x 548.0475pt>
 File: Im/curvatura aceleracion.png Graphic file (type png)
 <use Im/curvatura aceleracion.png>
 Package pdftex.def Info: Im/curvatura aceleracion.png  used on input line 63.
 (pdftex.def)             Requested size: 213.10187pt x 142.94055pt.
-<Im/happiestthought.png, id=54, 963.6pt x 722.7pt>
+<Im/happiestthought.png, id=42, 963.6pt x 722.7pt>
 File: Im/happiestthought.png Graphic file (type png)
 <use Im/happiestthought.png>
 Package pdftex.def Info: Im/happiestthought.png  used on input line 72.
@@ -1581,7 +1559,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--91
 \T1/pplj/m/n/10 es-pa-cio cur-va-do de-jan de ser vá-li-das las re-la-cio-nes pro-pias
  []
 
-<Im/Spinning-disk.svg.png, id=70, 1284.8pt x 852.18375pt>
+<Im/Spinning-disk.svg.png, id=58, 1284.8pt x 852.18375pt>
 File: Im/Spinning-disk.svg.png Graphic file (type png)
 <use Im/Spinning-disk.svg.png>
 Package pdftex.def Info: Im/Spinning-disk.svg.png  used on input line 95.
@@ -1591,7 +1569,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--98
 []\T1/pplj/m/n/10 Figura 1.5: |Ci-lin-dro que ro-ta
  []
 
-<Im/220px-Ehrenfest-paradox-disk.svg.png, id=71, 220.825pt x 180.675pt>
+<Im/220px-Ehrenfest-paradox-disk.svg.png, id=59, 220.825pt x 180.675pt>
 File: Im/220px-Ehrenfest-paradox-disk.svg.png Graphic file (type png)
 <use Im/220px-Ehrenfest-paradox-disk.svg.png>
 Package pdftex.def Info: Im/220px-Ehrenfest-paradox-disk.svg.png  used on input line 102.
@@ -1620,7 +1598,7 @@ LaTeX Warning: Marginpar on page 6 moved.
 
 LaTeX Warning: Marginpar on page 6 moved.
 
-<Im/sistsolar.png, id=82, 1394.20876pt x 813.0375pt>
+<Im/sistsolar.png, id=70, 1394.20876pt x 813.0375pt>
 File: Im/sistsolar.png Graphic file (type png)
 <use Im/sistsolar.png>
 Package pdftex.def Info: Im/sistsolar.png  used on input line 116.
@@ -1658,7 +1636,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--126
 []| \T1/phv/m/n/20.74 De-ta-lles del Prin-ci-pio de
  []
 
-<Im/equiv.png, id=89, 937.5025pt x 642.4pt>
+<Im/equiv.png, id=77, 937.5025pt x 642.4pt>
 File: Im/equiv.png Graphic file (type png)
 <use Im/equiv.png>
 Package pdftex.def Info: Im/equiv.png  used on input line 138.
@@ -1704,7 +1682,7 @@ LaTeX Warning: Marginpar on page 7 moved.
 
 LaTeX Warning: Marginpar on page 7 moved.
 
-<Im/tidal.png, id=90, 872.50969pt x 428.35031pt>
+<Im/tidal.png, id=78, 872.50969pt x 428.35031pt>
 File: Im/tidal.png Graphic file (type png)
 <use Im/tidal.png>
 Package pdftex.def Info: Im/tidal.png  used on input line 150.
@@ -1791,7 +1769,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--180
 []\T1/pplj/m/n/10 Las lon-gi-tu-des de $\OT1/pplx/b/n/10 e[]$ \T1/pplj/m/n/10 y $\OT1/pplx/b/n/10 e[]$ \T1/pplj/m/n/10 son ta-les que el vec-tor des-pla-za-mien-to $\OML/zplm/m/it/10 d\OT1/pplx/b/n/10 s$ \T1/pplj/m/n/10 que va de $\OMS/zplm/m/n/10 P\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 u\OT1/pplx/m/n/10 , \OML/zplm/m/it/10 w\OT1/zplm/m/n/10 )$ \T1/pplj/m/n/10 a un
  []
 
-<Im/coord.png, id=107, 800.9925pt x 319.1925pt>
+<Im/coord.png, id=95, 800.9925pt x 319.1925pt>
 File: Im/coord.png Graphic file (type png)
 <use Im/coord.png>
 Package pdftex.def Info: Im/coord.png  used on input line 182.
@@ -1799,7 +1777,7 @@ Package pdftex.def Info: Im/coord.png  used on input line 182.
 LaTeX Info: Redefining \. on input line 192.
 LaTeX Info: Redefining \% on input line 192.
 [9 <./Im/coord.png>]
-<Im/bote.png, id=114, 554.07pt x 644.4075pt>
+<Im/bote.png, id=102, 554.07pt x 644.4075pt>
 File: Im/bote.png Graphic file (type png)
 <use Im/bote.png>
 Package pdftex.def Info: Im/bote.png  used on input line 198.
@@ -1841,7 +1819,7 @@ LaTeX Warning: Marginpar on page 10 moved.
 
 LaTeX Warning: Marginpar on page 11 moved.
 
-<Im/persistenceofmemory1931.jpg, id=126, 622.325pt x 418.56375pt>
+<Im/persistenceofmemory1931.jpg, id=114, 622.325pt x 418.56375pt>
 File: Im/persistenceofmemory1931.jpg Graphic file (type jpg)
 <use Im/persistenceofmemory1931.jpg>
 Package pdftex.def Info: Im/persistenceofmemory1931.jpg  used on input line 267.
@@ -1856,7 +1834,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 268--268
 []\T1/pplj/m/n/10 Figura 1.11: |\T1/pplj/m/it/10 La per-sis-ten-cia de la
  []
 
-<Im/curve3d.png, id=127, 995.21812pt x 603.75563pt>
+<Im/curve3d.png, id=115, 995.21812pt x 603.75563pt>
 File: Im/curve3d.png Graphic file (type png)
 <use Im/curve3d.png>
 Package pdftex.def Info: Im/curve3d.png  used on input line 278.
@@ -1944,7 +1922,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 333.
 LaTeX Info: Redefining \% on input line 333.
  [13]
-<Im/cambiocoord.png, id=152, 1052.43187pt x 808.52063pt>
+<Im/cambiocoord.png, id=140, 1052.43187pt x 808.52063pt>
 File: Im/cambiocoord.png Graphic file (type png)
 <use Im/cambiocoord.png>
 Package pdftex.def Info: Im/cambiocoord.png  used on input line 353.
@@ -1995,7 +1973,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 367--368
  []
 
 [14 <./Im/cambiocoord.png>]
-<Im/parallel.png, id=162, 1445.4pt x 813.0375pt>
+<Im/parallel.png, id=150, 1445.4pt x 813.0375pt>
 File: Im/parallel.png Graphic file (type png)
 <use Im/parallel.png>
 Package pdftex.def Info: Im/parallel.png  used on input line 378.
@@ -2030,7 +2008,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 379--379
 \T1/pplj/m/n/10 vec-to-res de la ba-se al va-riar la
  []
 
-<Im/christoffel.png, id=163, 1445.4pt x 813.0375pt>
+<Im/christoffel.png, id=151, 1445.4pt x 813.0375pt>
 File: Im/christoffel.png Graphic file (type png)
 <use Im/christoffel.png>
 Package pdftex.def Info: Im/christoffel.png  used on input line 386.
@@ -2108,7 +2086,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 387--387
 
 LaTeX Warning: Marginpar on page 15 moved.
 
-<Im/muchoscristoffel.png, id=164, 1445.4pt x 813.0375pt>
+<Im/muchoscristoffel.png, id=152, 1445.4pt x 813.0375pt>
 File: Im/muchoscristoffel.png Graphic file (type png)
 <use Im/muchoscristoffel.png>
 Package pdftex.def Info: Im/muchoscristoffel.png  used on input line 394.
@@ -2188,853 +2166,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 488--489
 []\T1/pplj/m/n/10 Es in-tere-san-te por-que es-ta can-ti-dad es un \T1/pplj/b/n/10 es-ca-lar re-la-ti-vis-ta\T1/pplj/m/n/10 ,
  []
 
-) (Chapter2.tex
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [17] [18
-
-]
-Cap\'{\i }tulo 2.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
-[][][][][][][][][]  
- []
-
-
-LaTeX Warning: Marginpar on page 19 moved.
-
-[19]
-<Im/eceinstein.png, id=203, 943.525pt x 328.22626pt>
-File: Im/eceinstein.png Graphic file (type png)
-<use Im/eceinstein.png>
-Package pdftex.def Info: Im/eceinstein.png  used on input line 16.
-(pdftex.def)             Requested size: 289.2216pt x 100.6122pt.
- [20 <./Im/eceinstein.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-[]| \T1/phv/m/n/20.74 Ten-sor de Estrés-
- []
-
-<Im/tensor.png, id=211, 1157.32375pt x 721.69624pt>
-File: Im/tensor.png Graphic file (type png)
-<use Im/tensor.png>
-Package pdftex.def Info: Im/tensor.png  used on input line 40.
-(pdftex.def)             Requested size: 232.16702pt x 144.77718pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
- [21]
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-[]\T1/pplj/m/n/10 Recordemos pri-me-ro el \T1/pplj/b/n/10 ten-sor de cam-po elec-tro-mag-né-ti-co
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-[]\T1/pplj/m/n/10 Sabemos ade-más que, pa-ra un cam-po EM, la \T1/pplj/b/n/10 den-si-dad de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-[]\T1/pplj/m/n/10 Como los cam-pos EM al-ma-ce-nan ener-gía, tie-nen que te-ner
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-\T1/pplj/m/n/10 un ten-sor de stress-energía aso-cia-do. Los úni-cos ele-men-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-\T1/pplj/m/n/10 tos que in-ter-vie-nen aquí son los cam-pos elec-tro-mag-né-ti-cos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-\T1/pplj/m/n/10 y el espacio-tiempo, por lo que $\OML/zplm/m/it/10 T[]$ \T1/pplj/m/n/10 (si-mé-tri-co) de-be-rá ser
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-\T1/pplj/m/n/10 una com-bi-na-ción de $\OML/zplm/m/it/10 F[]$ \T1/pplj/m/n/10 (an-ti-si-mé-tri-co) y $\OML/zplm/m/it/10 g[]$ \T1/pplj/m/n/10 (si-mé-tri-co).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-\T1/pplj/m/n/10 To-man-do es-to en cuen-ta, y ade-más pi-dien-do que la en-tra-da
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-\OML/zplm/m/it/10 tt$ \T1/pplj/m/n/10 co-rres-pon-da a la den-si-dad de ener-gía $\OML/zplm/m/it/10 ^^Z[]$ \T1/pplj/m/n/10 de más arri-ba,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-[]\T1/pplj/m/n/10 Una ca-rac-te-rís-ti-ca des-ta-ca-ble de es-te ten-sor es que es \T1/pplj/b/n/10 tra-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-\T1/pplj/b/n/10 ce-less \T1/pplj/m/n/10 (tra-za nu-la). Es de-cir que, si ba-ja-mos un ín-di-ce y
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22 <./Im/tensor.png>]
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
- [23]
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
-[]| \T1/phv/m/n/20.74 Ecua-cio-nes de Cam-po
- []
-
-[24]
-
-LaTeX Warning: Marginpar on page 25 moved.
-
-
-LaTeX Warning: Marginpar on page 25 moved.
-
-
-LaTeX Warning: Marginpar on page 25 moved.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-[]\T1/pplj/m/n/8 El \T1/pplj/b/n/8 Lí-mi-te de Cam-po Dé-bil
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-\T1/pplj/m/n/8 con-sis-te en pro-po-ner un ten-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-\T1/pplj/m/n/8 sor mé-tri-co que di-fie-re muy
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-\T1/pplj/m/n/8 le-ve-men-te del $\OML/zplm/m/it/8 ^^Q[]$ \T1/pplj/m/n/8 del es-pa-cio
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-\T1/pplj/m/n/8 de Min-kows-ki. Es po-si-ble de-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-\T1/pplj/m/n/8 mos-trar, me-dian-te un aná-li-sis
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-\T1/pplj/m/n/8 per-tur-ba-ti-vo, que en di-cho lí-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-\T1/pplj/m/n/8 mi-te la en-tra-da $\OML/zplm/m/it/8 g[]$ \T1/pplj/m/n/8 del ten-sor
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
-[]\T1/pplj/m/n/8 Que es-tá ín-ti-ma-men-te re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
-\T1/pplj/m/n/8 la-cio-na-da con el po-ten-cial
- []
-
-
-LaTeX Warning: Marginpar on page 25 moved.
-
-LaTeX Info: Redefining \. on input line 169.
-LaTeX Info: Redefining \% on input line 169.
-[25]
-<Im/geod.png, id=249, 313.17pt x 429.10312pt>
-File: Im/geod.png Graphic file (type png)
-<use Im/geod.png>
-Package pdftex.def Info: Im/geod.png  used on input line 188.
-(pdftex.def)             Requested size: 182.72823pt x 250.37282pt.
-
-Overfull \hbox (42.17163pt too wide) in paragraph at lines 186--189
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
-[]\T1/pplj/m/n/10 Figura 2.1: |Po-de-mos des-cri-bir
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
-\T1/pplj/m/n/10 la cur-va (world-li-ne) en-tre dos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
-\T1/pplj/m/n/10 even-tos $\OML/zplm/m/it/10 A$ \T1/pplj/m/n/10 y $\OML/zplm/m/it/10 B$ \T1/pplj/m/n/10 eti-que-tan-do
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
-\T1/pplj/m/n/10 to-dos los even-tos en-tre ellos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
-\T1/pplj/m/n/10 me-dian-te un pa-rá-me-tro $\OML/zplm/m/it/10 ^^[$\T1/pplj/m/n/10 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
-\T1/pplj/m/n/10 lue-go es-pe-ci-fi-can-do las coor-de-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
-\T1/pplj/m/n/10 na-das es-pa-cia-les y tem-po-ra-les
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
-\T1/pplj/m/n/10 de di-chos even-tos co-mo fun-
- []
-
-[26 <./Im/geod.png>]
-<Im/sonic.jpg, id=259, 746.79pt x 622.325pt>
-File: Im/sonic.jpg Graphic file (type jpg)
-<use Im/sonic.jpg>
-Package pdftex.def Info: Im/sonic.jpg  used on input line 246.
-(pdftex.def)             Requested size: 182.66318pt x 152.21931pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--249
-[]\T1/pplj/m/n/10 Figura 2.2: |El úni-co me-me que
- []
-
-) (Chapter3.tex
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [27 <./Im/sonic.jpg>] [28
-
-]
-Cap\'{\i }tulo 3.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--5
-[]| \T1/phv/m/n/20.74 Re-sol-vien-do la ecua-ción
- []
-
-
-LaTeX Warning: Marginpar on page 29 moved.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--16
-[]\T1/pplj/m/n/8 Los pa-sos pa-ra re-sol-ver la
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--16
-\T1/pplj/m/n/8 ecua-ción se pue-den con-den-sar
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-[]\T1/pplj/m/n/8 Usar la si-me-tría del pro-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-\T1/pplj/m/n/8 ble-ma pa-ra de-fi-nir un
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-\T1/pplj/m/n/8 sis-te-ma de coor-de-na-das lo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-[]\T1/pplj/m/n/8 Proponer una mé-tri-ca con
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-\T1/pplj/m/n/8 la me-nor can-ti-dad de co-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-\T1/pplj/m/n/8 efi-cien-tes in-de-ter-mi-na-dos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-[]\T1/pplj/m/n/8 Sustituir la mé-tri-ca de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-\T1/pplj/m/n/8 prue-ba en la ecua-ción de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-[]\T1/pplj/m/n/8 Resolver el sis-te-ma de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-\T1/pplj/m/n/8 ecua-cio-nes di-fe-ren-cia-les
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-\T1/pplj/m/n/8 pa-ra las com-po-nen-tes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-[]| \T1/phv/m/n/20.74 La for-ma ge-ne-ral de una
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-\T1/phv/m/n/20.74 mé-tri-ca es-fé-ri-ca-men-te
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29]
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
-[]\T1/pplj/m/n/10 Consideramos el es-pa-cio tiem-po al-re-de-dor de una fuen-te
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-[]\T1/pplj/m/n/10 El es-pa-cio es va-cío ex-cep-to por la pre-sen-cia de cam-pos
- []
-
-[30]
-
-LaTeX Warning: Marginpar on page 31 moved.
-
-
-LaTeX Warning: Marginpar on page 31 moved.
-
-
-LaTeX Warning: Marginpar on page 31 moved.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
-[]| \T1/phv/m/n/20.74 Re-em-pla-zan-do la for-ma
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
-\T1/phv/m/n/20.74 ge-ne-ral de la mé-tri-ca en
- []
-
-LaTeX Info: Redefining \. on input line 86.
-LaTeX Info: Redefining \% on input line 86.
-[31]
-
-LaTeX Warning: Marginpar on page 32 moved.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
-[]\T1/pplj/m/n/8 Para ba-jar o su-bir ín-di-ces una
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
-\T1/pplj/m/n/8 re-gla que fun-cio-na es pen-sar
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
-\T1/pplj/m/n/8 que el se-gun-do ín-di-ce del ten-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
-\T1/pplj/m/n/8 sor mé-tri-co ín-di-ca qué ín-di-ce
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
-\T1/pplj/m/n/8 del ten-sor sube o ba-ja (es el
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
-\T1/pplj/m/n/8 que es-tá re-pe-ti-do) y el pri-mer
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
-\T1/pplj/m/n/8 ín-di-ce del ten-sor mé-tri-co in-di-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
-\T1/pplj/m/n/8 ca por qué ín-di-ce se rem-pla-za.
- []
-
-[32]
-
-LaTeX Warning: Marginpar on page 33 moved.
-
-
-Overfull \hbox (18.82672pt too wide) detected at line 149
-[][][]\OML/zplm/m/it/10 g[] \OT1/zplm/m/n/10 = []  \OML/zplm/m/it/10 g[] \OT1/zplm/m/n/10 = []
- []
-
-
-LaTeX Warning: Marginpar on page 33 moved.
-
-
-LaTeX Warning: Marginpar on page 33 moved.
-
-
-LaTeX Warning: Marginpar on page 33 moved.
-
-LaTeX Info: Redefining \. on input line 188.
-LaTeX Info: Redefining \% on input line 188.
-[33]
-Overfull \hbox (52.6404pt too wide) detected at line 214
-[]
- []
-
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
-[]\T1/pplj/m/n/8 Para de-mos-trar que la fun-ción
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
-\OML/zplm/m/it/8 A$ \T1/pplj/m/n/8 no de-pen-de del tiem-po,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
-\T1/pplj/m/n/8 es po-si-ble ape-lar al si-guien-te
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
-\T1/pplj/m/n/8 ar-gu-men-to: co-mo sa-be-mos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
-\T1/pplj/m/n/8 es ne-ce-sa-rio que $\OML/zplm/m/it/8 A$ \T1/pplj/m/n/8 ten-ga la
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
-\T1/pplj/m/n/8 que acom-pa-ña al tér-mino $\OML/zplm/m/it/8 dt[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
-\T1/pplj/m/n/8 en la mé-tri-ca se-rá en-ton-ces
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
-\OMS/zplm/m/n/8 ^^@\OML/zplm/m/it/8 Kf\OT1/zplm/m/n/8 (\OML/zplm/m/it/8 t\OT1/zplm/m/n/8 )\OML/zplm/m/it/8 g\OT1/zplm/m/n/8 (\OML/zplm/m/it/8 r\OT1/zplm/m/n/8 )$\T1/pplj/m/n/8 , de don-de con-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
-\T1/pplj/m/n/8 clui-mos que $\OML/zplm/m/it/8 Kf\OT1/zplm/m/n/8 (\OML/zplm/m/it/8 t\OT1/zplm/m/n/8 )$ \T1/pplj/m/n/8 tie-ne que
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
-\T1/pplj/m/n/8 ser po-si-ti-vo (pa-ra que la \T1/pplj/m/it/8 sig-na-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
-\T1/pplj/m/it/8 tu-re \T1/pplj/m/n/8 de la mé-tri-ca nos ase-gu-re
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
-\T1/pplj/m/n/8 3 di-me-sio-nes es-pa-cia-les y
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
-\T1/pplj/m/n/8 una tem-po-ral). Es-to sig-ni-fi-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
-\T1/pplj/m/n/8 ca que po-de-mos re-de-fi-nir la
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
-[]\T1/pplj/m/n/8 Es de-cir que la li-ber-tad a la
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
-\T1/pplj/m/n/8 ho-ra de ele-gir la coor-de-na-da
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
-\OML/zplm/m/it/8 t$ \T1/pplj/m/n/8 nos per-mi-te in-de-pen-di-zar-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
-\T1/pplj/m/n/8 nos del tiem-po en la mé-tri-ca
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
-\T1/pplj/m/n/8 al-re-de-dor de un ob-je-to con
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
-\T1/pplj/m/n/8 si-me-tría es-fé-ri-ca. Es-to es co-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
-\T1/pplj/m/n/8 no-ci-do co-mo \T1/pplj/b/n/8 Teo-re-ma de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
-\T1/pplj/b/n/8 Birkhoff\T1/pplj/m/n/8 , y si bien apli-ca a el
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
-\T1/pplj/m/n/8 es-pa-cio va-cío, tam-bién pue-de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
-\T1/pplj/m/n/8 ge-ne-ra-li-zar-se pa-ra in-cor-po-rar
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
-\T1/pplj/m/n/8 las Ecua-cio-nes de Max-well
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
-\T1/pplj/m/n/8 en el lla-ma-do \T1/pplj/b/n/8 Elec-tro-va-cío de
- []
-
-LaTeX Info: Redefining \. on input line 290.
-LaTeX Info: Redefining \% on input line 290.
-[35]
-
-LaTeX Warning: Marginpar on page 36 moved.
-
-[36]
-Overfull \hbox (3.02864pt too wide) detected at line 400
-\OML/zplm/m/it/10 g[] \OT1/zplm/m/n/10 = []
- []
-
-LaTeX Info: Redefining \. on input line 401.
-LaTeX Info: Redefining \% on input line 401.
-[37]
-Underfull \hbox (badness 10000) in paragraph at lines 437--437
-[]\T1/pplj/m/n/10 Cuadro 3.1: |Uni-da-des Geo-mé-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 437--437
-\T1/pplj/m/n/10 tri-cas. Pa-ra con-ver-tir Geom.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 437--437
-\OMS/zplm/m/n/10 !$ \T1/pplj/m/n/10 SI, mul-ti-pli-car por el fac-tor.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 437--437
-\T1/pplj/m/n/10 Pa-ra con-ver-tir SI $\OMS/zplm/m/n/10 !$ \T1/pplj/m/n/10 Geom.,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 437--437
-\T1/pplj/m/n/10 di-vi-dir por el fac-tor. De for-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 437--437
-\T1/pplj/m/n/10 ma ge-ne-ral, pa-ra uni-da-des SI
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 437--437
-\T1/pplj/m/n/10 de ''$\OML/zplm/m/it/10 kg[]m[]s[]$\T1/pplj/m/n/10 '', las uni-da-des
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 438--438
-[]| \T1/phv/m/n/20.74 Geo-dé-si-cas en la Geo-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 438--438
-\T1/phv/m/n/20.74 me-tría de Reissner-
- []
-
-[38]
-
-LaTeX Warning: Marginpar on page 39 moved.
-
-LaTeX Info: Redefining \. on input line 488.
-LaTeX Info: Redefining \% on input line 488.
-[39] [40]
-
-LaTeX Warning: Marginpar on page 41 moved.
-
-
-LaTeX Font Warning: Font shape `T1/pplj/m/scit' undefined
-(Font)              using `T1/pplj/m/it' instead on input line 577.
-
-
-LaTeX Warning: Marginpar on page 41 moved.
-
-LaTeX Info: Redefining \. on input line 587.
-LaTeX Info: Redefining \% on input line 587.
-[41]) (Chapter4.tex [42]
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [43] [44
-
-]
-Cap\'{\i }tulo 4.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
-[]| \T1/phv/m/n/20.74 Re-sol-vien-do las Geo-dé-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
-\T1/phv/m/n/20.74 si-cas me-dian-te Mé-to-dos
- []
-
-
-LaTeX Warning: Marginpar on page 45 moved.
-
-[45]
-Overfull \hbox (1.78268pt too wide) in paragraph at lines 23--23
-|\T1/pplj/b/it/10.95 Ecuación ge-ne-ral de la tra-yec-to-ria de co-sas en la geo-me-tría R-
- []
-
-
-Underfull \vbox (badness 2495) has occurred while \output is active []
-
- [46]
-LaTeX Info: Redefining \. on input line 90.
-LaTeX Info: Redefining \% on input line 90.
- [47]
-
-LaTeX Warning: Marginpar on page 48 moved.
-
-<Im/luz_circular.png, id=513, 320.8788pt x 270.2898pt>
-File: Im/luz_circular.png Graphic file (type png)
-<use Im/luz_circular.png>
-Package pdftex.def Info: Im/luz_circular.png  used on input line 103.
-(pdftex.def)             Requested size: 243.55705pt x 205.15842pt.
-<Im/luz_interior_angulo91.png, id=514, 591.8913pt x 531.9072pt>
-File: Im/luz_interior_angulo91.png Graphic file (type png)
-<use Im/luz_interior_angulo91.png>
-Package pdftex.def Info: Im/luz_interior_angulo91.png  used on input line 109.
-(pdftex.def)             Requested size: 243.56209pt x 218.87874pt.
-LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 111.
-(C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplj.fd
-File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
-[]\T1/pplj/m/n/10 Figura 4.2: |Des-via-ción de 1\TS1/pplj/m/n/10 ° \T1/pplj/m/n/10 la
- []
-
-<Im/luz_exterior_angulo89_1vuelta.png, id=515, 587.5551pt x 528.2937pt>
-File: Im/luz_exterior_angulo89_1vuelta.png Graphic file (type png)
-<use Im/luz_exterior_angulo89_1vuelta.png>
-Package pdftex.def Info: Im/luz_exterior_angulo89_1vuelta.png  used on input line 115.
-(pdftex.def)             Requested size: 243.55289pt x 218.9879pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
-[]\T1/pplj/m/n/10 Figura 4.3: |Des-via-ción de 1\TS1/pplj/m/n/10 °
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
-\T1/pplj/m/n/10 de la ór-bi-ta cir-cu-lar ha-cia el
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[48 <./Im/luz_circular.png> <./Im/luz_interior_angulo91.png>]
-Overfull \hbox (6.30493pt too wide) in paragraph at lines 122--122
-$[]$\T1/pplj/m/n/8 https://nssdc.gsfc.nasa.gov/planetary/ 
- []
-
-
-LaTeX Warning: Marginpar on page 49 moved.
-
-<Im/rvsphi_mercurio.png, id=527, 462.528pt x 346.896pt>
-File: Im/rvsphi_mercurio.png Graphic file (type png)
-<use Im/rvsphi_mercurio.png>
-Package pdftex.def Info: Im/rvsphi_mercurio.png  used on input line 129.
-(pdftex.def)             Requested size: 243.55775pt x 182.66832pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 131--131
-[]\T1/pplj/m/n/10 Figura 4.4: |Grá-fi-ca de la ór-bi-ta
- []
-
-LaTeX Info: Redefining \. on input line 134.
-LaTeX Info: Redefining \% on input line 134.
-[49 <./Im/luz_exterior_angulo89_1vuelta.png> <./Im/rvsphi_mercurio.png>]
-<Im/drvsphi_mercurio.png, id=539, 462.528pt x 346.896pt>
-File: Im/drvsphi_mercurio.png Graphic file (type png)
-<use Im/drvsphi_mercurio.png>
-Package pdftex.def Info: Im/drvsphi_mercurio.png  used on input line 137.
-(pdftex.def)             Requested size: 243.55775pt x 182.66832pt.
-<Im/Roseta.png, id=540, 646.0938pt x 578.16pt>
-File: Im/Roseta.png Graphic file (type png)
-<use Im/Roseta.png>
-Package pdftex.def Info: Im/Roseta.png  used on input line 146.
-(pdftex.def)             Requested size: 243.55634pt x 217.9475pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
-[]\T1/pplj/m/n/10 Figura 4.6: |Ór-bi-ta di-ver-ti-da en
- []
-
-[50 <./Im/drvsphi_mercurio.png> <./Im/Roseta.png>]) (Chapter5.tex [51
-
-]
-<Im/F1000033-01.jpeg, id=555, 1734.48pt x 1226.5825pt>
-File: Im/F1000033-01.jpeg Graphic file (type jpg)
-<use Im/F1000033-01.jpeg>
-Package pdftex.def Info: Im/F1000033-01.jpeg  used on input line 33.
-(pdftex.def)             Requested size: 304.43839pt x 215.2915pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
-[]\T1/pplj/m/n/10 Figura 4.7: |Ami-gues re-la-ti-vis-
- []
-
-[52 <./Im/F1000033-01.jpeg>]
-<Im/moore.jpg, id=562, 388.45125pt x 500.87125pt>
-File: Im/moore.jpg Graphic file (type jpg)
-<use Im/moore.jpg>
-Package pdftex.def Info: Im/moore.jpg  used on input line 51.
-(pdftex.def)             Requested size: 112.44644pt x 144.98907pt.
-
-Overfull \hbox (9.71037pt too wide) in paragraph at lines 56--56
-|\T1/pplj/b/it/10.95 Exploring Black Ho-les: An In-tro-du-tion to Ge-ne-ral Re-la-ti-vity\T1/pplj/m/it/10.95 , de
- []
-
-<Im/wheeler.jpg, id=563, 379.4175pt x 500.87125pt>
-File: Im/wheeler.jpg Graphic file (type jpg)
-<use Im/wheeler.jpg>
-Package pdftex.def Info: Im/wheeler.jpg  used on input line 60.
-(pdftex.def)             Requested size: 112.44244pt x 148.43593pt.
-<Im/landau.jpg, id=564, 288.07625pt x 421.575pt>
-File: Im/landau.jpg Graphic file (type jpg)
-<use Im/landau.jpg>
-Package pdftex.def Info: Im/landau.jpg  used on input line 71.
-(pdftex.def)             Requested size: 112.44598pt x 164.5551pt.
-LaTeX Info: Redefining \. on input line 76.
-LaTeX Info: Redefining \% on input line 76.
-[53 <./Im/moore.jpg> <./Im/wheeler.jpg> <./Im/landau.jpg>]
-<Im/susskind.png, id=570, 551.05875pt x 174.6525pt>
-File: Im/susskind.png Graphic file (type png)
-<use Im/susskind.png>
-Package pdftex.def Info: Im/susskind.png  used on input line 82.
-(pdftex.def)             Requested size: 182.72443pt x 57.91266pt.
-
-Overfull \hbox (42.16783pt too wide) in paragraph at lines 82--83
-[]  
- []
-
-<Im/bumpyy.png, id=571, 543.53062pt x 174.6525pt>
-File: Im/bumpyy.png Graphic file (type png)
-<use Im/bumpyy.png>
-Package pdftex.def Info: Im/bumpyy.png  used on input line 90.
-(pdftex.def)             Requested size: 182.72456pt x 58.71481pt.
-
-Overfull \hbox (42.16797pt too wide) in paragraph at lines 90--91
-[]  
- []
-
-<Im/bumpy.png, id=572, 557.08125pt x 174.6525pt>
-File: Im/bumpy.png Graphic file (type png)
-<use Im/bumpy.png>
-Package pdftex.def Info: Im/bumpy.png  used on input line 98.
-(pdftex.def)             Requested size: 182.72383pt x 57.28638pt.
-
-Overfull \hbox (42.16724pt too wide) in paragraph at lines 98--99
-[]  
- []
-
-<Im/scienceclic.png, id=573, 296.60812pt x 388.45125pt>
-File: Im/scienceclic.png Graphic file (type png)
-<use Im/scienceclic.png>
-Package pdftex.def Info: Im/scienceclic.png  used on input line 108.
-(pdftex.def)             Requested size: 182.73198pt x 239.31396pt.
-
-Overfull \hbox (42.17538pt too wide) in paragraph at lines 108--109
-[]  
- []
-
-<Im/qr_img.png, id=574, 271.0125pt x 271.0125pt>
-File: Im/qr_img.png Graphic file (type png)
-<use Im/qr_img.png>
-Package pdftex.def Info: Im/qr_img.png  used on input line 112.
-(pdftex.def)             Requested size: 112.44327pt x 112.44327pt.
-
-LaTeX Warning: Marginpar on page 54 moved.
-
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 117.
-(C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/bera\t1fvm.fd
-File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
-)
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 117.
-
-Overfull \hbox (137.88646pt too wide) in paragraph at lines 117--118
-[][]$[]$[]  
- []
-
-) [54 <./Im/susskind.png> <./Im/bumpyy.png> <./Im/bumpy.png> <./Im/scienceclic.png> <./Im/qr_img.png>]
 LaTeX Info: Redefining \. on input line 333.
 LaTeX Info: Redefining \% on input line 333.
- [55] (c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.aux
+ [17] (c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.aux
 LaTeX Info: Redefining \sptext on input line 26.
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
@@ -3043,23 +2178,23 @@ LaTeX Info: Redefining \% on input line 26.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5384037BA92AB4E8864F3CAD158B083D;832.
+(rerunfilecheck)             Checksum: 533C8C59D63E28BD549BB1BC9FEE19A5;218.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41633 strings out of 476406
- 836195 string characters out of 2785756
- 1893787 words of memory out of 3000000
- 60905 multiletter control sequences out of 15000+600000
- 633659 words of font info for 223 fonts, out of 8000000 for 9000
+ 41040 strings out of 476406
+ 826466 string characters out of 2785756
+ 1886787 words of memory out of 3000000
+ 60567 multiletter control sequences out of 15000+600000
+ 607675 words of font info for 164 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,19n,131p,1277b,1832s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/fpl/fplbj8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/bera/fvmr8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "c:\Users\Ignacio Lembo\Documents\GitHub\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_1\TP1_IgnacioLembo_MSB\build\main.pdf" (55 pages, 7020792 bytes).
+ 100i,16n,131p,1196b,1832s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/fpl/fplbj8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on "c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_2\TP2_IgnacioLembo_MSB\build\main.pdf" (17 pages, 4760058 bytes).
 PDF statistics:
- 708 PDF objects out of 1000 (max. 8388607)
- 224 named destinations out of 1000 (max. 500000)
- 20198 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 259 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 2671 words of extra memory for PDF output out of 10000 (max. 10000000)
 
