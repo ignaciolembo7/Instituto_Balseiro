@@ -1,0 +1,107 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{wheeler}{book}{}
+      \name{author}{2}{}{%
+        {{hash=669b0c91641b6e57ca7fabe757e10157}{%
+           family={J.A},
+           familyi={J\bibinitperiod},
+           given={Wheeler},
+           giveni={W\bibinitperiod}}}%
+        {{hash=54087a607d4cda3b8d55b400a73efb52}{%
+           family={E.F.},
+           familyi={E\bibinitperiod},
+           given={Taylor},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Education, Addison Wesley Longman}%
+      }
+      \strng{namehash}{ae01df18b9dbdf57478c59e2642ec0ed}
+      \strng{fullhash}{ae01df18b9dbdf57478c59e2642ec0ed}
+      \strng{bibnamehash}{ae01df18b9dbdf57478c59e2642ec0ed}
+      \strng{authorbibnamehash}{ae01df18b9dbdf57478c59e2642ec0ed}
+      \strng{authornamehash}{ae01df18b9dbdf57478c59e2642ec0ed}
+      \strng{authorfullhash}{ae01df18b9dbdf57478c59e2642ec0ed}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Exploring Black Holes: Introduction to General Relativity}
+      \field{year}{2000}
+    \endentry
+    \entry{landau2}{book}{}
+      \name{author}{2}{}{%
+        {{hash=5dc6c9e177ea1688809b1a91bb592970}{%
+           family={L.D.},
+           familyi={L\bibinitperiod},
+           given={Landau},
+           giveni={L\bibinitperiod}}}%
+        {{hash=a3f5dda80d2c038cddf0c8c669bd2fa9}{%
+           family={E.M.},
+           familyi={E\bibinitperiod},
+           given={Lifshitz},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Butterworth Heinemann}%
+      }
+      \strng{namehash}{969cda92879c35e9fa4b55d77b7d513d}
+      \strng{fullhash}{969cda92879c35e9fa4b55d77b7d513d}
+      \strng{bibnamehash}{969cda92879c35e9fa4b55d77b7d513d}
+      \strng{authorbibnamehash}{969cda92879c35e9fa4b55d77b7d513d}
+      \strng{authornamehash}{969cda92879c35e9fa4b55d77b7d513d}
+      \strng{authorfullhash}{969cda92879c35e9fa4b55d77b7d513d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Classical Theory of Fields: Fourth Revised English Edition}
+      \field{year}{1994}
+    \endentry
+    \entry{moore}{book}{}
+      \name{author}{1}{}{%
+        {{hash=daa0cd6c45dcd394fb0e58b7fe1a45c0}{%
+           family={T.A.},
+           familyi={T\bibinitperiod},
+           given={Moore},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University Science Books, Mill Valley, California}%
+      }
+      \strng{namehash}{daa0cd6c45dcd394fb0e58b7fe1a45c0}
+      \strng{fullhash}{daa0cd6c45dcd394fb0e58b7fe1a45c0}
+      \strng{bibnamehash}{daa0cd6c45dcd394fb0e58b7fe1a45c0}
+      \strng{authorbibnamehash}{daa0cd6c45dcd394fb0e58b7fe1a45c0}
+      \strng{authornamehash}{daa0cd6c45dcd394fb0e58b7fe1a45c0}
+      \strng{authorfullhash}{daa0cd6c45dcd394fb0e58b7fe1a45c0}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A General Relativity Workbook}
+      \field{year}{2010}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
