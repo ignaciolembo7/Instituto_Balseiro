@@ -71,7 +71,7 @@ class gillespie_simulation:
 
         while time < T:
             reproduction_rate = b * population
-            competition_rate = d * population * (population - 1)
+            competition_rate = d * population * population  #d * population * (population - 1)
             total_rate = reproduction_rate + competition_rate
 
             delta_t = np.random.exponential(1 / total_rate)
