@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.8.7)  27 JUN 2024 03:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.8.7)  27 JUN 2024 07:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -606,51 +606,39 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
  (C:\Users\Ignacio Lembo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+) [1
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[1
-
-{C:/Users/Ignacio Lembo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2] [3] [4]
-<ej2_hpb.png, id=83, 499.3857pt x 344.7279pt>
+{C:/Users/Ignacio Lembo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] [4] [5]
+<ej2_hpb.png, id=72, 499.3857pt x 344.7279pt>
 File: ej2_hpb.png Graphic file (type png)
 <use ej2_hpb.png>
-Package pdftex.def Info: ej2_hpb.png  used on input line 272.
+Package pdftex.def Info: ej2_hpb.png  used on input line 280.
 (pdftex.def)             Requested size: 328.82707pt x 226.98984pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5] [6 <c:/Users/Ignacio Lembo/Documents/Repositorios/Instituto_Balseiro/Matematica_Sistemas_Biologicos/practica_4/TP4_MSB_IgnacioLembo/build/ej2_hpb.png>]
-<ej2_hpv.png, id=109, 499.3857pt x 344.7279pt>
+ [6 <c:/Users/Ignacio Lembo/Documents/Repositorios/Instituto_Balseiro/Matematica_Sistemas_Biologicos/practica_4/TP4_MSB_IgnacioLembo/build/ej2_hpb.png>]
+<ej2_hpv.png, id=84, 499.3857pt x 344.7279pt>
 File: ej2_hpv.png Graphic file (type png)
 <use ej2_hpv.png>
-Package pdftex.def Info: ej2_hpv.png  used on input line 348.
+Package pdftex.def Info: ej2_hpv.png  used on input line 356.
 (pdftex.def)             Requested size: 328.82707pt x 226.98984pt.
- [7 <c:/Users/Ignacio Lembo/Documents/Repositorios/Instituto_Balseiro/Matematica_Sistemas_Biologicos/practica_4/TP4_MSB_IgnacioLembo/build/ej2_hpv.png>] [8] (c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_4\TP4_MSB_IgnacioLembo\build\main.aux
+ [7] [8 <c:/Users/Ignacio Lembo/Documents/Repositorios/Instituto_Balseiro/Matematica_Sistemas_Biologicos/practica_4/TP4_MSB_IgnacioLembo/build/ej2_hpv.png>] [9] (c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_4\TP4_MSB_IgnacioLembo\build\main.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 )
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E88D1480C68997E7244E760FD45E83AA;894.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24156 strings out of 476406
- 455938 string characters out of 2785756
- 1877787 words of memory out of 3000000
- 44043 multiletter control sequences out of 15000+600000
+ 24153 strings out of 476406
+ 455862 string characters out of 2785756
+ 1871787 words of memory out of 3000000
+ 44039 multiletter control sequences out of 15000+600000
  532874 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,9n,104p,666b,475s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 100i,9n,104p,666b,479s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Ignacio Lembo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_4\TP4_MSB_IgnacioLembo\build\main.pdf" (8 pages, 220012 bytes).
+Output written on "c:\Users\Ignacio Lembo\Documents\Repositorios\Instituto_Balseiro\Matematica_Sistemas_Biologicos\practica_4\TP4_MSB_IgnacioLembo\build\main.pdf" (9 pages, 218377 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 176 PDF objects out of 1000 (max. 8388607)
+ 64 named destinations out of 1000 (max. 500000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -39,7 +39,7 @@ Una definición alternativa a las redes NK es que K se refiera al máximo valor 
 
 Definimos como operador AND al símbolo $\land$ y como operador OR al símbolo $\lor$, al operador NOT al símbolo $\lnot$ y al operador XOR al símbolo $\oplus$. 
 
-\subsection{Red NK (3,3)}
+\subsection*{Red NK (3,3)}
 
 Para esta red con 3 nodos con 3 entradas cada uno tenemos las siguientes reglas de actualización para los nodos $A$, $B$ y $C$:
 
@@ -49,8 +49,8 @@ Para esta red con 3 nodos con 3 entradas cada uno tenemos las siguientes reglas 
     C(t+1) &= \lnot A(t) \land (B(t) \lor C(t)). 
 \end{align}
 
-La tabla de estados para esta red a tiempo $t$ y $t+1$ es la siguiente:
-
+La tabla de estados \ref*{tab:1} para esta red a tiempo $t$ y $t+1$ es la siguiente:
+\newpage
 \begin{table}[h]
     \centering
     \begin{tabular}{|c|c|c|c|c|c|}
@@ -67,11 +67,13 @@ La tabla de estados para esta red a tiempo $t$ y $t+1$ es la siguiente:
         1 & 1 & 1 & 1 & 1 & 0  \\
         \hline
 \end{tabular}
+\caption{}
+\label{tab:1}
 \end{table}
 
 A partir de la tabla podemos ver que (0,0,0) y (0,0,1) son puntos fijos. Además, hay un ciclo formado por los puntos (0,1,0), (0,1,1), (1,1,1) y (1,1,0). Los puntos (1,0,0) y (1,0,1) convergen al ciclo. 
 
-\subsection{Red NK (3,2)}
+\subsection*{Red NK (3,2)}
 
 Para esta red con 3 nodos de los cuales dos tienen una entrada (A y B) y el tercero tiene dos entradas (C), tenemos las siguientes reglas de actualización para los nodos $A$, $B$ y $C$:
 
@@ -81,7 +83,7 @@ Para esta red con 3 nodos de los cuales dos tienen una entrada (A y B) y el terc
     C(t+1) &= \lnot (A(t) \lor B(t)). 
 \end{align}
 
-La tabla de estados para esta red a tiempo $t$ y $t+1$ es la siguiente:
+La tabla de estados \ref*{tab:2} para esta red a tiempo $t$ y $t+1$ es la siguiente:
 
 \begin{table}[h]
     \centering
@@ -99,11 +101,13 @@ La tabla de estados para esta red a tiempo $t$ y $t+1$ es la siguiente:
         1 & 1 & 1 & 1 & 1 & 0  \\
         \hline
 \end{tabular}
+\caption{}
+\label{tab:2}
 \end{table}
 
 A partir de la tabla podemos ver que hay un ciclo formado por los puntos (0,0,0), (0,0,1), (1,0,1), (1,1,0) y (0,1,0). Además, los puntos (1,0,0), (0,1,1) y (1,1,1) convergen al ciclo. 
 
-\subsection{Red NK (3,3)}
+\subsection*{Red NK (3,3)}
 
 Para esta red con 3 nodos con 3 entradas cada uno tenemos las siguientes reglas de actualización para los nodos $A$, $B$ y $C$:
 
@@ -113,7 +117,7 @@ Para esta red con 3 nodos con 3 entradas cada uno tenemos las siguientes reglas 
     C(t+1) &= \lnot (A(t) \land B(t) \land C(t)). 
 \end{align}
 
-La tabla de estados para esta red a tiempo $t$ y $t+1$ es la siguiente:
+La tabla de estados \ref*{tab:3} para esta red a tiempo $t$ y $t+1$ es la siguiente:
 
 \begin{table}[h]
     \centering
@@ -131,11 +135,13 @@ La tabla de estados para esta red a tiempo $t$ y $t+1$ es la siguiente:
         1 & 1 & 1 & 1 & 1 & 0  \\
         \hline
 \end{tabular}
+\caption{}
+\label{tab:3}
 \end{table}
 
 A partir de la tabla podemos ver que (0,0,1) es punto fijo. Además, existe un ciclo formado por los puntos (1,1,0), (1,0,1), (1,1,1) y los puntos (1,0,0), (0,1,1), (0,0,0) y (0,1,0) convergen a dicho ciclo. 
 
-\subsection{Red NK (3,2)}
+\subsection*{Red NK (3,2)}
 
 Para esta red con 3 nodos, cada uno con dos entradas, tenemos las siguientes reglas de actualización para los nodos $A$, $B$ y $C$:
 
@@ -145,8 +151,8 @@ Para esta red con 3 nodos, cada uno con dos entradas, tenemos las siguientes reg
     C(t+1) &= A(t) \land B(t). 
 \end{align}
 
-La tabla de estados para esta red a tiempo $t$ y $t+1$ es la siguiente:
-
+La tabla de estados \ref*{tab:4} para esta red a tiempo $t$ y $t+1$ es la siguiente:
+\newpage
 \begin{table}[h]
     \centering
     \begin{tabular}{|c|c|c|c|c|c|}
@@ -163,15 +169,17 @@ La tabla de estados para esta red a tiempo $t$ y $t+1$ es la siguiente:
         1 & 1 & 1 & 1 & 1 & 1  \\
         \hline
     \end{tabular}
+    \caption{}
+    \label{tab:4}
 \end{table}
 
-A partir de la tabla podemos ver que hay dos puntos fijos (0,0,0) y (1,1,1) y un ciclo formado por los puntos (0,1,1), (1,0,0). Además, los puntos (0,0,1), (1,0,0), (1,0,1) y (0,1,0) convergen al punto fijo (0,0,0). 
+A partir de la tabla podemos ver que hay dos puntos fijos (0,0,0) y (1,1,1) y un ciclo formado por los puntos (0,1,1), (1,1,0). Además, los puntos (0,0,1), (1,0,0), (1,0,1) y (0,1,0) convergen al punto fijo (0,0,0). 
 
 El punto fijo (0,0,0) es un atractor estable ya que una variación en cualquiera de sus nodos lleva al sistema de vuelta a dicho punto fijo.
 
 \section*{Ejercicio 2 - Halcones y palomas extendido}
 
-\subsection{Halcones, Palomas y Bravucones}
+\subsection*{Halcones, Palomas y Bravucones}
 
 Vamos a analizar el juego de Halcones y Palomas extendido con la inclusión de una tercera estrategia, los bravucones mediante la dinámica del replicador. La matriz de payoff de este sistema es
 \begin{equation*}
@@ -270,11 +278,11 @@ Por último, graficamos el simplex para $G = 1$ y $C = 2$ donde se grafican en b
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.7\textwidth]{ej2_hpb.png}
-    \caption{} 
+    \caption{Simplex para el juego de halcones, palomas y bravucones.} 
     \label{fig:ej2_hpb}
 \end{figure}
 
-\subsection{Halcones, palomas y vengativos}
+\subsection*{Halcones, palomas y vengativos}
 
 Ahora, tenemos un juego con la siguiente matriz de pagos
 
@@ -346,7 +354,7 @@ Finalmente, graficamos el simplex para $G = 1$ y $C = 2$ donde se grafica en bla
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.7\textwidth]{ej2_hpv.png}
-    \caption{} 
+    \caption{Simplex para el juego de halcones, palomas y vengativos.} 
     \label{fig:ej2_hpv}
 \end{figure}
 
