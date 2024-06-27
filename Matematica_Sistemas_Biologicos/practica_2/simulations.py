@@ -71,7 +71,7 @@ class gillespie_simulation:
 
         while time < T:
             reproduction_rate = b * population
-            competition_rate = d * population * population  #d * population * (population - 1)
+            competition_rate = d * population * (population - 1)
             total_rate = reproduction_rate + competition_rate
 
             delta_t = np.random.exponential(1 / total_rate)
@@ -88,3 +88,37 @@ class gillespie_simulation:
             population_values.append(population)
 
         return time_points, population_values
+    
+    def gillespie_algorithm_ext(self, b: float, d: float, n0: int, T: int):
+
+        time = 0
+        population = n0
+        time_points = [time]
+        population_values = [population]
+        time_ext = time
+
+        while time < T:
+            reproduction_rate = b * population
+            competition_rate = d * population * (population - 1)
+            total_rate = reproduction_rate + competition_rate
+
+            delta_t = np.random.exponential(1 / total_rate)
+
+            r = np.random.rand()
+            if r < reproduction_rate / total_rate:
+                population += 1
+            else:
+                if population > 0:
+                    population -= 1
+
+            if population == 1:
+                time_ext = time
+                break                    
+
+            time += delta_t
+            time_points.append(time)
+            population_values.append(population)
+
+        return time_points, population_values, time_ext
+    
+    
