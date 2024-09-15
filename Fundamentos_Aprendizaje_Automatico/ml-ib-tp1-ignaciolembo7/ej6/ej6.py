@@ -1,0 +1,6 @@
+from typing import Tuple
+import pandas as pd
+
+def read_from_csv(filename: str) -> Tuple[pd.Series, pd.Series]: ...
+
+def plot_calibration_curve(y: pd.Series, preds: pd.Series) -> None: ...
