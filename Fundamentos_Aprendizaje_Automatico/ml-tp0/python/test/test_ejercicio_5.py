@@ -2,8 +2,6 @@ from ..src.ejercicio_5 import read_data, modify_data, group_data
 import pytest
 import os
 
-
-
 def data_path():
     return os.path.join(os.path.dirname(__file__), '..', 'data', 'ej5.csv')
 
