@@ -1,3 +1,3 @@
-# Instituto Balseiro
+# Balseiro Institute
  
-Ejercicios y proyectos realizados en distintos cursos del Insituto Balseiro.
+Exercises and projects carried out in different courses at the Balseiro Institute.
